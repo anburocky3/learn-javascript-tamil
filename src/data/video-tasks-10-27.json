@@ -1,0 +1,434 @@
+[
+  {
+    "videoId": "Z5ZUZvTAVkg",
+    "title": "JavaScript Variables",
+    "task": {
+      "title": "Declare and Use Variables",
+      "problemStatement": "Create a program that declares variables for storing a person's name, age, and email address. Assign appropriate values to each variable and display them in a formatted output.",
+      "difficulty": "easy",
+      "expectedOutput": "Name: [name]\nAge: [age]\nEmail: [email]"
+    },
+    "challenges": [
+      {
+        "title": "Multiple Variable Declarations",
+        "description": "Declare 5 different variables using var, let, and const and log them all"
+      },
+      {
+        "title": "Variable Reassignment",
+        "description": "Create a variable, assign it a value, then reassign it to a different value and display both"
+      },
+      {
+        "title": "Variable Naming Convention",
+        "description": "Practice using camelCase naming convention for multiple variables"
+      }
+    ]
+  },
+  {
+    "videoId": "zMyz6fx3b0Q",
+    "title": "JavaScript Constants",
+    "task": {
+      "title": "Working with Constants",
+      "problemStatement": "Define constants for mathematical values (PI, E) and application settings. Try to understand why constants are important for values that should not change.",
+      "difficulty": "easy",
+      "expectedOutput": "PI = 3.14159...\nE = 2.71828...\nAPP_NAME = My Application"
+    },
+    "challenges": [
+      {
+        "title": "Constant vs Variable",
+        "description": "Compare const and let by attempting to reassign a const and observing the error"
+      },
+      {
+        "title": "Object Constants",
+        "description": "Create a const object and modify its properties (showing immutability vs property mutability)"
+      },
+      {
+        "title": "Array Constants",
+        "description": "Create a const array and add/remove elements to understand const behavior with mutable objects"
+      }
+    ]
+  },
+  {
+    "videoId": "AV81g2I6N9k",
+    "title": "JavaScript Datatypes",
+    "task": {
+      "title": "Identify and Use Datatypes",
+      "problemStatement": "Create variables of different JavaScript datatypes: string, number, boolean, null, undefined, object, and symbol. Log each variable with its type using typeof operator.",
+      "difficulty": "easy",
+      "expectedOutput": "string: \"Hello\" - type: string\nnumber: 42 - type: number\nboolean: true - type: boolean\nnull: null - type: object\nundefined: undefined - type: undefined"
+    },
+    "challenges": [
+      {
+        "title": "Type Checking",
+        "description": "Create a function that accepts different datatypes and returns their type"
+      },
+      {
+        "title": "Datatype Conversion",
+        "description": "Convert between different datatypes (string to number, number to boolean, etc.)"
+      },
+      {
+        "title": "typeof vs instanceof",
+        "description": "Demonstrate the difference between typeof and instanceof operators"
+      }
+    ]
+  },
+  {
+    "videoId": "v1tUT4fcjaU",
+    "title": "JavaScript Dynamic Typing",
+    "task": {
+      "title": "Understand Dynamic Typing",
+      "problemStatement": "Demonstrate dynamic typing by creating a variable and assigning it different datatypes in sequence. Log the variable and its type after each assignment to show how JavaScript allows type changes.",
+      "difficulty": "easy",
+      "expectedOutput": "Initial: 10, Type: number\nAfter reassignment: \"Hello\", Type: string\nAfter reassignment: true, Type: boolean"
+    },
+    "challenges": [
+      {
+        "title": "Type Coercion",
+        "description": "Show examples of implicit type coercion in JavaScript operations"
+      },
+      {
+        "title": "Comparison Operators",
+        "description": "Demonstrate loose equality (==) vs strict equality (===) with different types"
+      },
+      {
+        "title": "Dynamic Behavior",
+        "description": "Create a function that processes the same variable when it has different types"
+      }
+    ]
+  },
+  {
+    "videoId": "y_dx6GO3gjY",
+    "title": "JavaScript Objects",
+    "task": {
+      "title": "Create and Manipulate Objects",
+      "problemStatement": "Create a student object with properties for name, rollNumber, grade, and courses array. Add methods to calculate GPA and display student information.",
+      "difficulty": "medium",
+      "expectedOutput": "Student: John, Roll: 101, Grade: A\nCourses: JavaScript, React, Node.js\nGPA: 3.8"
+    },
+    "challenges": [
+      {
+        "title": "Object Methods",
+        "description": "Add multiple methods to the object and invoke them with proper context"
+      },
+      {
+        "title": "Nested Objects",
+        "description": "Create objects with nested properties and access deeply nested values"
+      },
+      {
+        "title": "Object Iteration",
+        "description": "Iterate through object properties using for-in, Object.keys(), and Object.entries()"
+      }
+    ]
+  },
+  {
+    "videoId": "pH1-NkLSOcs",
+    "title": "JavaScript Arrays",
+    "task": {
+      "title": "Working with Arrays",
+      "problemStatement": "Create an array of numbers and perform operations like adding elements, removing elements, finding maximum/minimum values, and calculating the sum of all elements.",
+      "difficulty": "medium",
+      "expectedOutput": "Original: [1, 5, 3, 9, 2]\nAfter adding 7: [1, 5, 3, 9, 2, 7]\nMax: 9, Min: 1, Sum: 27"
+    },
+    "challenges": [
+      {
+        "title": "Array Methods",
+        "description": "Use map, filter, reduce, and forEach to manipulate arrays"
+      },
+      {
+        "title": "Array Transformation",
+        "description": "Transform an array of objects (students) and extract specific properties"
+      },
+      {
+        "title": "Multi-dimensional Arrays",
+        "description": "Create and manipulate a 2D array (matrix) and access nested elements"
+      }
+    ]
+  },
+  {
+    "videoId": "7woUGy9G9DU",
+    "title": "JavaScript Functions",
+    "task": {
+      "title": "Define and Use Functions",
+      "problemStatement": "Create functions to calculate area of circle, rectangle, and triangle. Each function should accept parameters and return the calculated area. Also create a main function that calls all these functions.",
+      "difficulty": "medium",
+      "expectedOutput": "Circle area (r=5): 78.5\nRectangle area (l=4, w=6): 24\nTriangle area (b=5, h=8): 20"
+    },
+    "challenges": [
+      {
+        "title": "Function Expressions",
+        "description": "Rewrite function declarations as function expressions and arrow functions"
+      },
+      {
+        "title": "Higher Order Functions",
+        "description": "Create functions that return functions or accept functions as parameters"
+      },
+      {
+        "title": "Recursion",
+        "description": "Write recursive functions to calculate factorial or Fibonacci number"
+      }
+    ]
+  },
+  {
+    "videoId": "FOTM2OGMyRw",
+    "title": "JavaScript Operators - Arithmetic",
+    "task": {
+      "title": "Perform Arithmetic Operations",
+      "problemStatement": "Create a calculator program that demonstrates all arithmetic operators: addition, subtraction, multiplication, division, modulus, and exponentiation. Show results for various number combinations.",
+      "difficulty": "easy",
+      "expectedOutput": "10 + 5 = 15\n10 - 5 = 5\n10 * 5 = 50\n10 / 5 = 2\n10 % 3 = 1\n2 ** 8 = 256"
+    },
+    "challenges": [
+      {
+        "title": "Order of Operations",
+        "description": "Demonstrate operator precedence with complex expressions"
+      },
+      {
+        "title": "Increment and Decrement",
+        "description": "Show differences between pre-increment (++x) and post-increment (x++)"
+      },
+      {
+        "title": "Mathematical Expressions",
+        "description": "Solve complex mathematical formulas using arithmetic operators"
+      }
+    ]
+  },
+  {
+    "videoId": "6XEabt6lqLc",
+    "title": "JavaScript Arithmetic Operators",
+    "task": {
+      "title": "Master Arithmetic Operations",
+      "problemStatement": "Build a utility that takes two numbers and performs all arithmetic operations. Handle edge cases like division by zero and ensure accurate calculations with proper formatting.",
+      "difficulty": "easy",
+      "expectedOutput": "Results for a=20, b=3:\nAddition: 23\nSubtraction: 17\nMultiplication: 60\nDivision: 6.67\nModulus: 2"
+    },
+    "challenges": [
+      {
+        "title": "Compound Assignment",
+        "description": "Use +=, -=, *=, /= operators in calculations"
+      },
+      {
+        "title": "Number Precision",
+        "description": "Handle floating-point precision issues in arithmetic operations"
+      },
+      {
+        "title": "String to Number Conversion",
+        "description": "Convert string inputs to numbers and perform arithmetic operations"
+      }
+    ]
+  },
+  {
+    "videoId": "gRZ8xaC5Krg",
+    "title": "JavaScript Assignment Operators",
+    "task": {
+      "title": "Use Assignment Operators",
+      "problemStatement": "Demonstrate all assignment operators (=, +=, -=, *=, /=, %=, **=) with practical examples. Show how compound assignment operators modify variables efficiently.",
+      "difficulty": "easy",
+      "expectedOutput": "Initial value: 10\nAfter += 5: 15\nAfter -= 3: 12\nAfter *= 2: 24\nAfter /= 4: 6\nAfter %= 4: 2"
+    },
+    "challenges": [
+      {
+        "title": "Variable Updates",
+        "description": "Create a system where variables are updated multiple times with different assignment operators"
+      },
+      {
+        "title": "Destructuring Assignment",
+        "description": "Use destructuring assignment with arrays and objects"
+      },
+      {
+        "title": "Spread Operator",
+        "description": "Understand and use the spread operator with assignment"
+      }
+    ]
+  },
+  {
+    "videoId": "FvRRXtBObDc",
+    "title": "JavaScript Comparison Operators",
+    "task": {
+      "title": "Compare Values with Comparison Operators",
+      "problemStatement": "Create a comparison utility that demonstrates all comparison operators (>, <, >=, <=) with different datatypes. Show results as true/false for various comparisons.",
+      "difficulty": "easy",
+      "expectedOutput": "10 > 5: true\n10 < 5: false\n10 >= 10: true\n10 <= 9: false\n'apple' > 'Apple': true"
+    },
+    "challenges": [
+      {
+        "title": "Type Comparison",
+        "description": "Compare values of different types (string vs number) and understand type coercion"
+      },
+      {
+        "title": "Null and Undefined",
+        "description": "Compare null and undefined with various values"
+      },
+      {
+        "title": "String Comparison",
+        "description": "Understand lexicographic ordering in string comparisons"
+      }
+    ]
+  },
+  {
+    "videoId": "R8Cwf_t2s6g",
+    "title": "JavaScript Equality Operators",
+    "task": {
+      "title": "Understand Equality Operators",
+      "problemStatement": "Compare loose equality (==) and strict equality (===) operators with various values. Show how == performs type coercion while === checks both value and type.",
+      "difficulty": "medium",
+      "expectedOutput": "5 == '5': true (loose equality with type coercion)\n5 === '5': false (strict equality, different types)\nNull == undefined: true\nNull === undefined: false"
+    },
+    "challenges": [
+      {
+        "title": "Inequality Operators",
+        "description": "Demonstrate != vs !== operators with practical examples"
+      },
+      {
+        "title": "Object Equality",
+        "description": "Compare object references and understand reference equality"
+      },
+      {
+        "title": "Array Comparison",
+        "description": "Show why two arrays with same elements are not equal using == or ==="
+      }
+    ]
+  },
+  {
+    "videoId": "3u4khijsrKQ",
+    "title": "JavaScript Ternary Operator",
+    "task": {
+      "title": "Use Ternary Operator for Conditional Logic",
+      "problemStatement": "Replace if-else statements with ternary operators in practical scenarios. Create functions that determine grade based on marks, eligibility based on age, and discount based on purchase amount.",
+      "difficulty": "medium",
+      "expectedOutput": "Score 85: Grade A\nAge 25: Eligible\nAmount 5000: Discount 10%"
+    },
+    "challenges": [
+      {
+        "title": "Nested Ternary",
+        "description": "Use nested ternary operators for multiple conditions (while keeping code readable)"
+      },
+      {
+        "title": "Ternary with Functions",
+        "description": "Return different functions using ternary operator"
+      },
+      {
+        "title": "Assignment with Ternary",
+        "description": "Assign values to variables using ternary operator based on conditions"
+      }
+    ]
+  },
+  {
+    "videoId": "9vopGVasGH0",
+    "title": "JavaScript Logical Operator",
+    "task": {
+      "title": "Work with Logical Operators",
+      "problemStatement": "Create a program that uses logical operators (AND, OR, NOT) to validate user input. Check if age is between 18-60, if email contains '@', and if password length is >= 8 characters.",
+      "difficulty": "medium",
+      "expectedOutput": "Age (25) in range: true\nEmail valid: true\nPassword strong: true\nAll conditions met: true"
+    },
+    "challenges": [
+      {
+        "title": "Operator Precedence",
+        "description": "Demonstrate how AND has higher precedence than OR"
+      },
+      {
+        "title": "Short-circuit Evaluation",
+        "description": "Show how logical operators short-circuit (stop evaluating when result is determined)"
+      },
+      {
+        "title": "Complex Logic",
+        "description": "Build complex validation logic combining multiple logical operators"
+      }
+    ]
+  },
+  {
+    "videoId": "x8STlzGB4XU",
+    "title": "JavaScript Logical Operator with Non Boolean Values",
+    "task": {
+      "title": "Logical Operators with Truthy and Falsy Values",
+      "problemStatement": "Demonstrate how logical operators work with truthy and falsy values. Show how AND returns the first falsy value or the last value, and how OR returns the first truthy value.",
+      "difficulty": "medium",
+      "expectedOutput": "5 && 10: 10\nfalse && 20: false\n0 || 25: 25\n'Hello' || 'Default': Hello\nNull && 'Never': null"
+    },
+    "challenges": [
+      {
+        "title": "Default Values",
+        "description": "Use || operator to provide default values for undefined or null variables"
+      },
+      {
+        "title": "Nullish Coalescing",
+        "description": "Use ?? operator to distinguish between null/undefined and falsy values"
+      },
+      {
+        "title": "Logical Assignment",
+        "description": "Use &&=, ||=, and ??= operators for conditional assignment"
+      }
+    ]
+  },
+  {
+    "videoId": "88Eb5Z1-FX8",
+    "title": "JavaScript BitWise Operators",
+    "task": {
+      "title": "Perform Bitwise Operations",
+      "problemStatement": "Demonstrate bitwise operators (AND, OR, XOR, NOT, left shift, right shift) with binary representations. Show how these operators work at the bit level for optimization.",
+      "difficulty": "hard",
+      "expectedOutput": "5 & 3: 1 (Binary: 101 & 011 = 001)\n5 | 3: 7 (Binary: 101 | 011 = 111)\n5 ^ 3: 6 (Binary: 101 ^ 011 = 110)\n~5: -6\n5 << 1: 10\n5 >> 1: 2"
+    },
+    "challenges": [
+      {
+        "title": "Binary Representation",
+        "description": "Convert numbers to binary and explain bitwise operation results"
+      },
+      {
+        "title": "Bit Manipulation",
+        "description": "Check if specific bits are set, toggle bits, or clear bits using bitwise operators"
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Use bitwise operations for flags or efficient calculations"
+      }
+    ]
+  },
+  {
+    "videoId": "GoHnJDwfATE",
+    "title": "JavaScript Operator Precedence",
+    "task": {
+      "title": "Understand Operator Precedence and Associativity",
+      "problemStatement": "Create expressions that demonstrate operator precedence. Show how multiplication is evaluated before addition, how exponentiation is right-associative, and how parentheses override precedence.",
+      "difficulty": "medium",
+      "expectedOutput": "2 + 3 * 4: 14 (not 20)\n10 - 5 - 2: 3 (left-associative)\n2 ** 3 ** 2: 512 (right-associative)\n(2 + 3) * 4: 20"
+    },
+    "challenges": [
+      {
+        "title": "Complex Expressions",
+        "description": "Build complex expressions and predict results using precedence rules"
+      },
+      {
+        "title": "Logical Operator Precedence",
+        "description": "Understand precedence of AND, OR, and NOT operators"
+      },
+      {
+        "title": "Associativity Rules",
+        "description": "Demonstrate left-associative and right-associative operators"
+      }
+    ]
+  },
+  {
+    "videoId": "WebG_D9-U80",
+    "title": "JavaScript If-Else",
+    "task": {
+      "title": "Control Flow with If-Else Statements",
+      "problemStatement": "Create a program that evaluates student performance using if-else statements. Assign grades (A: >=90, B: >=80, C: >=70, D: >=60, F: <60) based on marks and provide feedback for each grade.",
+      "difficulty": "easy",
+      "expectedOutput": "Marks: 85\nGrade: B\nFeedback: Good performance, aim for A grade next time"
+    },
+    "challenges": [
+      {
+        "title": "Nested If-Else",
+        "description": "Use nested if-else for complex multi-level conditions"
+      },
+      {
+        "title": "Switch Statement",
+        "description": "Convert if-else logic to switch-case statement"
+      },
+      {
+        "title": "Early Return",
+        "description": "Use early returns in functions to simplify complex if-else chains"
+      }
+    ]
+  }
+]

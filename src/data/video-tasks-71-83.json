@@ -1,0 +1,392 @@
+[
+  {
+    "videoId": "j4jO45mO5Cc",
+    "title": "Function Declaration vs Expression",
+    "task": {
+      "title": "Understand Function Declaration vs Expression",
+      "problemStatement": "Learn the differences between function declarations and function expressions, including hoisting behavior and use cases.",
+      "difficulty": "Medium",
+      "expectedOutput": "Correctly identify and use both function declaration and expression patterns"
+    },
+    "challenges": [
+      {
+        "id": "71-1",
+        "title": "Convert Declaration to Expression",
+        "description": "Convert a given function declaration into a function expression. Ensure both versions produce the same output.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "71-2",
+        "title": "Compare Hoisting Behavior",
+        "description": "Demonstrate the hoisting difference by calling functions before their definition. Show why declarations work but expressions don't.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "71-3",
+        "title": "Named Function Expression",
+        "description": "Create a named function expression and use recursion to show how named expressions can reference themselves.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "AHwyQCExGko",
+    "title": "Hoisting",
+    "task": {
+      "title": "Master Hoisting in JavaScript",
+      "problemStatement": "Understand how JavaScript hoisting works for variables and functions, and predict the behavior of code with hoisting.",
+      "difficulty": "Medium",
+      "expectedOutput": "Correctly predict hoisting behavior and avoid common pitfalls"
+    },
+    "challenges": [
+      {
+        "id": "72-1",
+        "title": "Variable Hoisting with var",
+        "description": "Demonstrate var hoisting by accessing a variable before its declaration. Show that it returns undefined, not an error.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "72-2",
+        "title": "Function Hoisting",
+        "description": "Call a function before its declaration and show that it works correctly due to hoisting.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "72-3",
+        "title": "Temporal Dead Zone with let/const",
+        "description": "Explain why accessing let/const before declaration throws ReferenceError (Temporal Dead Zone). Compare with var hoisting.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "JuiiCYIojd4",
+    "title": "Self Invoking Functions (IIFE)",
+    "task": {
+      "title": "Create and Use IIFE",
+      "problemStatement": "Learn to create and use Immediately Invoked Function Expressions (IIFE) to create private scopes and avoid global pollution.",
+      "difficulty": "Medium",
+      "expectedOutput": "IIFE patterns that create private scopes and execute immediately"
+    },
+    "challenges": [
+      {
+        "id": "73-1",
+        "title": "Create Basic IIFE",
+        "description": "Write an IIFE that executes immediately and logs a message without creating global variables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "73-2",
+        "title": "IIFE with Parameters",
+        "description": "Create an IIFE that accepts parameters and returns a value. Show how to pass arguments to an immediately invoked function.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "73-3",
+        "title": "Module Pattern with IIFE",
+        "description": "Use IIFE to create a module with private variables and public methods. Demonstrate encapsulation.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "9ASNTv6Xn4A",
+    "title": "Function Arguments",
+    "task": {
+      "title": "Work with Function Arguments",
+      "problemStatement": "Understand how to access and manipulate function arguments using the arguments object and modern approaches.",
+      "difficulty": "Easy",
+      "expectedOutput": "Properly handle multiple and variable function arguments"
+    },
+    "challenges": [
+      {
+        "id": "74-1",
+        "title": "Access Arguments Object",
+        "description": "Create a function that accepts variable number of arguments and uses the arguments object to sum them.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "74-2",
+        "title": "Arguments vs Parameters",
+        "description": "Demonstrate the difference between function parameters (defined in declaration) and arguments (passed at call time).",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "74-3",
+        "title": "Convert Arguments to Array",
+        "description": "Show multiple ways to convert the arguments object into an array (Array.from(), spread operator, Array.prototype.slice).",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "videoId": "n2lSuWUzuQo",
+    "title": "Rest Operator",
+    "task": {
+      "title": "Master Rest Operator",
+      "problemStatement": "Learn to use the rest operator (...) to collect multiple arguments into an array parameter.",
+      "difficulty": "Medium",
+      "expectedOutput": "Functions using rest parameters to handle variable arguments elegantly"
+    },
+    "challenges": [
+      {
+        "id": "75-1",
+        "title": "Rest Parameters in Function",
+        "description": "Create a function that uses rest parameters (...) to accept multiple arguments and process them as an array.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "75-2",
+        "title": "Rest with Regular Parameters",
+        "description": "Combine regular parameters with rest parameters. Show that rest must be the last parameter.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "75-3",
+        "title": "Rest in Destructuring",
+        "description": "Use rest operator in destructuring assignment to capture remaining elements from arrays or object properties.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "4vDgGVJ7hjA",
+    "title": "Default Parameters",
+    "task": {
+      "title": "Use Default Parameters",
+      "problemStatement": "Learn to set default parameter values in functions to handle missing or undefined arguments.",
+      "difficulty": "Easy",
+      "expectedOutput": "Functions with sensible default values for optional parameters"
+    },
+    "challenges": [
+      {
+        "id": "76-1",
+        "title": "Basic Default Parameters",
+        "description": "Create a function with default parameter values. Show how they're used when arguments are not provided.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "76-2",
+        "title": "Default with Expressions",
+        "description": "Use complex expressions or function calls as default parameter values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "76-3",
+        "title": "Default Parameters with Objects",
+        "description": "Set default values for object destructured parameters. Create functions that accept configuration objects with defaults.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "T22BC-jCpKs",
+    "title": "Getters & Setters",
+    "task": {
+      "title": "Implement Getters and Setters",
+      "problemStatement": "Learn to use getter and setter methods to control access to object properties with validation and encapsulation.",
+      "difficulty": "Medium",
+      "expectedOutput": "Objects with controlled property access through getters and setters"
+    },
+    "challenges": [
+      {
+        "id": "77-1",
+        "title": "Create Basic Getter",
+        "description": "Create an object with a getter that computes a value on-the-fly without storing it as a property.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "77-2",
+        "title": "Setter with Validation",
+        "description": "Implement a setter that validates input before assigning it to a property. Throw an error for invalid values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "77-3",
+        "title": "Encapsulation with Private Variables",
+        "description": "Use getters and setters to create private variables with controlled access. Prevent direct modification.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "We2g6tYJeqY",
+    "title": "Error Handling (Try Throw Catch)",
+    "task": {
+      "title": "Handle Errors with Try-Catch",
+      "problemStatement": "Learn to use try-catch-finally blocks to handle errors gracefully and throw custom errors.",
+      "difficulty": "Medium",
+      "expectedOutput": "Programs that gracefully handle errors and provide meaningful error messages"
+    },
+    "challenges": [
+      {
+        "id": "78-1",
+        "title": "Basic Try-Catch",
+        "description": "Write code with try-catch blocks to handle potential errors without crashing the program.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "78-2",
+        "title": "Throw Custom Errors",
+        "description": "Create and throw custom error messages. Catch specific error types and handle them appropriately.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "78-3",
+        "title": "Finally Block Usage",
+        "description": "Implement try-catch-finally to ensure cleanup code runs regardless of whether an error occurred.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "hfNfx9lV3Uc",
+    "title": "Scopes (Global vs Local)",
+    "task": {
+      "title": "Understand JavaScript Scopes",
+      "problemStatement": "Learn about global scope, local scope, function scope, and block scope in JavaScript.",
+      "difficulty": "Medium",
+      "expectedOutput": "Code demonstrating proper scope usage and avoiding global scope pollution"
+    },
+    "challenges": [
+      {
+        "id": "79-1",
+        "title": "Global vs Local Variables",
+        "description": "Demonstrate the difference between global and local variables. Show scope shadowing when local and global variables have the same name.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "79-2",
+        "title": "Function Scope",
+        "description": "Create nested functions to show how inner functions access variables from outer scopes (lexical scoping).",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "79-3",
+        "title": "Block Scope with let and const",
+        "description": "Show that let and const have block scope (inside if/for blocks), while var has function scope.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "mm5yJgJKXaU",
+    "title": "var vs let keyword",
+    "task": {
+      "title": "Compare var, let, and const",
+      "problemStatement": "Understand the differences between var, let, and const in terms of scope, hoisting, and reassignment.",
+      "difficulty": "Medium",
+      "expectedOutput": "Code using appropriate variable declarations for different scenarios"
+    },
+    "challenges": [
+      {
+        "id": "80-1",
+        "title": "var Function Scope vs let Block Scope",
+        "description": "Demonstrate that var is function-scoped while let is block-scoped. Show loops where this difference matters.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "80-2",
+        "title": "Hoisting Differences",
+        "description": "Compare hoisting behavior of var, let, and const. Show undefined initialization vs Temporal Dead Zone.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "80-3",
+        "title": "Const vs let",
+        "description": "Explain const immutability for reassignment but not for object/array mutations. Show best practices.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "ZHNe8gqqCAg",
+    "title": "this keyword",
+    "task": {
+      "title": "Master the this Keyword",
+      "problemStatement": "Understand how this keyword works in different contexts (function, method, constructor, arrow function).",
+      "difficulty": "Hard",
+      "expectedOutput": "Proper use of this keyword in various JavaScript contexts"
+    },
+    "challenges": [
+      {
+        "id": "81-1",
+        "title": "this in Method vs Function",
+        "description": "Show how this refers to the object when called as a method, but to the global object (or undefined in strict mode) in a regular function.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "81-2",
+        "title": "this in Constructor",
+        "description": "Create a constructor function where this refers to the newly created object instance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "81-3",
+        "title": "Arrow Functions and this Binding",
+        "description": "Show that arrow functions don't have their own this, but inherit it from the surrounding scope. Compare with regular functions.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "tWDtAXhcAac",
+    "title": "Passing this keyword (Best Practices)",
+    "task": {
+      "title": "Control this Binding",
+      "problemStatement": "Learn to use call(), apply(), and bind() to explicitly set the this context when calling functions.",
+      "difficulty": "Hard",
+      "expectedOutput": "Correct use of call, apply, and bind for explicit this control"
+    },
+    "challenges": [
+      {
+        "id": "82-1",
+        "title": "Using call() and apply()",
+        "description": "Use call() and apply() to explicitly set this context. Show the difference between passing single vs multiple arguments.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "82-2",
+        "title": "bind() for Permanent this",
+        "description": "Use bind() to create a new function with a permanently bound this context. Show use in event listeners and callbacks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "82-3",
+        "title": "Practical this Patterns",
+        "description": "Implement common patterns like method borrowing, chaining, and fixing this loss in callbacks.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "TwITPTQBzko",
+    "title": "Course Conclusion",
+    "task": {
+      "title": "JavaScript Mastery Summary",
+      "problemStatement": "Review and consolidate all JavaScript concepts learned throughout the course.",
+      "difficulty": "Easy",
+      "expectedOutput": "Understanding of complete JavaScript fundamentals and advanced concepts"
+    },
+    "challenges": [
+      {
+        "id": "83-1",
+        "title": "Review: Build a Utility Function Library",
+        "description": "Create a collection of utility functions using various JavaScript concepts learned (closures, arrow functions, default parameters, etc.)",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "83-2",
+        "title": "Mini Project: Simple OOP Application",
+        "description": "Build a mini application using objects, constructors, getters/setters, error handling, and proper this binding.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "83-3",
+        "title": "Code Review Challenge",
+        "description": "Review sample code with common mistakes and refactor it using best practices from the entire course.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+]

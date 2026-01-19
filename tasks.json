@@ -1,0 +1,524 @@
+[
+  {
+    "video": 10,
+    "title": "Variables: Master variable declarations and scope",
+    "task": {
+      "title": "Variable Scope Challenge",
+      "problemStatement": "Create a program demonstrating function scope, block scope, and global scope. Declare variables using var, let, and const in different scopes and explain the differences in their accessibility.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v10_c1",
+        "title": "Function Scope vs Block Scope",
+        "description": "Write a function that demonstrates the difference between function-scoped var and block-scoped let/const variables inside if statements and loops.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v10_c2",
+        "title": "Variable Hoisting",
+        "description": "Create examples showing how var hoisting differs from let/const temporal dead zone behavior.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v10_c3",
+        "title": "Scope Chain",
+        "description": "Build nested functions that access variables from parent scopes to demonstrate the scope chain concept.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 11,
+    "title": "Constants: Working with const and immutability",
+    "task": {
+      "title": "Const vs Let Immutability",
+      "problemStatement": "Demonstrate the difference between const immutability and mutable references. Show how const prevents reassignment but allows mutation of objects and arrays.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v11_c1",
+        "title": "Immutable Objects with Object.freeze()",
+        "description": "Create an object with Object.freeze() and attempt to modify its properties to understand true immutability.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v11_c2",
+        "title": "Const Array Mutation",
+        "description": "Declare a const array and demonstrate that you can modify its elements and add/remove items without reassigning.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v11_c3",
+        "title": "Deep Immutability Pattern",
+        "description": "Create a function that prevents modification of nested objects in a const object structure.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 12,
+    "title": "Datatypes: All JavaScript types",
+    "task": {
+      "title": "Complete Datatype Survey",
+      "problemStatement": "Create a comprehensive program that demonstrates all JavaScript primitive types (string, number, boolean, null, undefined, symbol, bigint) and object type with practical examples.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v12_c1",
+        "title": "Type Checking with typeof",
+        "description": "Write a function that checks and logs the type of various values including edge cases like typeof null and typeof arrays.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v12_c2",
+        "title": "BigInt Operations",
+        "description": "Perform arithmetic operations with BigInt values and compare them with regular numbers to understand their differences.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v12_c3",
+        "title": "Symbol Uniqueness",
+        "description": "Create multiple symbols and demonstrate their uniqueness by comparing them and using them as object keys.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 13,
+    "title": "Dynamic Typing: Type conversions",
+    "task": {
+      "title": "Type Coercion Mastery",
+      "problemStatement": "Build a program demonstrating implicit and explicit type conversions. Show how JavaScript automatically converts types in different contexts and how to manually convert between types.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v13_c1",
+        "title": "String to Number Conversions",
+        "description": "Use Number(), parseInt(), parseFloat(), and unary + operator to convert strings and demonstrate their differences.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v13_c2",
+        "title": "Implicit Coercion in Operations",
+        "description": "Demonstrate how JavaScript implicitly coerces types when using +, -, *, / operators with mixed types.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v13_c3",
+        "title": "Truthy and Falsy Values",
+        "description": "Create a comprehensive list of all falsy values and demonstrate how they behave in boolean contexts.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 14,
+    "title": "Objects: Object creation and manipulation",
+    "task": {
+      "title": "Object Manipulation Suite",
+      "problemStatement": "Create objects using literal, constructor, and Object.create() methods. Demonstrate property addition, deletion, modification, and iteration over object properties.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v14_c1",
+        "title": "Object Literal vs Constructor",
+        "description": "Create the same object structure using both object literal syntax and constructor function, then compare their behavior.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v14_c2",
+        "title": "Property Descriptors",
+        "description": "Use Object.defineProperty() to create properties with specific configurations like writable, enumerable, and configurable flags.",
+        "difficulty": "advanced"
+      },
+      {
+        "id": "v14_c3",
+        "title": "Object Iteration Methods",
+        "description": "Iterate through an object using for...in, Object.keys(), Object.values(), and Object.entries() and explain the differences.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 15,
+    "title": "Arrays: Array methods",
+    "task": {
+      "title": "Array Methods Comprehensive",
+      "problemStatement": "Demonstrate array manipulation using methods like push, pop, map, filter, reduce, find, forEach, sort, and slice. Build a practical program that uses at least 5 different array methods.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v15_c1",
+        "title": "Map vs ForEach vs Reduce",
+        "description": "Transform an array of numbers using map() to double values, use forEach() to print them, and reduce() to find the sum. Understand when to use each method.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v15_c2",
+        "title": "Filter and Find Combined",
+        "description": "Create an array of student objects and use filter() to find all students above 80% score, then use find() to locate the first student named 'John'.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v15_c3",
+        "title": "Array Sorting and Comparison",
+        "description": "Sort an array of objects by multiple properties and implement custom sort comparators for complex data structures.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 16,
+    "title": "Functions: Function basics",
+    "task": {
+      "title": "Function Fundamentals",
+      "problemStatement": "Create functions using regular declaration, function expression, and arrow functions. Demonstrate parameters, return values, default parameters, and rest parameters.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v16_c1",
+        "title": "Function Declaration vs Expression",
+        "description": "Demonstrate hoisting differences between function declarations and function expressions with practical examples.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v16_c2",
+        "title": "Parameters and Arguments",
+        "description": "Create functions with default parameters, rest parameters (...args), and destructured parameters to handle flexible argument passing.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v16_c3",
+        "title": "First-Class Functions",
+        "description": "Demonstrate that functions are first-class objects by passing them as arguments and returning them from other functions.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 17,
+    "title": "Operators: Operator overview",
+    "task": {
+      "title": "Operator Classification",
+      "problemStatement": "Create a comprehensive overview program categorizing all JavaScript operators: arithmetic, assignment, comparison, logical, bitwise, ternary, and special operators with examples.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v17_c1",
+        "title": "Operator Categories",
+        "description": "Create objects categorizing different types of operators and demonstrate at least two examples for each category.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v17_c2",
+        "title": "Special Operators",
+        "description": "Explore typeof, instanceof, in, delete, and spread (...) operators with practical use cases.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v17_c3",
+        "title": "Operator Combinations",
+        "description": "Show how combining multiple operators affects program behavior and readability.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 18,
+    "title": "Arithmetic Operators: Math operations",
+    "task": {
+      "title": "Arithmetic Operations Suite",
+      "problemStatement": "Demonstrate all arithmetic operators (+, -, *, /, %, **) with various number types. Build a simple calculator that handles different operations.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v18_c1",
+        "title": "Modulo Operations",
+        "description": "Use the modulo operator (%) to check for even/odd numbers, create cycles, and solve real-world remainder problems.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v18_c2",
+        "title": "Exponentiation",
+        "description": "Use the exponentiation operator (**) to calculate powers, square roots, and solve mathematical problems.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v18_c3",
+        "title": "Increment/Decrement Operators",
+        "description": "Demonstrate prefix (++i) vs postfix (i++) increment operators and explain their behavioral differences.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 19,
+    "title": "Assignment Operators: Compound assignments",
+    "task": {
+      "title": "Assignment Operations Comprehensive",
+      "problemStatement": "Explore all assignment operators (=, +=, -=, *=, /=, %=, **=, etc.) and demonstrate how compound assignments simplify code.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v19_c1",
+        "title": "Compound Assignment Conversions",
+        "description": "Refactor a program using simple assignments to use compound assignment operators and verify the results are identical.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v19_c2",
+        "title": "Assignment with Type Coercion",
+        "description": "Demonstrate how compound operators handle type coercion, especially += with mixed types.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v19_c3",
+        "title": "Destructuring Assignment",
+        "description": "Use destructuring assignment with objects and arrays to unpack values into distinct variables.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 20,
+    "title": "Comparison Operators: Comparisons",
+    "task": {
+      "title": "Comparison Operations Mastery",
+      "problemStatement": "Demonstrate all comparison operators (<, >, <=, >=) with various data types and understand how JavaScript compares different types.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v20_c1",
+        "title": "Numeric Comparisons",
+        "description": "Compare numbers, strings that look like numbers, and mixed types to understand comparison behavior.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v20_c2",
+        "title": "String Comparisons",
+        "description": "Compare strings lexicographically and understand how JavaScript orders characters.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v20_c3",
+        "title": "Complex Comparisons",
+        "description": "Create a function that compares objects and arrays by value rather than reference.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 21,
+    "title": "Equality Operators: == vs ===",
+    "task": {
+      "title": "Equality Operators Deep Dive",
+      "problemStatement": "Compare loose (==) and strict (===) equality operators. Demonstrate type coercion in loose equality and best practices for using each.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v21_c1",
+        "title": "Loose Equality Quirks",
+        "description": "Create examples showing unexpected results from loose equality comparisons due to type coercion.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v21_c2",
+        "title": "Inequality Operators",
+        "description": "Demonstrate the differences between != and !== with various data types.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v21_c3",
+        "title": "Equality with Objects and Arrays",
+        "description": "Show how equality operators handle object and array comparisons and why reference comparison matters.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 22,
+    "title": "Ternary Operator: Conditional expressions",
+    "task": {
+      "title": "Ternary Operator Applications",
+      "problemStatement": "Master the ternary operator for conditional expressions. Create practical examples replacing if-else statements with ternary operators and nested ternary patterns.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v22_c1",
+        "title": "Simple Ternary Conversions",
+        "description": "Convert several if-else statements to single-line ternary operators.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v22_c2",
+        "title": "Nested Ternary Operators",
+        "description": "Create a multi-condition logic using nested ternary operators and determine grade based on multiple score ranges.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v22_c3",
+        "title": "Ternary in JSX Context",
+        "description": "Demonstrate ternary operator usage in rendering conditional UI elements (simulate JSX-like scenarios).",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 23,
+    "title": "Logical Operators: &&, ||, !",
+    "task": {
+      "title": "Logical Operators Advanced",
+      "problemStatement": "Explore AND (&&), OR (||), and NOT (!) operators. Demonstrate short-circuit evaluation and practical use cases in conditional logic.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v23_c1",
+        "title": "Short-Circuit Evaluation",
+        "description": "Demonstrate how && and || use short-circuit evaluation to skip unnecessary computations.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v23_c2",
+        "title": "Logical Operators for Defaults",
+        "description": "Use || operator to set default values and && operator to conditionally execute code without if statements.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v23_c3",
+        "title": "Complex Boolean Logic",
+        "description": "Create complex conditional expressions combining multiple logical operators and demonstrate operator precedence.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 24,
+    "title": "Logical with Non-Boolean: Type coercion",
+    "task": {
+      "title": "Logical Operators with Type Coercion",
+      "problemStatement": "Demonstrate how logical operators work with non-boolean values through truthy/falsy type coercion. Show the actual returned values from && and || operators.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v24_c1",
+        "title": "Truthy/Falsy Returns",
+        "description": "Show that && and || return actual values, not just true/false, and demonstrate this behavior with various types.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v24_c2",
+        "title": "Default Value Patterns",
+        "description": "Use logical operators to implement default value patterns and the nullish coalescing operator (??) comparison.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v24_c3",
+        "title": "Complex Type Coercion Chain",
+        "description": "Create a chain of logical operators with mixed types to demonstrate coercion precedence and results.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 25,
+    "title": "Bitwise Operators: Bitwise operations",
+    "task": {
+      "title": "Bitwise Operations Fundamentals",
+      "problemStatement": "Explore bitwise operators (&, |, ^, ~, <<, >>, >>>) and their practical applications. Demonstrate bit manipulation techniques.",
+      "difficulty": "advanced"
+    },
+    "challenges": [
+      {
+        "id": "v25_c1",
+        "title": "Basic Bitwise Operations",
+        "description": "Perform AND, OR, XOR, and NOT operations on binary numbers and visualize their results.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v25_c2",
+        "title": "Bit Shifting",
+        "description": "Use left shift (<<) and right shift (>>, >>>) operators to multiply/divide by powers of 2 and perform bit extraction.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v25_c3",
+        "title": "Bitwise Tricks",
+        "description": "Implement practical bitwise tricks like checking if a number is power of 2, swapping variables without temp, and toggling bits.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 26,
+    "title": "Operator Precedence: Order of operations",
+    "task": {
+      "title": "Operator Precedence Comprehensive",
+      "problemStatement": "Create a program demonstrating JavaScript operator precedence. Show how operators are evaluated in specific order and how parentheses override precedence.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v26_c1",
+        "title": "Precedence Demonstrations",
+        "description": "Create multiple expressions showing how operator precedence affects results, with and without parentheses.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v26_c2",
+        "title": "Associativity Rules",
+        "description": "Demonstrate left-to-right and right-to-left associativity for operators like assignment and exponentiation.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v26_c3",
+        "title": "Complex Expression Evaluation",
+        "description": "Analyze and predict results of complex expressions combining arithmetic, logical, comparison, and bitwise operators.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 27,
+    "title": "If-Else: Conditional logic",
+    "task": {
+      "title": "Conditional Logic Structures",
+      "problemStatement": "Master if-else, else-if chains, and nested conditionals. Build a practical program with multiple conditional branches for different scenarios.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v27_c1",
+        "title": "Grade Determination System",
+        "description": "Create a grading system using if-else-if chains that assigns grades based on score ranges (A: 90+, B: 80+, C: 70+, etc.)",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v27_c2",
+        "title": "Nested Conditionals",
+        "description": "Build a nested conditional structure for a login validation system checking age, account status, and credentials.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v27_c3",
+        "title": "Refactoring with Switch",
+        "description": "Convert complex if-else chains to switch statements when appropriate and understand when each is better suited.",
+        "difficulty": "intermediate"
+      }
+    ]
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "videoId": "VIDEO_28",
+    "title": "For...In Loop",
+    "task": {
+      "title": "Count Object Properties",
+      "problemStatement": "Write a function that uses a for...in loop to iterate through an object and count all enumerable properties. Log the property names and their values.",
+      "difficulty": "Easy",
+      "expectedOutput": "A list of all property names and their corresponding values from the object"
+    },
+    "challenges": [
+      {
+        "id": "28-1",
+        "title": "Filter Own Properties Only",
+        "description": "Create a function that iterates through an object using for...in and filters only own properties (not inherited) using hasOwnProperty(). Return the count and names.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "28-2",
+        "title": "Sum Numeric Values",
+        "description": "Use for...in loop to iterate through an object and sum all numeric values. Return the total of all number properties.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "28-3",
+        "title": "Property Transformation",
+        "description": "Iterate through an object using for...in, convert all property names to UPPERCASE, and create a new object with transformed keys while preserving values.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_29",
+    "title": "For...Of Loop",
+    "task": {
+      "title": "Iterate Array with For...Of",
+      "problemStatement": "Write a function that uses a for...of loop to iterate through an array of numbers and calculate their sum. Stop iteration early if a negative number is encountered.",
+      "difficulty": "Easy",
+      "expectedOutput": "The sum of numbers before encountering a negative value"
+    },
+    "challenges": [
+      {
+        "id": "29-1",
+        "title": "Filter and Transform Array",
+        "description": "Use for...of loop to iterate through an array, filter elements greater than 10, and transform them by multiplying by 2. Return the new array.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "29-2",
+        "title": "String Reversal from Array",
+        "description": "Given an array of strings, use for...of to concatenate them in reverse order. Include proper spacing between words.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "29-3",
+        "title": "Nested Array Flattening",
+        "description": "Use for...of loop to iterate through a nested array of arrays and flatten it into a single array while tracking the original depth of each element.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_30",
+    "title": "Array Methods - Slice and Splice",
+    "task": {
+      "title": "Extract and Modify Array Portions",
+      "problemStatement": "Given an array [1, 2, 3, 4, 5, 6, 7], use slice() to extract elements from index 2 to 5, and use splice() to remove 2 elements starting from index 3. Show the results of both operations.",
+      "difficulty": "Medium",
+      "expectedOutput": "Original array modified by splice(), and a new array from slice() operation"
+    },
+    "challenges": [
+      {
+        "id": "30-1",
+        "title": "Sandwich Array Slicing",
+        "description": "Create a function that takes an array and extracts the middle 3 elements using slice() without modifying the original. Return the extracted elements.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "30-2",
+        "title": "Swap Array Sections",
+        "description": "Use splice() to replace elements at index 2-4 with three new elements ['a', 'b', 'c']. Show both the modified array and removed elements.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "30-3",
+        "title": "Array Rotation with Slice and Splice",
+        "description": "Create a function that rotates an array by n positions using slice(). For example, [1,2,3,4,5] rotated by 2 becomes [4,5,1,2,3].",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_31",
+    "title": "Array Methods - IndexOf and Includes",
+    "task": {
+      "title": "Search Array Elements",
+      "problemStatement": "Given an array of fruit names ['apple', 'banana', 'orange', 'banana', 'grape'], find the index of the first 'banana' using indexOf() and check if 'mango' exists using includes().",
+      "difficulty": "Easy",
+      "expectedOutput": "Index of 'banana' and boolean result for 'mango' existence"
+    },
+    "challenges": [
+      {
+        "id": "31-1",
+        "title": "Find All Occurrences",
+        "description": "Create a function that finds all indices where a specific element appears in an array. Use indexOf() with a starting position to find multiple occurrences.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "31-2",
+        "title": "Validate User Input",
+        "description": "Create a function that checks if a user's input matches any allowed values from a whitelist array using includes(). Return a validation message.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "31-3",
+        "title": "Duplicate Detector",
+        "description": "Write a function that uses indexOf() to detect if an element appears more than once in an array, and return both the duplicate element and all its indices.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_32",
+    "title": "String Methods - String Slicing",
+    "task": {
+      "title": "Extract String Portions",
+      "problemStatement": "Given the string 'JavaScript', use slice() to extract 'Script' and extract the last 4 characters using negative indices. Show both results.",
+      "difficulty": "Easy",
+      "expectedOutput": "Extracted substrings 'Script' and the last 4 characters"
+    },
+    "challenges": [
+      {
+        "id": "32-1",
+        "title": "Extract Domain from Email",
+        "description": "Create a function that takes an email address and extracts the domain name using slice(). For 'user@example.com', return 'example'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "32-2",
+        "title": "Middle Character Extraction",
+        "description": "Write a function that extracts the middle half of a string using slice(). For 'JavaScript', return 'aScr'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "32-3",
+        "title": "Alternating Character Extraction",
+        "description": "Create a function that uses slice() to extract every other character from a string, starting from position 1. For 'abcdefgh', return 'bdfh'.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_33",
+    "title": "String Methods - String Substring",
+    "task": {
+      "title": "Extract Substring Portion",
+      "problemStatement": "Given the string 'Programming', use substring() to extract 'Progr' (positions 0-5) and extract from position 3 to the end. Compare with slice() behavior for negative indices.",
+      "difficulty": "Medium",
+      "expectedOutput": "Extracted substrings using substring() method"
+    },
+    "challenges": [
+      {
+        "id": "33-1",
+        "title": "Word Length Validator",
+        "description": "Create a function that uses substring() to check if the first 3 characters of a string match a given prefix. Return true or false.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "33-2",
+        "title": "Substring Comparison",
+        "description": "Write a function comparing slice() vs substring() behavior, especially with negative or reversed parameters. Document the differences.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "33-3",
+        "title": "Extract Between Delimiters",
+        "description": "Create a function that extracts a substring between two specified positions using substring(). Handle edge cases where positions might be equal or reversed.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_34",
+    "title": "String Methods - String Case Conversion",
+    "task": {
+      "title": "Convert String Cases",
+      "problemStatement": "Given the string 'Hello World', convert it to uppercase using toUpperCase(), to lowercase using toLowerCase(), and create a camelCase version.",
+      "difficulty": "Easy",
+      "expectedOutput": "String in uppercase, lowercase, and camelCase formats"
+    },
+    "challenges": [
+      {
+        "id": "34-1",
+        "title": "Toggle Case",
+        "description": "Create a function that toggles the case of each character in a string. 'HeLLo' becomes 'hEllO'. Use toUpperCase() and toLowerCase().",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "34-2",
+        "title": "Case-Insensitive Comparison",
+        "description": "Write a function that compares two strings ignoring case using toLowerCase(). Return true if they match, false otherwise.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "34-3",
+        "title": "Sentence Capitalization",
+        "description": "Create a function that takes a sentence and capitalizes only the first letter of each sentence using case conversion methods.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_35",
+    "title": "String Methods - String Concatenation",
+    "task": {
+      "title": "Combine Multiple Strings",
+      "problemStatement": "Given three strings 'Hello', 'Beautiful', 'World', concatenate them with spaces using concat() method. Also demonstrate using the + operator and template literals.",
+      "difficulty": "Easy",
+      "expectedOutput": "The concatenated string 'Hello Beautiful World' using different methods"
+    },
+    "challenges": [
+      {
+        "id": "35-1",
+        "title": "Build URL Path",
+        "description": "Create a function that concatenates URL segments: domain, path, and query parameters. Use concat() to combine them into a complete URL.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "35-2",
+        "title": "CSV Line Builder",
+        "description": "Write a function that takes an array of values and concatenates them with commas to create a CSV line. Handle proper formatting.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "35-3",
+        "title": "Multi-method String Building",
+        "description": "Create a function that builds a complex string using concat(), + operator, and template literals, and compare performance with different approaches.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_36",
+    "title": "String Methods - String Trim",
+    "task": {
+      "title": "Remove Whitespace",
+      "problemStatement": "Given the string '  JavaScript  ', use trim() to remove leading and trailing spaces. Also use trimStart() and trimEnd() to demonstrate their individual effects.",
+      "difficulty": "Easy",
+      "expectedOutput": "Strings with whitespace removed using different trim methods"
+    },
+    "challenges": [
+      {
+        "id": "36-1",
+        "title": "Form Input Sanitizer",
+        "description": "Create a function that sanitizes user form input by trimming whitespace and converting to lowercase. Handle multiple inputs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "36-2",
+        "title": "Selective Trim",
+        "description": "Write a function that removes only leading or only trailing whitespace based on a parameter. Show all three trim variants.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "36-3",
+        "title": "Multi-line String Processor",
+        "description": "Create a function that trims whitespace from each line of a multi-line string while preserving line breaks and internal spacing.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_37",
+    "title": "String Methods - String Replace",
+    "task": {
+      "title": "Replace String Content",
+      "problemStatement": "Given the string 'I love cats. Cats are cute.', use replace() to replace the first 'cats' with 'dogs', and use replaceAll() to replace all 'Cats' with 'Dogs'. Show case sensitivity.",
+      "difficulty": "Medium",
+      "expectedOutput": "Strings with replaced content showing difference between replace() and replaceAll()"
+    },
+    "challenges": [
+      {
+        "id": "37-1",
+        "title": "Text Template Engine",
+        "description": "Create a function that replaces template variables like {{name}} and {{age}} with actual values. Use replace() or replaceAll() with proper handling.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "37-2",
+        "title": "URL Query Parameter Replacer",
+        "description": "Write a function that replaces URL query parameters. Replace ?old=value with ?new=value using string methods.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "37-3",
+        "title": "Regex-based Replace",
+        "description": "Create a function that uses replace() with regex patterns to replace all vowels with asterisks (*) or remove all numbers from a string.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_38",
+    "title": "String Methods - String Split",
+    "task": {
+      "title": "Split String into Array",
+      "problemStatement": "Given the string 'apple,banana,orange,grape', use split() to create an array with each fruit as an element. Also split by different delimiters.",
+      "difficulty": "Easy",
+      "expectedOutput": "An array of individual fruit names separated by commas"
+    },
+    "challenges": [
+      {
+        "id": "38-1",
+        "title": "CSV Parser",
+        "description": "Create a function that parses a CSV string into an array of records. Handle proper splitting by commas and ignore commas inside quoted fields.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "38-2",
+        "title": "Word Frequency Counter",
+        "description": "Write a function that splits a sentence into words, counts each word's frequency, and returns the most common word. Use split(' ').",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "38-3",
+        "title": "Path Parser",
+        "description": "Create a function that splits file paths (like 'C:\\Users\\Documents\\file.txt') and extracts directory components and filename.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_39",
+    "title": "Understanding Objects",
+    "task": {
+      "title": "Create and Explore Objects",
+      "problemStatement": "Create an object representing a student with properties: name, age, gpa, courses (array). Explain the structure and how to access properties using dot notation.",
+      "difficulty": "Easy",
+      "expectedOutput": "A well-structured student object with all properties accessible"
+    },
+    "challenges": [
+      {
+        "id": "39-1",
+        "title": "Object Property Checker",
+        "description": "Create a function that checks if specific properties exist in an object using hasOwnProperty() and the 'in' operator. Explain the difference.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "39-2",
+        "title": "Object Cloning",
+        "description": "Write a function that creates a shallow copy of an object and a deep copy. Demonstrate the difference when nested objects are modified.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "39-3",
+        "title": "Object Freezing",
+        "description": "Create functions that freeze an object using Object.freeze(), seal it, and prevent extensions. Demonstrate what operations are allowed/blocked.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_40",
+    "title": "Creating and Accessing Objects",
+    "task": {
+      "title": "Object Creation Methods",
+      "problemStatement": "Create a book object using object literal syntax with properties: title, author, year, pages. Access properties using both dot notation and bracket notation.",
+      "difficulty": "Easy",
+      "expectedOutput": "A book object with properties accessible via dot and bracket notation"
+    },
+    "challenges": [
+      {
+        "id": "40-1",
+        "title": "Dynamic Property Access",
+        "description": "Create a function that dynamically accesses object properties based on a variable property name using bracket notation. Handle missing properties gracefully.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "40-2",
+        "title": "Object Constructor Function",
+        "description": "Write a constructor function 'Car' that creates car objects with properties (make, model, year). Create instances using the 'new' keyword.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "40-3",
+        "title": "Property Descriptor Control",
+        "description": "Use Object.defineProperty() to create object properties with specific descriptors (writable, enumerable, configurable). Demonstrate the effects.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_41",
+    "title": "Object Methods",
+    "task": {
+      "title": "Add Methods to Objects",
+      "problemStatement": "Create a calculator object with properties (x, y) and methods add(), subtract(), multiply(). Call each method and display results.",
+      "difficulty": "Medium",
+      "expectedOutput": "Calculator object performing arithmetic operations through its methods"
+    },
+    "challenges": [
+      {
+        "id": "41-1",
+        "title": "String Manipulation Object",
+        "description": "Create an object with methods: reverse(), capitalize(), countVowels() that operate on a stored string property. Chain methods if possible.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "41-2",
+        "title": "Counter Object",
+        "description": "Create a counter object with methods: increment(), decrement(), reset(), getValue(). Maintain internal state and prevent direct property access.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "41-3",
+        "title": "Object with Getters and Setters",
+        "description": "Create an object using getter and setter properties to manage a private temperature value. Validate temperature range on set.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_42",
+    "title": "'This' Keyword in Objects",
+    "task": {
+      "title": "Understanding This Context",
+      "problemStatement": "Create a person object with name, age, introduce() method. Inside introduce(), use 'this' to access the object's properties and create a greeting message.",
+      "difficulty": "Medium",
+      "expectedOutput": "A greeting message using 'this' keyword to reference object properties"
+    },
+    "challenges": [
+      {
+        "id": "42-1",
+        "title": "This Context Binding",
+        "description": "Create a function that's assigned to different objects as a method. Show how 'this' changes depending on context. Demonstrate bind(), call(), and apply().",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "42-2",
+        "title": "Arrow Function Context",
+        "description": "Compare 'this' behavior in regular methods vs arrow functions. Show that arrow functions inherit 'this' from their enclosing scope.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "42-3",
+        "title": "Banking Account System",
+        "description": "Create account objects with balance property and methods like deposit(), withdraw(). Use 'this' properly to modify and access the balance.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_43",
+    "title": "Built-in Objects - Math Object",
+    "task": {
+      "title": "Use Math Methods",
+      "problemStatement": "Use Math methods to: find the largest of [15, 23, 8, 42], round 4.7 to nearest integer, find square root of 25, and generate a random number between 1-10.",
+      "difficulty": "Easy",
+      "expectedOutput": "Results from Math.max(), Math.round(), Math.sqrt(), and Math.random()"
+    },
+    "challenges": [
+      {
+        "id": "43-1",
+        "title": "Random Number Generator",
+        "description": "Create a function that generates a random integer within a specified range [min, max] using Math.random(). Use Math.floor() appropriately.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "43-2",
+        "title": "Distance Calculator",
+        "description": "Write a function that calculates the distance between two points using the Pythagorean theorem with Math.sqrt() and Math.pow().",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "43-3",
+        "title": "Trigonometry Functions",
+        "description": "Create a calculator that uses Math.sin(), Math.cos(), Math.tan() to solve trigonometric problems. Include angle conversion between degrees and radians.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_44",
+    "title": "Built-in Objects - Number Object",
+    "task": {
+      "title": "Use Number Methods",
+      "problemStatement": "Use Number methods to: check if 42 is an integer using isInteger(), convert '123abc' to number using parseInt(), convert '3.14' to float using parseFloat().",
+      "difficulty": "Easy",
+      "expectedOutput": "Results from Number.isInteger(), parseInt(), and parseFloat() methods"
+    },
+    "challenges": [
+      {
+        "id": "44-1",
+        "title": "Number Validation",
+        "description": "Create a function that validates if a value is a valid finite number using Number.isFinite(), isNaN(), and isInteger(). Handle edge cases.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "44-2",
+        "title": "Number Formatting",
+        "description": "Use toFixed(), toPrecision(), and toExponential() methods to format numbers in different ways. Create a display function for currency values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "44-3",
+        "title": "Number Range Checker",
+        "description": "Write a function using Number.MAX_VALUE, Number.MIN_VALUE, Number.MAX_SAFE_INTEGER to check if numbers fall within safe computing ranges.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_45",
+    "title": "Built-in Objects - String Object",
+    "task": {
+      "title": "String Object Methods",
+      "problemStatement": "Use String methods: charAt(2) to get character at index 2, charCodeAt() to get character code, fromCharCode() to create strings from character codes.",
+      "difficulty": "Easy",
+      "expectedOutput": "Results from charAt(), charCodeAt(), and String.fromCharCode() operations"
+    },
+    "challenges": [
+      {
+        "id": "45-1",
+        "title": "String Padding",
+        "description": "Create a function that uses padStart() and padEnd() to format strings with fixed width. Useful for creating columns in text displays.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "45-2",
+        "title": "String Searching",
+        "description": "Use indexOf(), lastIndexOf(), includes(), startsWith(), endsWith() to search strings comprehensively. Create a search function.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "45-3",
+        "title": "Character Code Encryption",
+        "description": "Create an encryption function that converts each character to its character code, manipulates it, then converts back. Implement decryption too.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_46",
+    "title": "Date Object Basics",
+    "task": {
+      "title": "Create and Display Dates",
+      "problemStatement": "Create a Date object for today, create one for December 25, 2024, and create one from milliseconds (1000000000000). Display all three dates.",
+      "difficulty": "Easy",
+      "expectedOutput": "Three different Date objects displayed in various formats"
+    },
+    "challenges": [
+      {
+        "id": "46-1",
+        "title": "Age Calculator",
+        "description": "Create a function that calculates a person's age in years given their birth date. Use Date objects and handle leap years.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "46-2",
+        "title": "Days Between Dates",
+        "description": "Write a function that calculates the number of days between two dates using Date objects and timestamp differences.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "46-3",
+        "title": "Timezone Aware Dates",
+        "description": "Create a function that handles dates across different timezones using UTC methods. Convert between local and UTC time.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_47",
+    "title": "Date Object Methods",
+    "task": {
+      "title": "Extract Date Components",
+      "problemStatement": "Create a Date object for today and use getFullYear(), getMonth(), getDate(), getDay() to extract year, month, date, and day of week.",
+      "difficulty": "Easy",
+      "expectedOutput": "Date components: year, month number, date, and day of week as separate values"
+    },
+    "challenges": [
+      {
+        "id": "47-1",
+        "title": "Date Formatter",
+        "description": "Create a function that formats a date object into readable string like 'Monday, January 19, 2026' using Date methods.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "47-2",
+        "title": "Time Component Extractor",
+        "description": "Use getHours(), getMinutes(), getSeconds() to extract time components and create a formatted time display (HH:MM:SS).",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "47-3",
+        "title": "Date Setter Operations",
+        "description": "Create functions that use setFullYear(), setMonth(), setDate() to manipulate dates. Add days, months, and years to a given date.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_48",
+    "title": "Set Data Structure",
+    "task": {
+      "title": "Work with Sets",
+      "problemStatement": "Create a Set with values [1, 2, 3, 2, 1]. Add a new value 4, check if 2 exists using has(), and convert back to array to see unique values only.",
+      "difficulty": "Easy",
+      "expectedOutput": "Set containing unique values, demonstrating uniqueness property"
+    },
+    "challenges": [
+      {
+        "id": "48-1",
+        "title": "Array Duplicate Remover",
+        "description": "Create a function that removes duplicates from an array by converting to Set and back. Compare with other deduplication methods.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "48-2",
+        "title": "Set Operations",
+        "description": "Create functions to perform Set operations: union (combine two sets), intersection (common elements), difference (elements in one but not other).",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "48-3",
+        "title": "Set Performance Comparison",
+        "description": "Create a performance test comparing Set.has() vs Array.includes() for finding elements in large collections. Document findings.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_49",
+    "title": "Map Data Structure",
+    "task": {
+      "title": "Work with Maps",
+      "problemStatement": "Create a Map with key-value pairs: ('apple', 5), ('banana', 3), ('orange', 7). Use get() to retrieve values, set() to add new items, and check size property.",
+      "difficulty": "Easy",
+      "expectedOutput": "Map with proper key-value pairs, retrievable values, and size"
+    },
+    "challenges": [
+      {
+        "id": "49-1",
+        "title": "Frequency Counter with Map",
+        "description": "Create a function that counts word frequency in a sentence using a Map. Use get() and set() to update counts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "49-2",
+        "title": "Map vs Object",
+        "description": "Compare Map and Object as data structures. Show advantages of Map (any key type, size property, iteration) vs Objects.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "49-3",
+        "title": "LRU Cache Implementation",
+        "description": "Create a Least Recently Used (LRU) cache using Map. Implement get(), set() with size limits and automatic removal of least recently used items.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_50",
+    "title": "JSON and Parsing",
+    "task": {
+      "title": "Convert Between JSON and Objects",
+      "problemStatement": "Create a JavaScript object for a book, convert it to JSON using JSON.stringify(), then parse it back using JSON.parse(). Verify the result matches original.",
+      "difficulty": "Easy",
+      "expectedOutput": "JSON string representation and parsed object that matches the original"
+    },
+    "challenges": [
+      {
+        "id": "50-1",
+        "title": "Pretty JSON Formatter",
+        "description": "Create a function that formats JSON with proper indentation for display. Use JSON.stringify() with formatting parameters.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "50-2",
+        "title": "JSON Validation",
+        "description": "Write a function that validates if a string is valid JSON without throwing errors. Try/catch parse attempts or validate structure.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "50-3",
+        "title": "Custom Serialization",
+        "description": "Create custom replacer and reviver functions for JSON.stringify() and JSON.parse(). Handle Date objects and special types.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_51",
+    "title": "Template Literals",
+    "task": {
+      "title": "Use Template Literals",
+      "problemStatement": "Create variables name='John', age=25. Use template literals to create a message: 'My name is John and I am 25 years old'. Include expression evaluation.",
+      "difficulty": "Easy",
+      "expectedOutput": "A formatted string created with template literals and embedded expressions"
+    },
+    "challenges": [
+      {
+        "id": "51-1",
+        "title": "Multi-line Strings",
+        "description": "Create multi-line strings using template literals, including HTML/SQL. Show how template literals preserve whitespace and formatting.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "51-2",
+        "title": "Dynamic Content Insertion",
+        "description": "Create a function using template literals to generate HTML elements dynamically. Include loop-based content and conditional expressions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "51-3",
+        "title": "Tagged Template Literals",
+        "description": "Create a custom tag function that processes template literal values. Implement formatting or translation logic in the tag function.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_52",
+    "title": "Destructuring - Arrays",
+    "task": {
+      "title": "Destructure Arrays",
+      "problemStatement": "Given array [10, 20, 30, 40, 50], destructure to get first two values into variables a, b, and remaining into rest array using the rest operator.",
+      "difficulty": "Medium",
+      "expectedOutput": "Variables a=10, b=20, rest=[30, 40, 50]"
+    },
+    "challenges": [
+      {
+        "id": "52-1",
+        "title": "Swap Variables with Destructuring",
+        "description": "Use array destructuring to swap values of two variables without using a temporary variable. Show the elegant solution.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "52-2",
+        "title": "Nested Array Destructuring",
+        "description": "Destructure a nested array like [[1, 2], [3, 4]] to extract individual values. Use nested destructuring syntax.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "52-3",
+        "title": "Function Parameter Destructuring",
+        "description": "Create a function that receives an array as parameter and uses destructuring in the parameter list to extract values.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_53",
+    "title": "Destructuring - Objects",
+    "task": {
+      "title": "Destructure Objects",
+      "problemStatement": "Given object {name: 'Alice', age: 28, city: 'New York'}, destructure to extract name and age variables. Show how to use different variable names with colon syntax.",
+      "difficulty": "Medium",
+      "expectedOutput": "Extracted variables: name and age from the object"
+    },
+    "challenges": [
+      {
+        "id": "53-1",
+        "title": "Nested Object Destructuring",
+        "description": "Destructure a nested object like {user: {name: 'Bob', email: 'bob@example.com'}} to extract nested values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "53-2",
+        "title": "Default Values",
+        "description": "Use object destructuring with default values. Extract properties that may not exist in the object.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "53-3",
+        "title": "Function Parameter Destructuring",
+        "description": "Create a function that destructures object parameters. Build a user profile function that receives {name, email, phone} as destructured parameter.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_54",
+    "title": "Spread Operator",
+    "task": {
+      "title": "Use Spread Operator",
+      "problemStatement": "Use spread operator to: merge arrays [1,2] and [3,4] into [1,2,3,4], copy an array, and expand array elements as function arguments.",
+      "difficulty": "Medium",
+      "expectedOutput": "Merged array, copied array, and results of function called with spread array"
+    },
+    "challenges": [
+      {
+        "id": "54-1",
+        "title": "Object Spreading",
+        "description": "Use spread operator to merge two objects {a: 1} and {b: 2} into {a: 1, b: 2}. Show how later properties override earlier ones.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "54-2",
+        "title": "Shallow Copy vs Deep Copy",
+        "description": "Demonstrate spread operator for shallow copying arrays and objects. Show limitations with nested structures and when deep copy is needed.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "54-3",
+        "title": "String to Array Conversion",
+        "description": "Use spread operator to convert strings into character arrays. Compare with split() method.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "videoId": "VIDEO_55",
+    "title": "Rest Parameters",
+    "task": {
+      "title": "Use Rest Parameters",
+      "problemStatement": "Create a function that accepts multiple numbers as arguments using rest parameters (...numbers) and returns their sum. Show how rest parameters collect remaining arguments.",
+      "difficulty": "Medium",
+      "expectedOutput": "Function that sums any number of arguments passed to it"
+    },
+    "challenges": [
+      {
+        "id": "55-1",
+        "title": "Rest Parameters with Regular Parameters",
+        "description": "Create a function with regular parameters followed by rest parameters. Combine required parameters with variable arguments.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "55-2",
+        "title": "Rest vs Arguments",
+        "description": "Compare rest parameters with the arguments object. Show advantages of rest parameters (array methods, more readable code).",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "55-3",
+        "title": "Function Composition with Rest",
+        "description": "Create higher-order functions that use rest parameters to accept and apply multiple functions in sequence.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+]

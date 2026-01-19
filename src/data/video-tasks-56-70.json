@@ -1,0 +1,452 @@
+[
+  {
+    "videoId": "Nj7Y_faSr7c",
+    "title": "Array Combining & Extracting",
+    "task": {
+      "title": "Combine and Extract Arrays",
+      "problemStatement": "Write functions to combine multiple arrays together and extract specific portions from arrays using various methods.",
+      "difficulty": "Easy",
+      "expectedOutput": "Combined arrays and extracted array portions"
+    },
+    "challenges": [
+      {
+        "id": "56-1",
+        "title": "Combine Multiple Arrays",
+        "description": "Create a function that combines 3 or more arrays into a single array. Use both concat() and spread operator methods.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "56-2",
+        "title": "Extract Portion of Array",
+        "description": "Write a function that extracts a portion of an array between two indices without modifying the original array.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "56-3",
+        "title": "Merge and Remove Duplicates",
+        "description": "Combine multiple arrays and remove duplicate elements. Return a new array with unique values only.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "4jRClLn7XeM",
+    "title": "Spread Operator",
+    "task": {
+      "title": "Master Spread Operator",
+      "problemStatement": "Learn and apply the spread operator (...) to arrays and objects for copying, combining, and destructuring.",
+      "difficulty": "Medium",
+      "expectedOutput": "Properly spread arrays and objects with correct syntax"
+    },
+    "challenges": [
+      {
+        "id": "57-1",
+        "title": "Spread Array Elements",
+        "description": "Use spread operator to convert an array into individual elements. Pass array elements as separate arguments to a function.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "57-2",
+        "title": "Shallow Copy Arrays",
+        "description": "Create a shallow copy of an array using the spread operator. Verify that modifying the copy doesn't affect the original.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "57-3",
+        "title": "Combine with Filtering",
+        "description": "Use spread operator to combine arrays and apply filtering conditions in a single operation.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "-0w-EhFnZ9k",
+    "title": "Array Iteration",
+    "task": {
+      "title": "Iterate Through Arrays",
+      "problemStatement": "Explore different methods to iterate through arrays including forEach, for loop, while loop, and for...of.",
+      "difficulty": "Easy",
+      "expectedOutput": "Successfully iterate and process all array elements"
+    },
+    "challenges": [
+      {
+        "id": "58-1",
+        "title": "ForEach with Index",
+        "description": "Use forEach() to iterate through an array and log both the element and its index.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "58-2",
+        "title": "Conditional Iteration",
+        "description": "Iterate through an array and perform different actions based on element values. Skip elements that don't meet criteria.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "58-3",
+        "title": "Nested Array Iteration",
+        "description": "Iterate through a multi-dimensional array and flatten it into a single array using nested loops.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "LIQjueuL8kA",
+    "title": "Joining & Splitting Arrays",
+    "task": {
+      "title": "Convert Between Arrays and Strings",
+      "problemStatement": "Learn how to join arrays into strings and split strings into arrays using appropriate methods.",
+      "difficulty": "Easy",
+      "expectedOutput": "Correctly converted arrays and strings"
+    },
+    "challenges": [
+      {
+        "id": "59-1",
+        "title": "Join Array with Separator",
+        "description": "Convert an array of words into a sentence using join() method with specific separators.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "59-2",
+        "title": "Split and Process String",
+        "description": "Split a string by delimiter and process each element to create a formatted output.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "59-3",
+        "title": "CSV Data Processing",
+        "description": "Parse CSV data by splitting on commas, process rows, and join them back in different format.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "cpAXCuUqLD0",
+    "title": "Sorting Arrays",
+    "task": {
+      "title": "Sort Arrays in Different Ways",
+      "problemStatement": "Learn to sort arrays of numbers, strings, and objects using the sort() method with custom comparators.",
+      "difficulty": "Medium",
+      "expectedOutput": "Arrays sorted in ascending, descending, or custom order"
+    },
+    "challenges": [
+      {
+        "id": "60-1",
+        "title": "Sort Numbers Ascending",
+        "description": "Sort an array of numbers in ascending order using a comparison function.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "60-2",
+        "title": "Sort Objects by Property",
+        "description": "Sort an array of objects by a specific property (like name or age) in ascending or descending order.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "60-3",
+        "title": "Complex Multi-Level Sorting",
+        "description": "Sort an array of objects by multiple criteria. First by one property, then by another if values are equal.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "hhZ9t6Vw-tw",
+    "title": "Testing Arrays",
+    "task": {
+      "title": "Test Array Elements",
+      "problemStatement": "Learn to use every() and some() methods to test whether array elements meet specific conditions.",
+      "difficulty": "Medium",
+      "expectedOutput": "Boolean results from array testing methods"
+    },
+    "challenges": [
+      {
+        "id": "61-1",
+        "title": "Check All Even Numbers",
+        "description": "Use every() to check if all numbers in an array are even. Return true or false.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "61-2",
+        "title": "Check Any Large Value",
+        "description": "Use some() to check if at least one element in the array is greater than 100.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "61-3",
+        "title": "Complex Validation Logic",
+        "description": "Create a validation function using every() and some() that tests multiple complex conditions on array elements.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "WHtXXwAzj6Q",
+    "title": "Testing Objects in Array",
+    "task": {
+      "title": "Test Objects in Arrays",
+      "problemStatement": "Apply testing methods (every, some) to arrays of objects with complex property validation.",
+      "difficulty": "Medium",
+      "expectedOutput": "Boolean results from testing object properties"
+    },
+    "challenges": [
+      {
+        "id": "62-1",
+        "title": "Verify All Users Active",
+        "description": "Check if all user objects in an array have status set to 'active' using every() method.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "62-2",
+        "title": "Find Any Premium Member",
+        "description": "Use some() to check if at least one member object has a premium property set to true.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "62-3",
+        "title": "Multi-Property Validation",
+        "description": "Test objects with multiple properties and ensure all meet specific criteria across different properties.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "orFP_P9cHkU",
+    "title": "Filtering Arrays",
+    "task": {
+      "title": "Filter Array Elements",
+      "problemStatement": "Use the filter() method to create new arrays containing only elements that meet specific conditions.",
+      "difficulty": "Medium",
+      "expectedOutput": "New filtered arrays with selected elements"
+    },
+    "challenges": [
+      {
+        "id": "63-1",
+        "title": "Filter Numbers Above Threshold",
+        "description": "Filter an array of numbers and return only those greater than 50.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "63-2",
+        "title": "Filter Objects by Property",
+        "description": "Filter an array of objects and return only items where a specific property matches a condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "63-3",
+        "title": "Chain Multiple Filters",
+        "description": "Apply multiple filter conditions in sequence to progressively narrow down array elements.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "kkVEtr6Bedo",
+    "title": "Finding Array Elements",
+    "task": {
+      "title": "Find Specific Array Elements",
+      "problemStatement": "Learn to use find() and findIndex() methods to locate elements in arrays based on conditions.",
+      "difficulty": "Medium",
+      "expectedOutput": "Found elements or their indices"
+    },
+    "challenges": [
+      {
+        "id": "64-1",
+        "title": "Find First Even Number",
+        "description": "Use find() to locate the first even number in an array of integers.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "64-2",
+        "title": "Find Index of Object",
+        "description": "Use findIndex() to locate the index of an object with a specific property value.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "64-3",
+        "title": "Find with Complex Logic",
+        "description": "Find elements using complex conditions involving multiple properties or calculations.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "ybFUJVYQVok",
+    "title": "Array Map Method",
+    "task": {
+      "title": "Transform Arrays with Map",
+      "problemStatement": "Use the map() method to transform each element of an array into a new value.",
+      "difficulty": "Medium",
+      "expectedOutput": "New array with transformed elements"
+    },
+    "challenges": [
+      {
+        "id": "65-1",
+        "title": "Double All Numbers",
+        "description": "Create a new array where each number is doubled using map() method.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "65-2",
+        "title": "Extract Object Properties",
+        "description": "Use map() to extract a specific property from each object in an array.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "65-3",
+        "title": "Complex Object Transformation",
+        "description": "Transform an array of objects into a completely different structure using map() with nested operations.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "IvocjDBFICk",
+    "title": "Chaining Array Methods",
+    "task": {
+      "title": "Chain Multiple Array Methods",
+      "problemStatement": "Combine multiple array methods (map, filter, reduce) in a single chain for efficient data processing.",
+      "difficulty": "Hard",
+      "expectedOutput": "Final result from chained array operations"
+    },
+    "challenges": [
+      {
+        "id": "66-1",
+        "title": "Filter and Map Combined",
+        "description": "Filter an array to get only numbers above 10, then double each number using method chaining.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "66-2",
+        "title": "Complex Data Pipeline",
+        "description": "Chain filter, map, and sort methods to process an array of objects with multiple transformations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "66-3",
+        "title": "Optimize with Chaining",
+        "description": "Take inefficient nested loop code and refactor it using method chaining for better performance.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "7n_42ZKdkKg",
+    "title": "Array reduce Method",
+    "task": {
+      "title": "Aggregate Data with Reduce",
+      "problemStatement": "Master the reduce() method to aggregate array elements into a single value or object.",
+      "difficulty": "Hard",
+      "expectedOutput": "Accumulated result from reduce operation"
+    },
+    "challenges": [
+      {
+        "id": "67-1",
+        "title": "Sum All Array Elements",
+        "description": "Use reduce() to calculate the sum of all numbers in an array.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "67-2",
+        "title": "Build Object from Array",
+        "description": "Use reduce() to convert an array of key-value pairs into a single object.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "67-3",
+        "title": "Complex Aggregation",
+        "description": "Use reduce() with complex logic to group, count, and calculate statistics from array elements.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "hTyD4n2EiY8",
+    "title": "Sort Filter Map Reduce Comparison",
+    "task": {
+      "title": "Compare Array Methods",
+      "problemStatement": "Understand when to use sort(), filter(), map(), and reduce() methods for different data processing tasks.",
+      "difficulty": "Hard",
+      "expectedOutput": "Correct use of each method for specific scenarios"
+    },
+    "challenges": [
+      {
+        "id": "68-1",
+        "title": "Choose Right Method",
+        "description": "For various data processing scenarios, identify which array method (sort/filter/map/reduce) is most appropriate.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "68-2",
+        "title": "Refactor Inefficient Code",
+        "description": "Take poorly written data processing code and optimize it by choosing the right combination of methods.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "68-3",
+        "title": "Performance Comparison",
+        "description": "Write solutions using different methods and compare their performance and readability.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "wVE9NqLXHzg",
+    "title": "Array Interview Questions",
+    "task": {
+      "title": "Solve Array Interview Problems",
+      "problemStatement": "Practice common array manipulation problems asked in technical interviews.",
+      "difficulty": "Hard",
+      "expectedOutput": "Correct solutions to interview problems"
+    },
+    "challenges": [
+      {
+        "id": "69-1",
+        "title": "Find Missing Number",
+        "description": "Given an array of n-1 integers from 1 to n, find the missing number efficiently.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "69-2",
+        "title": "Two Sum Problem",
+        "description": "Find two numbers in an array that add up to a target sum using optimal approach.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "69-3",
+        "title": "Array Rotation Problem",
+        "description": "Rotate an array left or right by k positions without using extra space.",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "videoId": "xqkGxTdVWfw",
+    "title": "Functions In-depth",
+    "task": {
+      "title": "Master Functions",
+      "problemStatement": "Learn function declarations, expressions, arrow functions, parameters, return values, and scope.",
+      "difficulty": "Medium",
+      "expectedOutput": "Properly written and functioning functions"
+    },
+    "challenges": [
+      {
+        "id": "70-1",
+        "title": "Function Declaration vs Expression",
+        "description": "Create functions using both declaration and expression syntax. Understand hoisting differences.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "70-2",
+        "title": "Arrow Functions and This",
+        "description": "Write arrow functions and understand how 'this' binding differs from regular functions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "70-3",
+        "title": "Higher Order Functions",
+        "description": "Create functions that return other functions. Practice currying and function composition.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+]

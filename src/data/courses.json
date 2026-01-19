@@ -1,0 +1,2167 @@
+[
+  {
+    "id": "js-fundamentals",
+    "title": "JavaScript Fundamentals",
+    "description": "Learn Modern JavaScript (2023) in Tamil from beginners and become experts!",
+    "thumbnail": "/thumbnails/js-fundamentals.svg",
+    "category": "JS Fundamentals",
+    "videos": [
+      {
+        "videoId": "OuUqS8Po5ps",
+        "title": "#01  What is JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:39",
+        "task": {
+          "title": "Understanding JavaScript's Role",
+          "problemStatement": "Write a brief document (comments in code) explaining: 1) What JavaScript is, 2) Three main environments where it runs (Browser, Node, etc), 3) One real-world example of a JavaScript application you use daily. Include code snippets showing console output.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "js-intro-01",
+            "title": "Environment Detection",
+            "description": "Write code that detects whether JavaScript is running in a browser or Node.js environment and logs appropriate messages.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "js-intro-02",
+            "title": "JavaScript Features Explorer",
+            "description": "List 5 features unique to JavaScript (hoisting, dynamic typing, prototype-based, etc.) with brief code examples for each.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "DBe9w9oEelA",
+        "title": "#02  - Why we should learn JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:19",
+        "task": {
+          "title": "JavaScript Ecosystem Research",
+          "problemStatement": "Research and document: 1) Why JavaScript is the most used programming language, 2) List 5 popular JavaScript frameworks/libraries (React, Vue, etc), 3) Create a simple comparison table showing where JavaScript is used (Web, Mobile, Backend, Desktop).",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "js-why-01",
+            "title": "Career Path Calculator",
+            "description": "Create a simple function that takes years of JavaScript experience and returns suggested learning path (frameworks to learn next).",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "js-why-02",
+            "title": "Tech Stack Builder",
+            "description": "Write a program that helps beginners choose a tech stack based on their goals (frontend, backend, fullstack, mobile).",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "KYxldBXRUU4",
+        "title": "#03 -  How JavaScript works  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "1:55",
+        "task": {
+          "title": "JavaScript Execution Model",
+          "problemStatement": "Explain the JavaScript execution flow: 1) Parsing and Compilation, 2) Execution Context and Call Stack, 3) Demonstrate hoisting behavior, 4) Show how the Event Loop processes callbacks. Include code with console logs showing the order of execution.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "js-how-01",
+            "title": "Call Stack Visualizer",
+            "description": "Write functions that log execution order and manually trace the call stack. Show how nested function calls populate and clear the stack.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "js-how-02",
+            "title": "Async Execution Order",
+            "description": "Create code using setTimeout, promises, and regular code to demonstrate the event loop. Predict and verify the execution order.",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "js-how-03",
+            "title": "Hoisting Demonstrator",
+            "description": "Show examples of variable and function hoisting. Explain why certain code works and others throw ReferenceError.",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "videoId": "EkXutEZAocE",
+        "title": "#04 ECMAScript vs JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "1:15",
+        "task": {
+          "title": "Practice: #04 ECMAScript vs JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#04 ECMAScript vs JavaScript - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "GYdao3CV1DY",
+        "title": "#05 Setting up JavaScript development environment  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:06",
+        "task": {
+          "title": "Practice: #05 Setting up JavaScript development environment  - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#05 Setting up JavaScript development environment  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "GqKuUNyLyR4",
+        "title": "#06  Building our first JavaScript application  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:18",
+        "task": {
+          "title": "Practice: #06  Building our first JavaScript application  - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#06  Building our first JavaScript application  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "dRp6vxlYDcQ",
+        "title": "#07  JavaScript comments & why is it important?  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "2:24",
+        "task": {
+          "title": "Practice: #07  JavaScript comments & why is it important?  - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#07  JavaScript comments & why is it important?  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "uVh5dvKz58k",
+        "title": "#08 - Coding JavaScript in proper way  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:12",
+        "task": {
+          "title": "Practice: #08 - Coding JavaScript in proper way  - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#08 - Coding JavaScript in proper way  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "9ZztZYj-fzw",
+        "title": "#09 - Running JavaScript in Node  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "1:55",
+        "task": {
+          "title": "Practice: #09 - Running JavaScript in Node  - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#09 - Running JavaScript in Node  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Z5ZUZvTAVkg",
+        "title": "#10 - JavaScript Variables  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "10:00",
+        "task": {
+          "title": "Variables & Scope Exercise",
+          "problemStatement": "Create examples demonstrating `var`, `let`, and `const`. Show hoisting, scope differences, and give small snippets explaining when to use each. Include short assertions.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "zMyz6fx3b0Q",
+        "title": "#11 - JavaScript Constants  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:21",
+        "task": {
+          "title": "Variables & Scope Exercise",
+          "problemStatement": "Create examples demonstrating `var`, `let`, and `const`. Show hoisting, scope differences, and give small snippets explaining when to use each. Include short assertions.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "AV81g2I6N9k",
+        "title": "#12 - JavaScript Datatypes - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:48",
+        "task": {
+          "title": "Practice: #12 - JavaScript Datatypes - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#12 - JavaScript Datatypes - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "v1tUT4fcjaU",
+        "title": "#13 - JavaScript Dynamic Typing  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "5:16",
+        "task": {
+          "title": "Practice: #13 - JavaScript Dynamic Typing  - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#13 - JavaScript Dynamic Typing  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "y_dx6GO3gjY",
+        "title": "#14 - JavaScript Objects  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:01",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "pH1-NkLSOcs",
+        "title": "#15 - JavaScript Arrays  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:27",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "7woUGy9G9DU",
+        "title": "#16 - JavaScript Functions - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:09",
+        "task": {
+          "title": "Closures & Higher-order Functions",
+          "problemStatement": "Build a `memoize` wrapper and a `once` function to demonstrate closures and higher-order functions. Include short examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "D4zVibKLtw8",
+        "title": "Question: Why are we learning basics? - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "1:36",
+        "task": {
+          "title": "Practice: Question: Why are we learning basics? - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"Question: Why are we learning basics? - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "FOTM2OGMyRw",
+        "title": "#17 - JavaScript Operators - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "2:13",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "gRZ8xaC5Krg",
+        "title": "#19 - JavaScript Assignment Operators - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "2:09",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "6XEabt6lqLc",
+        "title": "#18 - JavaScript Arithmetic Operators - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "5:10",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "FvRRXtBObDc",
+        "title": "#20 - JavaScript Comparison Operators - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:34",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "R8Cwf_t2s6g",
+        "title": "#21 - JavaScript Equality Operators - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:37",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "3u4khijsrKQ",
+        "title": "#22 - JavaScript Ternary Operator - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "4:10",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "9vopGVasGH0",
+        "title": "#23 - JavaScript Logical Operator - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:36",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "x8STlzGB4XU",
+        "title": "#24 - JavaScript Logical Operator with Non Boolean Values - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:31",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "88Eb5Z1-FX8",
+        "title": "#25 - JavaScript BitWise  Operators - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "11:01",
+        "task": {
+          "title": "Operator Corner Cases",
+          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "GoHnJDwfATE",
+        "title": "#26 - JavaScript Operator Precedence - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:31",
+        "task": {
+          "title": "Practice: #26 - JavaScript Operator Precedence - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#26 - JavaScript Operator Precedence - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "WebG_D9-U80",
+        "title": "#27 - JavaScript If-Else (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "14:51",
+        "task": {
+          "title": "Practice: #27 - JavaScript If-Else (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#27 - JavaScript If-Else (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "xG5IUyZvbDk",
+        "title": "#28 - JavaScript Switch-case (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "10:46",
+        "task": {
+          "title": "Switch-case: Multiple Conditions",
+          "problemStatement": "Create a grade calculator that uses switch-case to evaluate letter grades (A=90-100, B=80-89, C=70-79, D=60-69, F<60). Demonstrate proper fall-through behavior and default cases with multiple test cases.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "switch-case-01",
+            "title": "Day Name Validator",
+            "description": "Create a function that takes a number (1-7) and returns day name using switch-case. Add error handling for invalid input.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "switch-case-02",
+            "title": "Calculator with Switch",
+            "description": "Build a calculator that accepts two numbers and an operator (+, -, *, /) using switch-case. Include division by zero handling.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "switch-case-03",
+            "title": "Menu Navigation System",
+            "description": "Implement a menu system where switch-case routes different user selections to appropriate functions. Include at least 5 menu options.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "tMgXbOs0jLc",
+        "title": "#29 - JavaScript For Loops (With Example) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:41",
+        "task": {
+          "title": "For Loops: Traditional for loops",
+          "problemStatement": "Write programs using traditional for loops to: 1) Print multiplication table for number 5, 2) Sum numbers from 1 to 100, 3) Find reverse of a string, 4) Display Fibonacci series (first 10 numbers). Show initialization, condition, and increment clearly.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "for-loop-01",
+            "title": "Number Pattern Generator",
+            "description": "Create patterns like triangle, pyramid, or diamond using nested for loops. For example: Display pyramid with asterisks (*) of given height.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "for-loop-02",
+            "title": "Array Iteration Comparison",
+            "description": "Compare traditional for loop vs for...in vs for...of on an array. Show use cases and performance implications of each.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "for-loop-03",
+            "title": "Break and Continue Demo",
+            "description": "Demonstrate loop control: Print numbers 1-20 but skip multiples of 3 (continue) and stop at 15 (break). Show the difference clearly.",
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "videoId": "biD_kt-ynao",
+        "title": "#30 - JavaScript While Loop - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:35",
+        "task": {
+          "title": "While Loop: While loops",
+          "problemStatement": "Create programs using while loops: 1) Input validation loop (repeat until valid input), 2) Countdown timer, 3) Find first number divisible by both 3 and 5, 4) Simulate a number guessing game. Ensure proper loop termination to avoid infinite loops.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "while-loop-01",
+            "title": "Input Validator",
+            "description": "Create a while loop that repeatedly asks for user input until they enter a number between 1-100. Show error message for invalid inputs.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "while-loop-02",
+            "title": "Digit Counter",
+            "description": "Write a while loop to count digits in a number without converting to string. For example, 12345 has 5 digits.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "while-loop-03",
+            "title": "Password Strength Checker",
+            "description": "Use a while loop to repeatedly check password strength until user enters a strong password (8+ chars, uppercase, number, special char).",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "q7XpUlkgfnY",
+        "title": "#31 - JavaScript Do-While Loop - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "5:19",
+        "task": {
+          "title": "Do-While Loop: Do-while pattern",
+          "problemStatement": "Implement do-while loops for: 1) Menu system that always shows at least once, 2) Dice rolling game (roll until 6 appears), 3) User survey (ask for responses), 4) Repeat operation confirmation. Explain why do-while guarantees at least one execution.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "do-while-01",
+            "title": "Interactive Menu System",
+            "description": "Create a do-while menu that shows options and executes until user chooses 'exit'. Must show menu at least once.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "do-while-02",
+            "title": "Dice Rolling Game",
+            "description": "Simulate rolling a die with do-while until value is 6. Count and display number of rolls needed.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "do-while-03",
+            "title": "Comparison: While vs Do-While",
+            "description": "Implement same logic with while and do-while showing the difference when condition is initially false. Demonstrate why do-while is useful.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "sVv5agTxoUE",
+        "title": "#32 - JavaScript For..in Loop - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "5:41",
+        "task": {
+          "title": "For..in Loop: Object property iteration",
+          "problemStatement": "Use for...in loops to: 1) List all properties of an object, 2) Create object property reader, 3) Demonstrate that it iterates inherited properties, 4) Compare with Object.keys(). Include explanations of when to use for...in (objects) vs for (arrays).",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "for-in-01",
+            "title": "Object Properties Lister",
+            "description": "Create a function that uses for...in to list all properties and their values from any object in a formatted way.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "for-in-02",
+            "title": "Object Property Validator",
+            "description": "Use for...in to check if an object has required properties. Log missing properties with suggestions.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "for-in-03",
+            "title": "Inherited Properties Explorer",
+            "description": "Demonstrate for...in iterating inherited properties. Show difference with hasOwnProperty() check.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "b3M0BTzgr98",
+        "title": "#33 - JavaScript For..of Loop - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "2:01",
+        "task": {
+          "title": "For..of Loop: Iterable value iteration",
+          "problemStatement": "Implement for...of loops with: 1) Strings (iterate characters), 2) Arrays (iterate values), 3) Sets and Maps, 4) Custom iterables. Show the difference between for...of (values) and for...in (keys). Include examples where for...of fails on plain objects.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "for-of-01",
+            "title": "String Character Processor",
+            "description": "Use for...of to iterate string characters and create functions like reverseString, countVowels, or capitalize.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "for-of-02",
+            "title": "Array Sum and Filter",
+            "description": "Use for...of to sum array values, filter even/odd numbers, or find maximum value without using array methods.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "for-of-03",
+            "title": "Map and Set Iteration",
+            "description": "Use for...of with Map and Set data structures. Show how it accesses values differently than objects.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "TDfF1qKSXYg",
+        "title": "#34 - How to fix Infinite Loop in JavaScript (Solution) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:46",
+        "task": {
+          "title": "Infinite Loop: Detecting and fixing",
+          "problemStatement": "Identify and fix infinite loops: 1) Demonstrate common causes (missing increment, wrong condition, missing break), 2) Show each problematic code and its fix, 3) Create a timeout mechanism to prevent browser freeze, 4) Explain debugging techniques (console logs, breakpoints). Include before/after comparisons.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "infinite-01",
+            "title": "Bug Detective: Find the Loop",
+            "description": "Provide buggy code with infinite loops and ask student to identify the issue and fix it. Include 3-4 different scenarios.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "infinite-02",
+            "title": "Safe Loop Wrapper",
+            "description": "Create a wrapper function that executes a loop with maximum iteration limit to prevent infinite loops in development.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "infinite-03",
+            "title": "Loop Debugging Simulation",
+            "description": "Write code that simulates what would be an infinite loop and add logging to show execution flow and identify the problem.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "iKD8RZoXrLQ",
+        "title": "#35 - JavaScript Object & OOP(Object Oriented Programming) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "13:17",
+        "task": {
+          "title": "Object & OOP: OOP fundamentals",
+          "problemStatement": "Create OOP fundamentals: 1) Define a Person object with properties (name, age, email) and methods (introduce, greet), 2) Demonstrate encapsulation with private-like properties, 3) Show polymorphism with different object types (Student, Teacher) extending Person, 4) Explain inheritance and composition. Include practical examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "oop-01",
+            "title": "Bank Account Class",
+            "description": "Create a BankAccount object with properties (accountNumber, balance, owner) and methods (deposit, withdraw, getBalance). Implement validation.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "oop-02",
+            "title": "Shape Hierarchy",
+            "description": "Create Shape, Circle, and Rectangle objects demonstrating inheritance. Implement area() method differently for each shape.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "oop-03",
+            "title": "Car Management System",
+            "description": "Build Car objects with properties and methods (start, stop, accelerate). Create fleet management with multiple cars.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "77688vVPF4Q",
+        "title": "#36 - JavaScript Factory Functions - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:53",
+        "task": {
+          "title": "Factory Functions: Factory pattern",
+          "problemStatement": "Implement factory functions: 1) Create a userFactory function that returns user objects, 2) Implement private variables using closures, 3) Add methods to created objects, 4) Compare with constructor functions. Demonstrate advantages (no 'new' keyword, privacy). Include examples with different configurations.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "factory-01",
+            "title": "Vehicle Factory",
+            "description": "Create vehicleFactory that produces cars, bikes, trucks with appropriate methods and properties based on type parameter.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "factory-02",
+            "title": "Logger Factory with Privacy",
+            "description": "Build loggerFactory with private counter and timestamp. Return object with methods to log messages with automatic ID and time.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "factory-03",
+            "title": "Configuration Factory",
+            "description": "Create configFactory for different environments (development, staging, production) returning appropriate settings and methods.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "vlB25TG2wIA",
+        "title": "#37 - JavaScript Constructor Functions - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:01",
+        "task": {
+          "title": "Constructor Functions: Constructor pattern",
+          "problemStatement": "Implement constructor functions: 1) Create User constructor with properties and methods, 2) Use 'new' keyword correctly, 3) Demonstrate prototype usage for shared methods, 4) Compare with factory functions and classes. Show memory efficiency with prototypes. Include instanceof checks and constructor property.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "constructor-01",
+            "title": "Person Constructor",
+            "description": "Create Person constructor with name, age, email properties and methods like introduce() and birthYear(). Use prototypes efficiently.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "constructor-02",
+            "title": "Inheritance with Constructors",
+            "description": "Create Animal and Dog constructors demonstrating inheritance. Override methods and show prototype chain.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "constructor-03",
+            "title": "Constructor Pattern Best Practices",
+            "description": "Demonstrate proper constructor usage: instance variables, prototype methods, static methods, and instance checks with instanceof.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "KQ8cMc9wCmk",
+        "title": "#38 - JavaScript's Dynamic Nature of Objects - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:25",
+        "task": {
+          "title": "Dynamic Objects: Adding/removing properties",
+          "problemStatement": "Work with dynamic object properties: 1) Add properties to existing objects at runtime, 2) Delete properties using delete keyword, 3) Modify property descriptors, 4) Demonstrate that JavaScript objects are mutable. Show practical examples where dynamism is useful and potential pitfalls.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "dynamic-01",
+            "title": "Property Manager",
+            "description": "Create functions to dynamically add, remove, update, and query object properties. Handle edge cases like undefined values.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "dynamic-02",
+            "title": "Object Configuration Builder",
+            "description": "Build objects by dynamically adding properties based on configuration array. Support property types, defaults, and validation.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "dynamic-03",
+            "title": "Property Watcher",
+            "description": "Create system that logs when properties are added/removed from objects using Proxy or Object.defineProperty.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "PSmpoX0jVBo",
+        "title": "#39 - JavaScript Constructor Property - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:46",
+        "task": {
+          "title": "Constructor Property: Constructor reference",
+          "problemStatement": "Explore constructor property: 1) Understand how every instance has .constructor referencing its constructor, 2) Use constructor property to create new instances, 3) Demonstrate changing constructor property and its effects, 4) Show practical applications (cloning, type checking). Include examples with built-in types.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "constructor-prop-01",
+            "title": "Constructor Reference Checker",
+            "description": "Create function that checks object's constructor and returns its name. Handle built-in types like Array, String, Object.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "constructor-prop-02",
+            "title": "Clone Factory using Constructor",
+            "description": "Use constructor property to create deep clones of objects without knowing their type beforehand.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "constructor-prop-03",
+            "title": "Instance Creator",
+            "description": "Create new instances of objects by accessing their constructor property. Build instances from array of existing objects.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "j8JcqCTQIfw",
+        "title": "#40 - JavaScript Functions are Objects - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:49",
+        "task": {
+          "title": "Functions Objects: Functions as objects",
+          "problemStatement": "Demonstrate functions as first-class objects: 1) Add properties to functions, 2) Use functions as properties in objects, 3) Pass functions as arguments, 4) Return functions from functions (higher-order), 5) Store functions in variables and arrays. Show practical patterns like decorators and callbacks.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "func-obj-01",
+            "title": "Function Counter",
+            "description": "Create function with property to count how many times it's called. Use function.property to track invocations.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "func-obj-02",
+            "title": "Higher-Order Functions",
+            "description": "Implement functions that return other functions: multiplier(x) returns function that multiplies by x, compose functions, etc.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "func-obj-03",
+            "title": "Function Decorator Pattern",
+            "description": "Create decorators using higher-order functions: addLogging(fn), addTiming(fn), addValidation(fn) that wrap functions.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "fHrXYaJdaNI",
+        "title": "#41 - JavaScript Primitive value types vs reference types  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:23",
+        "task": {
+          "title": "Value vs Reference: Pass by value/reference",
+          "problemStatement": "Demonstrate primitives vs references: 1) Show primitives (number, string, boolean, null, undefined, symbol) passed by value, 2) Show objects/arrays passed by reference, 3) Create examples modifying function parameters, 4) Explain stack vs heap memory. Include common pitfalls and how to handle them properly.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "value-ref-01",
+            "title": "Reference vs Value Visualizer",
+            "description": "Create code demonstrating difference: modify primitive in function (no external change), modify object in function (external change reflected).",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "value-ref-02",
+            "title": "Safe Object Modification",
+            "description": "Create functions that modify objects safely without affecting originals. Use techniques like spread operator, Object.assign(), or cloning.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "value-ref-03",
+            "title": "Memory Management Comparison",
+            "description": "Explain and demonstrate memory differences: primitives in stack, objects in heap. Show performance implications of copying.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "jwlpw8YN2_I",
+        "title": "#42 - Enumerating Properties of an Object  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:55",
+        "task": {
+          "title": "Enumerate Properties: Object.keys/values",
+          "problemStatement": "Work with object enumeration: 1) Use Object.keys() to get property names, 2) Use Object.values() to get property values, 3) Use Object.entries() for key-value pairs, 4) Compare with for...in loop, 5) Handle inherited properties with hasOwnProperty(). Show practical use cases.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "enum-01",
+            "title": "Object Printer",
+            "description": "Create function that prints all object properties and values in formatted way using Object.entries() or similar.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "enum-02",
+            "title": "Object Property Filter",
+            "description": "Filter object properties based on conditions: get only numeric values, string values, or values matching pattern.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "enum-03",
+            "title": "Object Transformer",
+            "description": "Create function using Object.entries() to transform object properties: uppercase keys, square numeric values, etc.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "zKNvYNGmtvE",
+        "title": "#43 - Cloning an JavaScript Object - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:21",
+        "task": {
+          "title": "Cloning Objects: Shallow and deep clone",
+          "problemStatement": "Implement cloning techniques: 1) Shallow clone using Object.assign() or spread operator, 2) Deep clone for nested objects, 3) Demonstrate why simple assignment doesn't work, 4) Compare performance of different methods. Show when each approach is appropriate. Include circular reference handling.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "clone-01",
+            "title": "Shallow Clone Implementation",
+            "description": "Create shallowClone() function using Object.assign() or spread. Show it copies top-level but nested objects still reference original.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "clone-02",
+            "title": "Deep Clone Implementation",
+            "description": "Implement deepClone() function recursively or using JSON methods. Handle nested objects and arrays properly.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "clone-03",
+            "title": "Clone with Special Cases",
+            "description": "Create clone function that handles special cases: Dates, Functions, circular references, symbols.",
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "videoId": "mVTEIjXjtws",
+        "title": "#44 - JavaScript Garbage Collection - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "2:01",
+        "task": {
+          "title": "Garbage Collection: Memory management",
+          "problemStatement": "Explain garbage collection: 1) How JavaScript manages memory automatically, 2) Demonstrate memory leaks (circular references, forgotten listeners), 3) Show how to prevent leaks (nullify references, remove listeners), 4) Discuss mark-and-sweep algorithm basics. Include practical patterns for cleanup.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "gc-01",
+            "title": "Memory Leak Detector",
+            "description": "Create examples of potential memory leaks and explain how to fix them: forgotten timers, listeners, circular references.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "gc-02",
+            "title": "Cleanup Patterns",
+            "description": "Demonstrate proper cleanup patterns: proper event listener removal, clearing timers, nullifying references in closures.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "gc-03",
+            "title": "Resource Manager",
+            "description": "Create ResourceManager class that tracks resources and provides cleanup method to prevent leaks.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "BVsx5IEfX0s",
+        "title": "#45 - JavaScript Math Object  - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "13:50",
+        "task": {
+          "title": "Math Object: Math methods",
+          "problemStatement": "Explore Math object methods: 1) Use Math.random() for generating random numbers, 2) Use Math.floor/ceil/round for rounding, 3) Use Math.max/min for comparisons, 4) Use trigonometric methods (sin, cos), 5) Implement practical functions like random range generator, dice roller, percentage calculator.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "math-01",
+            "title": "Random Utilities",
+            "description": "Create utility functions: randomInteger(min, max), randomFloat(min, max), randomFromArray(arr), randomColor().",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "math-02",
+            "title": "Math Applications",
+            "description": "Build functions using Math: calculate circle area, distance between points, calculate percentage, temperature converter.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "math-03",
+            "title": "Game Mechanics",
+            "description": "Create game mechanics using Math: dice rolling, random enemy position, score calculation, collision detection.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "XvR3-XPIZqk",
+        "title": "#46 - JavaScript String Object  - (தமிழील்) (Tamil) | JavaScript Course",
+        "duration": "19:24",
+        "task": {
+          "title": "String Object: String methods",
+          "problemStatement": "Master String methods: 1) Use charAt, charCodeAt for character access, 2) Use slice, substring, substr for extraction, 3) Use indexOf, lastIndexOf for searching, 4) Use split, replace, trim for manipulation, 5) Use toUpperCase, toLowerCase for case, 6) Use concat, padStart/padEnd. Include practical text processing examples.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "string-01",
+            "title": "String Manipulator",
+            "description": "Create functions: capitalize(str), reverse(str), countVowels(str), isPalindrome(str) using various String methods.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "string-02",
+            "title": "Text Processor",
+            "description": "Build text processing: trim whitespace, replace words, format strings with padding, extract email domain.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "string-03",
+            "title": "Password Validator",
+            "description": "Create validator checking password requirements using string methods: length, uppercase, lowercase, numbers, special characters.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "fgKBnm5SFmI",
+        "title": "#47 - JavaScript Template Literals - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:33",
+        "task": {
+          "title": "Template Literals: String interpolation",
+          "problemStatement": "Work with template literals: 1) Use backticks and ${} for interpolation, 2) Create multi-line strings, 3) Include expressions in templates, 4) Use tagged templates for custom processing, 5) Compare with string concatenation. Show readability improvements and advanced patterns.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "template-01",
+            "title": "HTML Generator",
+            "description": "Create functions generating HTML using template literals: createUserCard(user), createTable(data), etc.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "template-02",
+            "title": "SQL Query Builder",
+            "description": "Build SQL queries using template literals safely: SELECT queries, INSERT queries with parameterization.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "template-03",
+            "title": "Tagged Template Processing",
+            "description": "Create custom tag functions for templates: highlight(), uppercase(), currency(price), with custom processing.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "aVc8LMR7kyw",
+        "title": "#48 - JavaScript Date Object - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:14",
+        "task": {
+          "title": "Date Object: Date handling",
+          "problemStatement": "Work with Date object: 1) Create and parse dates, 2) Get year, month, day, hours, minutes, 3) Calculate time differences, 4) Format dates for display, 5) Work with timezones basics. Create practical functions like age calculator, countdown timer, relative date display (e.g., '2 hours ago').",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "date-01",
+            "title": "Date Formatter",
+            "description": "Create functions: formatDate(date), getAge(birthDate), daysUntil(date), relative time display.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "date-02",
+            "title": "Event Scheduler",
+            "description": "Build scheduling functions: isUpcoming(date), isDue(date), getEventsForDay(date, events).",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "date-03",
+            "title": "Countdown Timer",
+            "description": "Create countdown display showing time remaining to event with days, hours, minutes, seconds.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "Amu-MKgfkpk",
+        "title": "#49 - JavaScript Arrays In-depth - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "2:04",
+        "task": {
+          "title": "Arrays In-depth: Array properties",
+          "problemStatement": "Master array fundamentals: 1) Understand length property and sparse arrays, 2) Create arrays with different methods (literal, constructor), 3) Access elements with indices (positive, negative), 4) Understand array-like objects, 5) Use Array.isArray() for type checking. Show internal structure and properties.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "array-01",
+            "title": "Array Inspector",
+            "description": "Create function that returns detailed info about array: length, sparse positions, element types, memory usage.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "array-02",
+            "title": "Array Utilities",
+            "description": "Build functions: isEmpty(arr), hasDuplicates(arr), getUniqueElements(arr), flattenArray(arr).",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "array-03",
+            "title": "Array-like Handler",
+            "description": "Work with array-like objects (arguments, NodeList): convert to array, iterate, understand differences from real arrays.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "4W13qhHFSRE",
+        "title": "#50 - Adding element to an JavaScript Array - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:08",
+        "task": {
+          "title": "Adding Elements: Push and array methods",
+          "problemStatement": "Master adding elements: 1) Use push() to add to end, 2) Use unshift() to add to beginning, 3) Use splice() for insertion, 4) Use concat() for merging, 5) Use spread operator (...) for adding. Show mutating vs non-mutating methods. Include examples with single and multiple elements.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "add-elem-01",
+            "title": "Smart List Manager",
+            "description": "Create ListManager class: add elements, addAtPosition(element, index), addMultiple(elements), with validation.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "add-elem-02",
+            "title": "Immutable Array Builder",
+            "description": "Create functions that add elements immutably (returning new array): immutablePush, immutableUnshift using spread.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "add-elem-03",
+            "title": "Array Manipulator",
+            "description": "Build functions demonstrating all add methods: compare push vs unshift, splice vs concat, mutating vs non-mutating.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "7AIMdzNQtkY",
+        "title": "#51 - Finding an element in a JavaScript Array [Primitives] - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:58",
+        "task": {
+          "title": "Finding Primitives: Array search primitives",
+          "problemStatement": "Search primitive arrays: 1) Use indexOf() for first occurrence, 2) Use lastIndexOf() for last occurrence, 3) Use includes() for existence check, 4) Use find() with callback, 5) Use findIndex() for index. Demonstrate differences between methods. Include examples with numbers, strings, booleans.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "find-prim-01",
+            "title": "Element Finder",
+            "description": "Create functions: findElement(arr, value), findPosition(arr, value), findAll(arr, value), findClosest(arr, value).",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-prim-02",
+            "title": "Advanced Filtering",
+            "description": "Build functions with conditions: findByRange(arr, min, max), findByType(arr, type), findMatching(arr, pattern).",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-prim-03",
+            "title": "Search Performance",
+            "description": "Compare indexOf vs includes vs find performance. Demonstrate when each method is optimal.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "xPLa25ZDlI4",
+        "title": "#52 - Finding an element in a JavaScript Reference Array - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:09",
+        "task": {
+          "title": "Finding References: Object array search",
+          "problemStatement": "Search object arrays: 1) Use find() with predicate function, 2) Use findIndex() for index, 3) Use filter() for multiple matches, 4) Compare objects by properties, 5) Handle nested properties. Create practical search functions for complex objects with various criteria.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "find-ref-01",
+            "title": "User Finder",
+            "description": "Create functions to find users by name, email, ID, age range: findByName(users, name), findByEmail(users, email).",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "find-ref-02",
+            "title": "Advanced Search",
+            "description": "Build search functions for complex objects: searchByMultipleFields(users, {name, age}), searchNested(users, criteria).",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "find-ref-03",
+            "title": "Sorting and Finding Combined",
+            "description": "Combine finding with sorting: getTopMatches(arr, criteria, limit), getByRangeAndSort(arr, range).",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "CaFP7x3W3Lc",
+        "title": "#53 - JavaScript ES6: Arrow Functions - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:30",
+        "task": {
+          "title": "Arrow Functions: ES6 syntax",
+          "problemStatement": "Master arrow functions: 1) Basic syntax (x => x * 2), 2) Multi-parameter functions, 3) Multi-line functions with braces, 4) Implicit return, 5) Understand 'this' binding difference. Compare with regular functions. Show use in callbacks, array methods, and practical patterns.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "arrow-01",
+            "title": "Syntax Conversion",
+            "description": "Convert regular functions to arrow functions, understand parameter variations: single param, multiple params, no params.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "arrow-02",
+            "title": "Array Method Mastery",
+            "description": "Use arrow functions with map, filter, reduce, sort: transform array elements, filter by criteria, accumulate values.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "arrow-03",
+            "title": "This Binding Comparison",
+            "description": "Demonstrate difference in 'this' between arrow functions and regular functions. Show practical implications in objects/classes.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "zF273qlctfQ",
+        "title": "#54 - Removing an element in an JavaScript Array - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "4:45",
+        "task": {
+          "title": "Removing Elements: Array removal",
+          "problemStatement": "Master element removal: 1) Use pop() to remove from end, 2) Use shift() to remove from start, 3) Use splice() for removal by index, 4) Use filter() for conditional removal, 5) Use slice() for non-mutating. Show mutating vs non-mutating approaches. Include examples of removing specific values and conditions.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "remove-01",
+            "title": "Array Cleaner",
+            "description": "Create functions: removeElement(arr, value), removeAt(arr, index), removeIf(arr, condition), removeDuplicates(arr).",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "remove-02",
+            "title": "Immutable Removal",
+            "description": "Build removal functions that return new arrays without mutating: immutableRemove, immutableRemoveAt, immutableFilter.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "remove-03",
+            "title": "Advanced Removal Patterns",
+            "description": "Implement removeRange(arr, start, end), removeNulls(arr), removeEmpty(arr), removeByType(arr, type).",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "Ux7oPByuoWE",
+        "title": "#55 - Emptying an JavaScript Array - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:23",
+        "task": {
+          "title": "Emptying Arrays: Clearing arrays",
+          "problemStatement": "Clear array contents: 1) Set length to 0, 2) Use splice(0), 3) Reassign empty array, 4) Understand reference implications, 5) Handle multiple references. Show when each method is appropriate and potential pitfalls with shared references. Include practical cleanup patterns.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        },
+        "challenges": [
+          {
+            "id": "empty-01",
+            "title": "Array Clearing Methods",
+            "description": "Compare and demonstrate different clearing methods: length = 0, splice(0), = [], mutating vs non-mutating.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "empty-02",
+            "title": "Reference Handling",
+            "description": "Show how clearing affects multiple references to same array. Demonstrate shared reference behavior and solutions.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "empty-03",
+            "title": "Queue/Stack Cleaner",
+            "description": "Create queue/stack implementations with proper clearing: clear while preserving structure or capacity.",
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "videoId": "Nj7Y_faSr7c",
+        "title": "#56 - Combining & Extracting elements in JavaScript Arrays - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:25",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "4jRClLn7XeM",
+        "title": "#57 - JavaScript Spread Operator - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "3:10",
+        "task": {
+          "title": "Practice: #57 - JavaScript Spread Operator - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#57 - JavaScript Spread Operator - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "-0w-EhFnZ9k",
+        "title": "#58 - JavaScript Arrays: Iterating Elements (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:44",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "LIQjueuL8kA",
+        "title": "#59 - Joining & Splitting JavaScript Arrays (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "10:55",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "cpAXCuUqLD0",
+        "title": "#60 - Sorting a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "11:30",
+        "task": {
+          "title": "Practice: #60 - Sorting a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#60 - Sorting a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "hhZ9t6Vw-tw",
+        "title": "#61 - Primitives: Testing a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "13:38",
+        "task": {
+          "title": "Practice: #61 - Primitives: Testing a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#61 - Primitives: Testing a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "WHtXXwAzj6Q",
+        "title": "#62 - Testing Objects in a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "6:21",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "orFP_P9cHkU",
+        "title": "#63 - Filtering a Javascript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "11:52",
+        "task": {
+          "title": "Practice: #63 - Filtering a Javascript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#63 - Filtering a Javascript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "kkVEtr6Bedo",
+        "title": "#64 - Finding a Javascript Array - find() - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:52",
+        "task": {
+          "title": "Practice: #64 - Finding a Javascript Array - find() - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#64 - Finding a Javascript Array - find() - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "ybFUJVYQVok",
+        "title": "#65 - Javascript Arrays: Map() - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:48",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "IvocjDBFICk",
+        "title": "#66 - Javascript Arrays: Chaining Methods - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "11:55",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "7n_42ZKdkKg",
+        "title": "#67 - Javascript Arrays: reduce() Method - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "21:34",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "hTyD4n2EiY8",
+        "title": "#68 - JavaScript: Difference between sort(), filter(), map(), reduce() methods - (தமிழில்) (Tamil)",
+        "duration": "11:58",
+        "task": {
+          "title": "Practice: #68 - JavaScript: Difference between sort(), filter(), map(), reduce() methods - (தமிழில்) (Tamil)",
+          "problemStatement": "Recreate the example shown in the video titled \"#68 - JavaScript: Difference between sort(), filter(), map(), reduce() methods - (தமிழில்) (Tamil)\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "wVE9NqLXHzg",
+        "title": "#69 - JavaScript Arrays: Interview Questions (Solution) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "52:47",
+        "task": {
+          "title": "Array Utilities",
+          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "xqkGxTdVWfw",
+        "title": "#70 - Javascript Functions In-depth - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "1:03",
+        "task": {
+          "title": "Closures & Higher-order Functions",
+          "problemStatement": "Build a `memoize` wrapper and a `once` function to demonstrate closures and higher-order functions. Include short examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "j4jO45mO5Cc",
+        "title": "#71 - Javascript Function Declaration vs Function Expression - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "15:11",
+        "task": {
+          "title": "Practice: #71 - Javascript Function Declaration vs Function Expression - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#71 - Javascript Function Declaration vs Function Expression - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "AHwyQCExGko",
+        "title": "#72 - Javascript Hoisting - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:07",
+        "task": {
+          "title": "Practice: #72 - Javascript Hoisting - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#72 - Javascript Hoisting - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "JuiiCYIojd4",
+        "title": "#73 - Javascript Self Invoking Functions - (IIFE) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "8:46",
+        "task": {
+          "title": "Closures & Higher-order Functions",
+          "problemStatement": "Build a `memoize` wrapper and a `once` function to demonstrate closures and higher-order functions. Include short examples.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "9ASNTv6Xn4A",
+        "title": "#74 - Javascript Function Arguments - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "17:55",
+        "task": {
+          "title": "Practice: #74 - Javascript Function Arguments - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#74 - Javascript Function Arguments - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "n2lSuWUzuQo",
+        "title": "#75 - Javascript Rest Operator - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "7:43",
+        "task": {
+          "title": "Practice: #75 - Javascript Rest Operator - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#75 - Javascript Rest Operator - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "4vDgGVJ7hjA",
+        "title": "#76 - Javascript Default Parameters - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "12:56",
+        "task": {
+          "title": "Practice: #76 - Javascript Default Parameters - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#76 - Javascript Default Parameters - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "T22BC-jCpKs",
+        "title": "#77 - Javascript Getters & Setters - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "16:11",
+        "task": {
+          "title": "Practice: #77 - Javascript Getters & Setters - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#77 - Javascript Getters & Setters - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "We2g6tYJeqY",
+        "title": "#78 - Javascript Error Handling (Try, Throw, Catch) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "12:07",
+        "task": {
+          "title": "Practice: #78 - Javascript Error Handling (Try, Throw, Catch) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#78 - Javascript Error Handling (Try, Throw, Catch) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "hfNfx9lV3Uc",
+        "title": "#79 - Javascript Scopes (Global vs Local Scope) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "14:57",
+        "task": {
+          "title": "Practice: #79 - Javascript Scopes (Global vs Local Scope) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#79 - Javascript Scopes (Global vs Local Scope) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "mm5yJgJKXaU",
+        "title": "#80 - Difference between Javascript var & let keyword - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "10:57",
+        "task": {
+          "title": "Practice: #80 - Difference between Javascript var & let keyword - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#80 - Difference between Javascript var & let keyword - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "ZHNe8gqqCAg",
+        "title": "#81 - Understanding Javascript 'this' keyword - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "13:15",
+        "task": {
+          "title": "Practice: #81 - Understanding Javascript 'this' keyword - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#81 - Understanding Javascript 'this' keyword - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "tWDtAXhcAac",
+        "title": "#82 - Passing this keyword (Best Practices) - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "9:07",
+        "task": {
+          "title": "Practice: #82 - Passing this keyword (Best Practices) - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#82 - Passing this keyword (Best Practices) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "TwITPTQBzko",
+        "title": "#83 - Javascript Course Conclusion - (தமிழில்) (Tamil) | JavaScript Course",
+        "duration": "4:04",
+        "task": {
+          "title": "Practice: #83 - Javascript Course Conclusion - (தமிழில்) (Tamil) | JavaScript Course",
+          "problemStatement": "Recreate the example shown in the video titled \"#83 - Javascript Course Conclusion - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "difficulty": "Hard",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "fund-ch-1",
+        "title": "Mini Calculator",
+        "description": "Build a calculator supporting + - * / with edge-case handling and tests.",
+        "expectedOutput": "/placeholders/output-placeholder.svg",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fund-ch-2",
+        "title": "Memoize and Benchmark",
+        "description": "Implement memoize and show performance improvement on an expensive recursive function.",
+        "expectedOutput": "/placeholders/output-placeholder.svg",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "id": "js-dom",
+    "title": "JavaScript DOM",
+    "description": "Learn about HTML DOM using Javascript with in-depth concepts with practical examples. Learn all this free at 4K Ultra HD Quality in cyberdude channel.",
+    "thumbnail": "/thumbnails/js-dom.svg",
+    "category": "JS DOM",
+    "videos": [
+      {
+        "videoId": "0Q8eftj5OA0",
+        "title": "#01 - Introduction to Javascript DOM Course - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "3:11",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "D04yjfmgiD4",
+        "title": "#02 - What is HTML DOM? - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "34:27",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "O5q2ftAmZEE",
+        "title": "#03 - Window Object in JavaScript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "9:26",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "of16-QLL3LI",
+        "title": "#04 - Window Object in Action ⚔️ - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "11:58",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "OjSummBnFdo",
+        "title": "#05 - What is Browser Object Model (BOM) - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "20:15",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Easy",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "PwH3qYb1g1o",
+        "title": "#06 -  Exploring DOM Document using Javascript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "17:49",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "NRl7nF4vIFw",
+        "title": "#07 -  DOM Properties & Methods - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "21:50",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "DCvpLOaFkZU",
+        "title": "#08 - DOM Loaded Events (DOMContentLoaded) - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "20:31",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "9WHrYavh-hM",
+        "title": "#09 - Javascript Scripts: async vs defer - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "8:18",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "SlLTuWYa7UM",
+        "title": "#10 - Understanding DOM Nodes - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "18:07",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "j1UAeKE9rd4",
+        "title": "#11 - How to Select DOM Elements & UI Building - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "21:39",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "khi85Y4ylCw",
+        "title": "#12 - getElementById() - JS DOM Selector - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "22:13",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "k3O1OiGtMVE",
+        "title": "#13 - JS DOM: getElementsByClassName() Selector - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "21:34",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Hq-bDr0CSU0",
+        "title": "#14 - getElementsByTagName() & getElementsByName DOM Selector - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "5:48",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "H1MSkS_mAPk",
+        "title": "#15 - DOM Query Selector - querySelector(), querySelectorAll() - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "9:37",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "lT1S6yUacgQ",
+        "title": "#16 - Creating DOM elements using Javascript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "34:36",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "clQO1vcCgHo",
+        "title": "#17 - Changing Content of DOM Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "17:30",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "bax6ny-NRA8",
+        "title": "#18 - innerHTML vs createElement() - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "8:23",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "EddrT4FLzd0",
+        "title": "#19 - Javascript DocumentFragment - For Performance - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "20:19",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "6sfvRNcGqTQ",
+        "title": "#20 -  Inserting DOM Elements using JavaScript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "9:27",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "TkkE9tAtZNA",
+        "title": "#21 - Inserting DOM as String Templates - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "10:25",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "NiZfbZE9rSA",
+        "title": "#22 - Replacing DOM Elements Using JavaScript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "11:16",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "0TFhYKO6bcQ",
+        "title": "#23 - Cloning DOM Elements Using JavaScript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "10:30",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "AHQqt19ogVE",
+        "title": "#24 - Removing DOM Elements Using JavaScript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "21:41",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "lemV0hgeFFs",
+        "title": "#25 -  Looping over DOM Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "21:41",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "bziRqACn0F4",
+        "title": "#26 - Finding Child DOM Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "18:28",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "jt9ikcNGdKU",
+        "title": "#27 - Finding Parent DOM Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "12:30",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "a9JWrVKyHG4",
+        "title": "#28 - Finding Sibling DOM Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "9:31",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "_CJsFQCh4-8",
+        "title": "#29 - Element Properties vs HTML Attributes - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "23:30",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "q_gQldvWjk8",
+        "title": "#30 - Setting & Getting HTML Attributes - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "24:34",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Rf_82qUg58o",
+        "title": "#31 - Setting & Getting Inline Styles - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "24:32",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "M5Bl5dMCn34",
+        "title": "#32 - Setting & Getting Class Styles - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "32:22",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "iF93GteEs2Y",
+        "title": "#33 - DOM Animations using Javascript - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "8:22",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Mtkyq0jXRL8",
+        "title": "#34 - Adding Event Listeners & Event Object - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "40:31",
+        "task": {
+          "title": "Objects & OOP Exercise",
+          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "gC5UThrYn94",
+        "title": "#35 - Removing DOM Event Listeners - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "9:42",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "6pDidDhcEn0",
+        "title": "#36 - Javascript Event Bubbling, Capturing & Propagation - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "34:38",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Aie3MW9wjOM",
+        "title": "#37 - Preventing Browser Default Actions - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "18:56",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "rEnIfFfi2Wk",
+        "title": "#38 - Event Delegation & Dynamic Events - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "50:53",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "7foWfSwCpmY",
+        "title": "#39 - Javascript Mouse Events - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "22:45",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "iZ9wWBbDV_I",
+        "title": "#40 - Javascript Keyboard Events - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "20:37",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "8MibgZLbFRs",
+        "title": "#41 - Accessing Forms and Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "35:14",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "RNvGJhNT2JM",
+        "title": "#42 - Javascript Form Submit and FormData Event - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "32:53",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "0nXyfglNKlw",
+        "title": "#43 - Transforming HTML FormData to Server - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "19:45",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "0jB50mugTmM",
+        "title": "#44 - Posting FormData via Fetch API - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "25:06",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "4ku_CldA6YY",
+        "title": "#45 - Javascript Forms: Handling Input Events - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "29:30",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "tNfvCmbgpU4",
+        "title": "#46 - Handling Radio Input Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "19:52",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "JbaF1wJylbA",
+        "title": "#47 - Handling Checkbox Input Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "12:33",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "COw72CTnauo",
+        "title": "#48 - Handling HTML Select Tag Elements - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "26:52",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "zlhbyh2v78Q",
+        "title": "#49 - Finishing Food Cook App - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "24:52",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "EsRSYlYEQfE",
+        "title": "#50 - Data Persistence using Local Storage - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "23:03",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Tb564BfcJt4",
+        "title": "#51 - Deploy Food Cook App to GitHub Pages - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "7:37",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "J0FBSiztA10",
+        "title": "#52 - JavaScript DOM Interview Questions (Solutions) - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "1:07:59",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      },
+      {
+        "videoId": "Y6VF_0bXQ5E",
+        "title": "#53 - JavaScript DOM Course Conclusion - (தமிழில்) (Tamil) | JavaScript DOM",
+        "duration": "3:58",
+        "task": {
+          "title": "DOM Basics",
+          "problemStatement": "Select elements, modify their content, and dynamically create new elements. Add event listeners and demonstrate removing elements.",
+          "difficulty": "Medium",
+          "expectedOutput": "/placeholders/output-placeholder.svg"
+        }
+      }
+    ],
+    "challenges": [
+      {
+        "id": "dom-ch-1",
+        "title": "Accessibility Checklist",
+        "description": "Improve a small widget for keyboard and screen reader accessibility and document changes.",
+        "expectedOutput": "/placeholders/output-placeholder.svg",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dom-ch-2",
+        "title": "Interactive Gallery",
+        "description": "Build a gallery with lazy-loading, keyboard navigation, and lightbox support.",
+        "expectedOutput": "/placeholders/output-placeholder.svg",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+]

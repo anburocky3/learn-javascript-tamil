@@ -1,0 +1,814 @@
+[
+  {
+    "video": 56,
+    "title": "Combining Arrays: Concat and spread",
+    "task": {
+      "title": "Master Array Concatenation",
+      "problemStatement": "Create functions demonstrating different ways to combine arrays using concat() method and spread operator syntax. Compare performance and use cases.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v56_c1",
+        "title": "Concat Multiple Arrays",
+        "description": "Write a function that takes multiple arrays as arguments and combines them using concat() method.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v56_c2",
+        "title": "Spread Operator Array Merging",
+        "description": "Create a function that merges arrays using spread operator and compare it with concat() approach.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v56_c3",
+        "title": "Shallow Copy with Spread",
+        "description": "Demonstrate how spread operator creates a shallow copy of an array and modify the copy without affecting the original.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 57,
+    "title": "Spread Operator: Spread syntax uses",
+    "task": {
+      "title": "Advanced Spread Operator Applications",
+      "problemStatement": "Explore the versatility of spread operator across arrays, objects, and function arguments. Demonstrate practical use cases and syntax variations.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v57_c1",
+        "title": "Spread in Function Arguments",
+        "description": "Create a function that accepts multiple parameters and call it using spread operator on an array of values.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v57_c2",
+        "title": "Spreading Objects",
+        "description": "Use spread operator to merge multiple objects and handle property overwriting scenarios.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v57_c3",
+        "title": "Spread with Strings",
+        "description": "Convert a string to an array of characters using spread operator and perform string manipulation.",
+        "difficulty": "beginner"
+      }
+    ]
+  },
+  {
+    "video": 58,
+    "title": "Iterating Arrays: forEach, map basics",
+    "task": {
+      "title": "Array Iteration Fundamentals",
+      "problemStatement": "Master the differences between forEach() and map() methods. Understand when to use each for different iteration scenarios.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v58_c1",
+        "title": "forEach for Side Effects",
+        "description": "Use forEach() to iterate an array and perform side effects like logging, DOM manipulation, or data accumulation.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v58_c2",
+        "title": "map to Transform Data",
+        "description": "Create an array of objects and use map() to extract specific properties or transform values into a new array.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v58_c3",
+        "title": "forEach vs map Comparison",
+        "description": "Demonstrate the return value differences and practical scenarios where one method is better than the other.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 59,
+    "title": "Joining & Splitting: join() and split()",
+    "task": {
+      "title": "String and Array Conversion",
+      "problemStatement": "Learn to convert between arrays and strings using join() and split() methods. Handle edge cases and delimiters.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v59_c1",
+        "title": "Array to String Conversion",
+        "description": "Use join() to convert an array into a string with different delimiters like comma, dash, or custom strings.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v59_c2",
+        "title": "String to Array Parsing",
+        "description": "Parse CSV or tab-separated data using split() method and handle empty strings or special characters.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v59_c3",
+        "title": "Reversible Conversions",
+        "description": "Create a function that converts an array to string and back, demonstrating reversibility with specific delimiters.",
+        "difficulty": "beginner"
+      }
+    ]
+  },
+  {
+    "video": 60,
+    "title": "Sorting Arrays: Sort methods",
+    "task": {
+      "title": "Array Sorting Techniques",
+      "problemStatement": "Master the sort() method with custom comparators. Sort strings, numbers, and objects by different criteria.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v60_c1",
+        "title": "Numeric Sort with Comparator",
+        "description": "Sort an array of numbers in ascending and descending order using a proper comparator function.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v60_c2",
+        "title": "Sort Objects by Property",
+        "description": "Create an array of objects and sort them by a specific property value with case-insensitive string sorting.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v60_c3",
+        "title": "In-place vs Non-destructive Sort",
+        "description": "Demonstrate how sort() mutates the original array and create a non-destructive sorting approach.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 61,
+    "title": "Testing Primitives: Array.isArray()",
+    "task": {
+      "title": "Type Checking for Arrays",
+      "problemStatement": "Use Array.isArray() to properly identify arrays and distinguish them from other objects. Understand why typeof fails for arrays.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v61_c1",
+        "title": "Array vs Object Detection",
+        "description": "Write a function that uses Array.isArray() to differentiate between arrays and plain objects.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v61_c2",
+        "title": "Nested Array Checking",
+        "description": "Create a function that checks if deeply nested values are arrays using recursive Array.isArray() calls.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v61_c3",
+        "title": "Type Guard Utility",
+        "description": "Build a utility function that validates array input and provides appropriate error handling.",
+        "difficulty": "beginner"
+      }
+    ]
+  },
+  {
+    "video": 62,
+    "title": "Testing Objects: instanceof checks",
+    "task": {
+      "title": "Object Type Verification with instanceof",
+      "problemStatement": "Use instanceof operator to check object types and understand prototype chain relationships.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v62_c1",
+        "title": "Basic instanceof Usage",
+        "description": "Create custom objects and test them with instanceof to verify their type and constructor.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v62_c2",
+        "title": "Built-in Type Checking",
+        "description": "Use instanceof with built-in types like Date, RegExp, Error, and custom class instances.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v62_c3",
+        "title": "Prototype Chain Testing",
+        "description": "Explore how instanceof checks the entire prototype chain and test with inherited objects.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 63,
+    "title": "Filtering Arrays: Filter method",
+    "task": {
+      "title": "Array Filtering Mastery",
+      "problemStatement": "Master the filter() method to create new arrays based on conditions. Handle complex filtering scenarios.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v63_c1",
+        "title": "Simple Predicate Filtering",
+        "description": "Filter an array of numbers to get only even numbers, or filter strings by length threshold.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v63_c2",
+        "title": "Object Array Filtering",
+        "description": "Filter an array of user objects based on multiple criteria like age range or status.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v63_c3",
+        "title": "Chained Filtering",
+        "description": "Apply multiple filter operations in sequence and compare with a single combined filter.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 64,
+    "title": "Finding Arrays: find() method",
+    "task": {
+      "title": "Array Search and Retrieval",
+      "problemStatement": "Use find() method to locate and return the first element matching a condition. Understand differences from filter().",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v64_c1",
+        "title": "Simple Element Search",
+        "description": "Find the first element in an array matching a specific condition using find() method.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v64_c2",
+        "title": "Object Property Search",
+        "description": "Search an array of objects for the first item with a matching ID or specific property value.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v64_c3",
+        "title": "find vs findIndex vs filter",
+        "description": "Compare find(), findIndex(), and filter() methods to understand when to use each approach.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 65,
+    "title": "Array Map: Map method",
+    "task": {
+      "title": "Data Transformation with map()",
+      "problemStatement": "Master the map() method for transforming array elements. Apply transformations to primitives and objects.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v65_c1",
+        "title": "Number Transformation",
+        "description": "Map an array of numbers to transform them (multiply, square, convert to strings, etc.).",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v65_c2",
+        "title": "Object Property Extraction",
+        "description": "Map an array of objects to extract specific properties into a new array of values.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v65_c3",
+        "title": "Nested Mapping",
+        "description": "Apply map() to nested data structures and flatten or reorganize the output.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 66,
+    "title": "Chaining Methods: Method chaining",
+    "task": {
+      "title": "Fluent Array Operations",
+      "problemStatement": "Chain multiple array methods together to create readable and efficient data transformation pipelines.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v66_c1",
+        "title": "Filter and Map Chain",
+        "description": "Chain filter() and map() methods to first select items and then transform them.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v66_c2",
+        "title": "Complex Data Pipeline",
+        "description": "Create a chain of operations including filter, map, sort, and slice on an array of objects.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v66_c3",
+        "title": "Optimization: Chain vs Loop",
+        "description": "Compare performance and readability between method chaining and traditional loops.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 67,
+    "title": "Reduce Method: reduce() usage",
+    "task": {
+      "title": "Advanced Array Reduction",
+      "problemStatement": "Master reduce() method for accumulating values, transforming arrays, and complex data aggregation.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v67_c1",
+        "title": "Sum and Average Calculation",
+        "description": "Use reduce() to calculate sum, average, or other statistics from an array of numbers.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v67_c2",
+        "title": "Array to Object Transformation",
+        "description": "Use reduce() to transform an array into an object with keys or group items by property.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v67_c3",
+        "title": "Chaining with Reduce",
+        "description": "Combine reduce() with other methods or use reduce() multiple times for complex transformations.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 68,
+    "title": "Comparing Methods: sort vs filter vs map vs reduce",
+    "task": {
+      "title": "Array Methods Comparison",
+      "problemStatement": "Analyze and compare filter(), map(), sort(), and reduce() methods. Understand when to use each and their performance characteristics.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v68_c1",
+        "title": "Use Case Matching",
+        "description": "Given various scenarios, identify which array method (filter/map/sort/reduce) is most appropriate.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v68_c2",
+        "title": "Equivalent Solutions",
+        "description": "Solve the same problem using different methods and compare readability and performance.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v68_c3",
+        "title": "Performance Benchmark",
+        "description": "Write performance tests comparing these methods on large datasets.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 69,
+    "title": "Array Interview: Common questions",
+    "task": {
+      "title": "Array Interview Preparation",
+      "problemStatement": "Solve common array-related interview questions covering various array methods and problem-solving approaches.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v69_c1",
+        "title": "Flatten Nested Array",
+        "description": "Write a function to flatten a multi-level nested array into a single-level array.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v69_c2",
+        "title": "Remove Duplicates",
+        "description": "Create a function to remove duplicate values from an array while preserving order.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v69_c3",
+        "title": "Array Rotation and Manipulation",
+        "description": "Implement functions to rotate arrays or perform other common array manipulations.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 70,
+    "title": "Functions In-depth: Advanced functions",
+    "task": {
+      "title": "Advanced Function Concepts",
+      "problemStatement": "Explore advanced function features including callbacks, higher-order functions, and functional programming patterns.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v70_c1",
+        "title": "Higher-Order Functions",
+        "description": "Create functions that accept or return other functions as arguments or results.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v70_c2",
+        "title": "Callback Functions",
+        "description": "Implement functions that use callbacks for asynchronous-like operations or event handling.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v70_c3",
+        "title": "Functional Composition",
+        "description": "Create utility functions to compose multiple functions together for reusable transformations.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 71,
+    "title": "Declaration vs Expression: Function types",
+    "task": {
+      "title": "Function Declaration and Expression",
+      "problemStatement": "Understand differences between function declarations, function expressions, and arrow functions including hoisting and this binding.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v71_c1",
+        "title": "Hoisting Behavior",
+        "description": "Create examples demonstrating hoisting differences between declarations and expressions.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v71_c2",
+        "title": "Arrow Function vs Regular Functions",
+        "description": "Compare arrow functions with regular functions highlighting this binding and syntax differences.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v71_c3",
+        "title": "Choosing the Right Type",
+        "description": "Identify scenarios where each function type is most appropriate.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 72,
+    "title": "Hoisting: Function hoisting",
+    "task": {
+      "title": "Understanding Function Hoisting",
+      "problemStatement": "Master function hoisting behavior. Understand how function declarations are hoisted differently from expressions and variable declarations.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v72_c1",
+        "title": "Function Declaration Hoisting",
+        "description": "Demonstrate calling a function before its declaration in code due to hoisting.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v72_c2",
+        "title": "Expression vs Declaration Hoisting",
+        "description": "Show why function expressions cannot be called before declaration while declarations can.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v72_c3",
+        "title": "Hoisting with let and const",
+        "description": "Explain temporal dead zone and why let/const functions have different hoisting behavior.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 73,
+    "title": "IIFE: Self-invoking functions",
+    "task": {
+      "title": "Immediately Invoked Function Expressions",
+      "problemStatement": "Master IIFE patterns for creating isolated scopes, module patterns, and avoiding global namespace pollution.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v73_c1",
+        "title": "Basic IIFE Pattern",
+        "description": "Write an IIFE that executes immediately and demonstrates scope isolation.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v73_c2",
+        "title": "IIFE Module Pattern",
+        "description": "Create a module using IIFE pattern with public and private variables.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v73_c3",
+        "title": "IIFE with Parameters",
+        "description": "Pass arguments to IIFE for configuration and demonstrate parameter handling.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 74,
+    "title": "Function Arguments: Handling arguments",
+    "task": {
+      "title": "Arguments Object and Parameter Handling",
+      "problemStatement": "Work with function arguments using the arguments object. Handle variable number of parameters.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v74_c1",
+        "title": "Arguments Object Access",
+        "description": "Create a function that accesses and processes arguments dynamically using the arguments object.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v74_c2",
+        "title": "Convert Arguments to Array",
+        "description": "Convert the arguments object to a real array using various techniques.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v74_c3",
+        "title": "Variable Arguments Function",
+        "description": "Build a function that accepts variable number of arguments and processes them appropriately.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 75,
+    "title": "Rest Operator: Rest parameters",
+    "task": {
+      "title": "Rest Parameters and Variadic Functions",
+      "problemStatement": "Use rest parameters to handle variable number of function arguments. Understand advantages over arguments object.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v75_c1",
+        "title": "Basic Rest Parameters",
+        "description": "Create functions using rest parameters (...args) to accept variable number of arguments.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v75_c2",
+        "title": "Rest with Fixed Parameters",
+        "description": "Combine fixed parameters with rest parameters to handle mixed argument patterns.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v75_c3",
+        "title": "Rest vs arguments Object",
+        "description": "Compare rest parameters with arguments object demonstrating advantages of rest parameters.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 76,
+    "title": "Default Parameters: Default values",
+    "task": {
+      "title": "Function Parameter Defaults",
+      "problemStatement": "Set default parameter values for functions. Handle undefined arguments and optional parameters.",
+      "difficulty": "beginner"
+    },
+    "challenges": [
+      {
+        "id": "v76_c1",
+        "title": "Basic Default Parameters",
+        "description": "Create functions with default parameter values and observe behavior when arguments are omitted.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v76_c2",
+        "title": "Computed Default Values",
+        "description": "Use expressions or function calls as default parameter values.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v76_c3",
+        "title": "Defaults with Rest Parameters",
+        "description": "Combine default parameters with rest parameters for flexible function signatures.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 77,
+    "title": "Getters & Setters: Property accessors",
+    "task": {
+      "title": "Getter and Setter Methods",
+      "problemStatement": "Implement getter and setter methods for controlled property access and validation.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v77_c1",
+        "title": "Basic Getters and Setters",
+        "description": "Create a class with getter and setter methods for private property management.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v77_c2",
+        "title": "Validation in Setters",
+        "description": "Implement setters with validation logic to ensure data integrity.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v77_c3",
+        "title": "Computed Properties",
+        "description": "Create getters that compute and return derived values from other properties.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 78,
+    "title": "Error Handling: Try/catch/throw",
+    "task": {
+      "title": "Exception Handling Patterns",
+      "problemStatement": "Master try/catch/finally blocks and throw custom errors. Implement proper error handling strategies.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v78_c1",
+        "title": "Try-Catch Basics",
+        "description": "Write try-catch blocks to handle potential errors in code execution.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v78_c2",
+        "title": "Custom Error Throwing",
+        "description": "Create functions that validate inputs and throw custom error messages.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v78_c3",
+        "title": "Finally Block Usage",
+        "description": "Use try-catch-finally to ensure cleanup code runs regardless of success or error.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 79,
+    "title": "Scopes: Global vs local",
+    "task": {
+      "title": "Scope and Scope Chain",
+      "problemStatement": "Understand global, local, and block scopes. Trace variable resolution through scope chains.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v79_c1",
+        "title": "Global vs Local Scope",
+        "description": "Demonstrate the difference between global and local variables and their accessibility.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v79_c2",
+        "title": "Block Scope with let/const",
+        "description": "Create nested scopes using blocks and control variable visibility with let/const.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v79_c3",
+        "title": "Scope Chain Resolution",
+        "description": "Build nested functions to demonstrate scope chain variable lookup mechanism.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 80,
+    "title": "Var vs Let: Variable keywords",
+    "task": {
+      "title": "Variable Declaration Comparison",
+      "problemStatement": "Understand differences between var, let, and const in terms of scope, hoisting, and reassignment.",
+      "difficulty": "intermediate"
+    },
+    "challenges": [
+      {
+        "id": "v80_c1",
+        "title": "Scope Differences",
+        "description": "Demonstrate how var is function-scoped while let and const are block-scoped.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v80_c2",
+        "title": "Hoisting Differences",
+        "description": "Show different hoisting behaviors: var hoisting vs let/const temporal dead zone.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v80_c3",
+        "title": "Redeclaration Rules",
+        "description": "Demonstrate what happens when redeclaring variables with var, let, and const.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  {
+    "video": 81,
+    "title": "This Keyword: Understanding this",
+    "task": {
+      "title": "Context and this Binding",
+      "problemStatement": "Master the this keyword and how its value is determined by the calling context and execution environment.",
+      "difficulty": "advanced"
+    },
+    "challenges": [
+      {
+        "id": "v81_c1",
+        "title": "This in Different Contexts",
+        "description": "Demonstrate this value in global scope, object methods, and constructor functions.",
+        "difficulty": "beginner"
+      },
+      {
+        "id": "v81_c2",
+        "title": "This in Arrow Functions",
+        "description": "Show how arrow functions inherit this from their lexical scope unlike regular functions.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v81_c3",
+        "title": "This Loss and Recovery",
+        "description": "Identify scenarios where this is lost and demonstrate recovery techniques.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 82,
+    "title": "Passing This: This best practices",
+    "task": {
+      "title": "This Binding Best Practices",
+      "problemStatement": "Learn techniques for maintaining correct this binding in callbacks and event handlers.",
+      "difficulty": "advanced"
+    },
+    "challenges": [
+      {
+        "id": "v82_c1",
+        "title": "call, apply, bind Methods",
+        "description": "Use call(), apply(), and bind() to explicitly set the this context.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v82_c2",
+        "title": "Arrow Functions as Solutions",
+        "description": "Use arrow functions to maintain this context in callbacks and event handlers.",
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "v82_c3",
+        "title": "This in Event Listeners",
+        "description": "Handle this correctly when using functions as event listeners and callbacks.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  {
+    "video": 83,
+    "title": "Course Conclusion: Wrap-up",
+    "task": {
+      "title": "JavaScript Mastery Capstone",
+      "problemStatement": "Consolidate learning by building a comprehensive project integrating array methods, functions, scope, and this binding.",
+      "difficulty": "advanced"
+    },
+    "challenges": [
+      {
+        "id": "v83_c1",
+        "title": "Mini Project: Data Manager",
+        "description": "Build a data manager class that uses methods learned throughout the course to manage an array of objects.",
+        "difficulty": "advanced"
+      },
+      {
+        "id": "v83_c2",
+        "title": "Function Utility Library",
+        "description": "Create a library of utility functions combining array methods, higher-order functions, and error handling.",
+        "difficulty": "advanced"
+      },
+      {
+        "id": "v83_c3",
+        "title": "Refactor Legacy Code",
+        "description": "Take poor quality code and refactor it using modern JavaScript patterns and best practices learned.",
+        "difficulty": "advanced"
+      }
+    ]
+  }
+]
