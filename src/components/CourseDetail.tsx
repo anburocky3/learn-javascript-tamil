@@ -6,6 +6,7 @@ import VideoPlayer from "@/components/VideoPlayer";
 import TaskCard from "@/components/TaskCard";
 import { useProgress } from "@/hooks/useProgress";
 import type { Course, Video } from "@/types";
+import { isObjEmpty } from "@/utils/helper";
 
 export default function CourseDetail({ course }: { course: Course }) {
   const [index, setIndex] = useState<number>(0);
@@ -180,7 +181,7 @@ export default function CourseDetail({ course }: { course: Course }) {
                 <div className="flex items-center gap-3 justify-between">
                   <div className="flex items-center gap-2">
                     <span className="text-xs text-slate-400">
-                      {video.duration}
+                      {video.duration} mins
                     </span>
                     {isCompleted(course.id, video.videoId) && (
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-green-500/20 text-green-400 rounded text-xs">
@@ -260,40 +261,16 @@ export default function CourseDetail({ course }: { course: Course }) {
             </div>
 
             {/* Practice Task & Challenges Tabs */}
-            <div className="bg-slate-700/70 rounded-xl border border-slate-600 backdrop-blur overflow-hidden">
-              {/* Tab Headers */}
-              <div className="flex border-b border-slate-600/50">
-                <button
-                  onClick={() => setActiveTab("task")}
-                  className={`flex-1 px-6 py-4 font-medium transition-colors ${
-                    activeTab === "task"
-                      ? "bg-indigo-600/20 text-indigo-400 border-b-2 border-indigo-500"
-                      : "text-slate-400 hover:text-slate-300"
-                  }`}
-                >
-                  <div className="flex items-center justify-center gap-2">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
-                      />
-                    </svg>
-                    Practice Task
-                  </div>
-                </button>
-                {video.challenges && video.challenges.length > 0 && (
+            {(!isObjEmpty(video.task) ||
+              (video.challenges && video.challenges.length > 0)) && (
+              <div className="bg-slate-700/70 rounded-xl border border-slate-600 backdrop-blur overflow-hidden">
+                {/* Tab Headers */}
+                <div className="flex border-b border-slate-600/50">
                   <button
-                    onClick={() => setActiveTab("challenges")}
+                    onClick={() => setActiveTab("task")}
                     className={`flex-1 px-6 py-4 font-medium transition-colors ${
-                      activeTab === "challenges"
-                        ? "bg-orange-600/20 text-orange-400 border-b-2 border-orange-500"
+                      activeTab === "task"
+                        ? "bg-indigo-600/20 text-indigo-400 border-b-2 border-indigo-500"
                         : "text-slate-400 hover:text-slate-300"
                     }`}
                   >
@@ -308,123 +285,152 @@ export default function CourseDetail({ course }: { course: Course }) {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth={2}
-                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
                         />
                       </svg>
-                      Challenges
-                      <span className="ml-2 px-2 py-1 bg-orange-500/30 text-orange-400 rounded text-xs">
-                        {video.challenges.length}
-                      </span>
+                      Practice Task
                     </div>
                   </button>
-                )}
-              </div>
-
-              {/* Tab Content */}
-              <div className="p-6">
-                {activeTab === "task" && (
-                  <div>
-                    <TaskCard
-                      task={video.task}
-                      completed={isCompleted(course.id, video.videoId)}
-                      onToggle={() => toggleCompleted(course.id, video.videoId)}
-                    />
-                  </div>
-                )}
-
-                {activeTab === "challenges" && video.challenges && (
-                  <div className="space-y-4">
-                    {video.challenges.length === 0 ? (
-                      <div className="text-center py-8 text-slate-400">
-                        <p>No challenges available for this video yet.</p>
+                  {video.challenges && video.challenges.length > 0 && (
+                    <button
+                      onClick={() => setActiveTab("challenges")}
+                      className={`flex-1 px-6 py-4 font-medium transition-colors ${
+                        activeTab === "challenges"
+                          ? "bg-orange-600/20 text-orange-400 border-b-2 border-orange-500"
+                          : "text-slate-400 hover:text-slate-300"
+                      }`}
+                    >
+                      <div className="flex items-center justify-center gap-2">
+                        <svg
+                          className="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
+                          />
+                        </svg>
+                        Challenges
+                        <span className="ml-2 px-2 py-1 bg-orange-500/30 text-orange-400 rounded text-xs">
+                          {video.challenges.length}
+                        </span>
                       </div>
-                    ) : (
-                      video.challenges.map((ch) => {
-                        const isChallengeComplete = isChallengeCompleted(
-                          course.id,
-                          ch.id,
-                        );
-                        return (
-                          <div
-                            key={ch.id}
-                            className="bg-linear-to-br from-orange-900/30 to-red-900/20 border border-orange-500/30 rounded-xl p-5 hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20"
-                          >
-                            <div className="flex items-start justify-between gap-4">
-                              <div className="flex-1">
-                                <div className="flex items-center gap-3 mb-3">
-                                  <h4 className="font-bold text-slate-100 text-lg">
-                                    {ch.title}
-                                  </h4>
-                                  <span
-                                    className={`text-xs px-3 py-1 rounded-full font-semibold ${
-                                      ch.difficulty === "Easy"
-                                        ? "bg-green-500/30 text-green-300"
-                                        : ch.difficulty === "Medium"
-                                          ? "bg-yellow-500/30 text-yellow-300"
-                                          : "bg-red-500/30 text-red-300"
-                                    }`}
-                                  >
-                                    {ch.difficulty}
-                                  </span>
-                                </div>
-                                <p className="text-sm text-slate-300 mb-4 leading-relaxed">
-                                  {ch.description}
-                                </p>
-                                {ch.expectedOutput && (
-                                  <div className="mt-4">
-                                    <p className="text-xs font-medium text-slate-400 mb-2">
-                                      Expected Output:
-                                    </p>
-                                    <div className="w-full h-48 relative rounded-lg overflow-hidden border border-slate-600">
-                                      <Image
-                                        src={ch.expectedOutput}
-                                        alt={ch.title}
-                                        fill
-                                        className="object-contain p-4 bg-slate-800"
-                                      />
-                                    </div>
-                                  </div>
-                                )}
-                              </div>
+                    </button>
+                  )}
+                </div>
 
-                              <button
-                                onClick={() =>
-                                  toggleChallengeCompleted(course.id, ch.id)
-                                }
-                                className={`flex-shrink-0 px-4 py-2 rounded-lg font-medium transition-all ${
-                                  isChallengeComplete
-                                    ? "bg-green-600 text-white hover:bg-green-700"
-                                    : "bg-orange-600 text-white hover:bg-orange-700"
-                                }`}
-                              >
-                                {isChallengeComplete ? (
-                                  <span className="flex items-center gap-2">
-                                    <svg
-                                      className="w-4 h-4"
-                                      fill="currentColor"
-                                      viewBox="0 0 20 20"
+                {/* Tab Content */}
+                <div className="p-6">
+                  {activeTab === "task" && (
+                    <div>
+                      <TaskCard
+                        task={video.task}
+                        completed={isCompleted(course.id, video.videoId)}
+                        onToggle={() =>
+                          toggleCompleted(course.id, video.videoId)
+                        }
+                      />
+                    </div>
+                  )}
+
+                  {activeTab === "challenges" && video.challenges && (
+                    <div className="space-y-4">
+                      {video.challenges.length === 0 ? (
+                        <div className="text-center py-8 text-slate-400">
+                          <p>No challenges available for this video yet.</p>
+                        </div>
+                      ) : (
+                        video.challenges.map((ch) => {
+                          const isChallengeComplete = isChallengeCompleted(
+                            course.id,
+                            ch.id,
+                          );
+                          return (
+                            <div
+                              key={ch.id}
+                              className="bg-linear-to-br from-orange-900/30 to-red-900/20 border border-orange-500/30 rounded-xl p-5 hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20"
+                            >
+                              <div className="flex items-start justify-between gap-4">
+                                <div className="flex-1">
+                                  <div className="flex items-center gap-3 mb-3">
+                                    <h4 className="font-bold text-slate-100 text-lg">
+                                      {ch.title}
+                                    </h4>
+                                    <span
+                                      className={`text-xs px-3 py-1 rounded-full font-semibold ${
+                                        ch.difficulty === "Easy"
+                                          ? "bg-green-500/30 text-green-300"
+                                          : ch.difficulty === "Medium"
+                                            ? "bg-yellow-500/30 text-yellow-300"
+                                            : "bg-red-500/30 text-red-300"
+                                      }`}
                                     >
-                                      <path
-                                        fillRule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clipRule="evenodd"
-                                      />
-                                    </svg>
-                                    Completed
-                                  </span>
-                                ) : (
-                                  "Complete"
-                                )}
-                              </button>
+                                      {ch.difficulty}
+                                    </span>
+                                  </div>
+                                  <p className="text-sm text-slate-300 mb-4 leading-relaxed">
+                                    {ch.description}
+                                  </p>
+                                  {ch.expectedOutput && (
+                                    <div className="mt-4">
+                                      <p className="text-xs font-medium text-slate-400 mb-2">
+                                        Expected Output:
+                                      </p>
+                                      <div className="w-full h-48 relative rounded-lg overflow-hidden border border-slate-600">
+                                        <Image
+                                          src={ch.expectedOutput}
+                                          alt={ch.title}
+                                          fill
+                                          className="object-contain p-4 bg-slate-800"
+                                        />
+                                      </div>
+                                    </div>
+                                  )}
+                                </div>
+
+                                <button
+                                  onClick={() =>
+                                    toggleChallengeCompleted(course.id, ch.id)
+                                  }
+                                  className={`shrink-0 px-4 py-2 rounded-lg font-medium transition-all ${
+                                    isChallengeComplete
+                                      ? "bg-green-600 text-white hover:bg-green-700"
+                                      : "bg-orange-600 text-white hover:bg-orange-700"
+                                  }`}
+                                >
+                                  {isChallengeComplete ? (
+                                    <span className="flex items-center gap-2">
+                                      <svg
+                                        className="w-4 h-4"
+                                        fill="currentColor"
+                                        viewBox="0 0 20 20"
+                                      >
+                                        <path
+                                          fillRule="evenodd"
+                                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                          clipRule="evenodd"
+                                        />
+                                      </svg>
+                                      Completed
+                                    </span>
+                                  ) : (
+                                    "Complete"
+                                  )}
+                                </button>
+                              </div>
                             </div>
-                          </div>
-                        );
-                      })
-                    )}
-                  </div>
-                )}
+                          );
+                        })
+                      )}
+                    </div>
+                  )}
+                </div>
               </div>
-            </div>
+            )}
           </main>
         </div>
       </div>

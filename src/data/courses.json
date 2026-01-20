@@ -10,26 +10,8 @@
         "videoId": "OuUqS8Po5ps",
         "title": "#01  What is JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "6:39",
-        "task": {
-          "title": "Understanding JavaScript's Role",
-          "problemStatement": "Write a brief document (comments in code) explaining: 1) What JavaScript is, 2) Three main environments where it runs (Browser, Node, etc), 3) One real-world example of a JavaScript application you use daily. Include code snippets showing console output.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        },
-        "challenges": [
-          {
-            "id": "js-intro-01",
-            "title": "Environment Detection",
-            "description": "Write code that detects whether JavaScript is running in a browser or Node.js environment and logs appropriate messages.",
-            "difficulty": "Easy"
-          },
-          {
-            "id": "js-intro-02",
-            "title": "JavaScript Features Explorer",
-            "description": "List 5 features unique to JavaScript (hoisting, dynamic typing, prototype-based, etc.) with brief code examples for each.",
-            "difficulty": "Medium"
-          }
-        ]
+        "task": {},
+        "challenges": []
       },
       {
         "videoId": "DBe9w9oEelA",
@@ -37,24 +19,10 @@
         "duration": "9:19",
         "task": {
           "title": "JavaScript Ecosystem Research",
-          "problemStatement": "Research and document: 1) Why JavaScript is the most used programming language, 2) List 5 popular JavaScript frameworks/libraries (React, Vue, etc), 3) Create a simple comparison table showing where JavaScript is used (Web, Mobile, Backend, Desktop).",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Research and document: \n 1) Why JavaScript is the most used programming language, \n 2) List 5 popular JavaScript frameworks/libraries (React, Vue, etc), \n 3) Create a simple comparison table showing where JavaScript is used (Web, Mobile, Backend, Desktop).",
+          "difficulty": "Easy"
         },
-        "challenges": [
-          {
-            "id": "js-why-01",
-            "title": "Career Path Calculator",
-            "description": "Create a simple function that takes years of JavaScript experience and returns suggested learning path (frameworks to learn next).",
-            "difficulty": "Easy"
-          },
-          {
-            "id": "js-why-02",
-            "title": "Tech Stack Builder",
-            "description": "Write a program that helps beginners choose a tech stack based on their goals (frontend, backend, fullstack, mobile).",
-            "difficulty": "Medium"
-          }
-        ]
+        "challenges": []
       },
       {
         "videoId": "KYxldBXRUU4",
@@ -62,40 +30,19 @@
         "duration": "1:55",
         "task": {
           "title": "JavaScript Execution Model",
-          "problemStatement": "Explain the JavaScript execution flow: 1) Parsing and Compilation, 2) Execution Context and Call Stack, 3) Demonstrate hoisting behavior, 4) Show how the Event Loop processes callbacks. Include code with console logs showing the order of execution.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Explain the JavaScript execution flow: \n 1) Parsing and Compilation, \n 2) Execution Context and Call Stack, \n 3) Demonstrate hoisting behavior, \n 4) Show how the Event Loop processes callbacks. Include code with console logs showing the order of execution.",
+          "difficulty": "Easy"
         },
-        "challenges": [
-          {
-            "id": "js-how-01",
-            "title": "Call Stack Visualizer",
-            "description": "Write functions that log execution order and manually trace the call stack. Show how nested function calls populate and clear the stack.",
-            "difficulty": "Medium"
-          },
-          {
-            "id": "js-how-02",
-            "title": "Async Execution Order",
-            "description": "Create code using setTimeout, promises, and regular code to demonstrate the event loop. Predict and verify the execution order.",
-            "difficulty": "Hard"
-          },
-          {
-            "id": "js-how-03",
-            "title": "Hoisting Demonstrator",
-            "description": "Show examples of variable and function hoisting. Explain why certain code works and others throw ReferenceError.",
-            "difficulty": "Hard"
-          }
-        ]
+        "challenges": []
       },
       {
         "videoId": "EkXutEZAocE",
         "title": "#04 ECMAScript vs JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "1:15",
         "task": {
-          "title": "Practice: #04 ECMAScript vs JavaScript - (தமிழில்) (Tamil) | JavaScript Course",
+          "title": "Practice: ECMAScript vs JavaScript",
           "problemStatement": "Recreate the example shown in the video titled \"#04 ECMAScript vs JavaScript - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "difficulty": "Easy"
         }
       },
       {
@@ -103,10 +50,9 @@
         "title": "#05 Setting up JavaScript development environment  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:06",
         "task": {
-          "title": "Practice: #05 Setting up JavaScript development environment  - (தமிழில்) (Tamil) | JavaScript Course",
+          "title": "Practice: Setting up JavaScript development environment",
           "problemStatement": "Recreate the example shown in the video titled \"#05 Setting up JavaScript development environment  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "difficulty": "Easy"
         }
       },
       {
@@ -114,10 +60,9 @@
         "title": "#06  Building our first JavaScript application  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "8:18",
         "task": {
-          "title": "Practice: #06  Building our first JavaScript application  - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#06  Building our first JavaScript application  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Practice: Building your first JavaScript application",
+          "problemStatement": "Create a simple JavaScript application that displays 'Hello, World!' in the console and on a webpage.",
+          "difficulty": "Easy"
         }
       },
       {
@@ -125,32 +70,25 @@
         "title": "#07  JavaScript comments & why is it important?  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "2:24",
         "task": {
-          "title": "Practice: #07  JavaScript comments & why is it important?  - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#07  JavaScript comments & why is it important?  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Practice: Write JavaScript comments in code",
+          "problemStatement": "With previous code examples, add appropriate single-line and multi-line comments explaining the purpose of functions, variables, and logic used.",
+          "difficulty": "Easy"
         }
       },
       {
         "videoId": "uVh5dvKz58k",
         "title": "#08 - Coding JavaScript in proper way  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:12",
-        "task": {
-          "title": "Practice: #08 - Coding JavaScript in proper way  - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#08 - Coding JavaScript in proper way  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+        "task": {}
       },
       {
         "videoId": "9ZztZYj-fzw",
         "title": "#09 - Running JavaScript in Node  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "1:55",
         "task": {
-          "title": "Practice: #09 - Running JavaScript in Node  - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#09 - Running JavaScript in Node  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Practice: Running JavaScript in Node",
+          "problemStatement": "Write javascript and run simple scripts using Node.js. Create a script that logs current date and time, and another that reads a text file and prints its contents to the console.",
+          "difficulty": "Medium"
         }
       },
       {

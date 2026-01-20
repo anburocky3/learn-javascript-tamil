@@ -82,16 +82,13 @@ export default function TaskCard({
               </span>
             </div>
           </div>
-          <p className="text-sm text-slate-300 leading-relaxed mt-4">
-            {task.problemStatement}
-          </p>
         </div>
 
         <button
           onClick={onToggle}
-          className={`flex-shrink-0 px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 ${
+          className={`shrink-0 px-6 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 ${
             completed
-              ? "bg-gradient-to-r from-green-600 to-green-700 text-white shadow-lg shadow-green-500/50"
+              ? "bg-linear-to-r from-green-600 to-green-700 text-white shadow-lg shadow-green-500/50"
               : "bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg shadow-indigo-500/50"
           }`}
         >
@@ -109,6 +106,10 @@ export default function TaskCard({
           </div>
         </button>
       </div>
+
+      <p className="text-sm text-slate-300 leading-relaxed mt-4 whitespace-pre-wrap ">
+        {task.problemStatement}
+      </p>
 
       {task.expectedOutput && (
         <div className="mt-6 pt-6 border-t border-slate-600/50">
