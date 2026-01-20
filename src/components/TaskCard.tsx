@@ -116,14 +116,32 @@ export default function TaskCard({
           <p className="text-xs font-semibold text-slate-400 mb-3 uppercase tracking-wide">
             Expected Output
           </p>
-          <div className="w-full h-56 relative rounded-lg overflow-hidden border border-slate-600/50 bg-slate-800">
-            <Image
-              src={task.expectedOutput}
-              alt={`${task.title} expected output`}
-              fill
-              className="object-contain p-4"
-            />
-          </div>
+          {(() => {
+            const isImage = /\.(png|jpg|jpeg|gif|svg|webp)$/i.test(
+              task.expectedOutput,
+            );
+
+            if (isImage) {
+              return (
+                <div className="w-full h-56 relative rounded-lg overflow-hidden border border-slate-600/50 bg-slate-800">
+                  <Image
+                    src={task.expectedOutput}
+                    alt={`${task.title} expected output`}
+                    fill
+                    className="object-contain p-4"
+                  />
+                </div>
+              );
+            } else {
+              return (
+                <div className="bg-slate-900 border border-slate-700 rounded-lg p-4 overflow-x-auto">
+                  <pre className="text-slate-200 text-sm font-mono leading-relaxed">
+                    <code>{task.expectedOutput}</code>
+                  </pre>
+                </div>
+              );
+            }
+          })()}
         </div>
       )}
     </div>

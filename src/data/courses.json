@@ -96,237 +96,538 @@
         "title": "#10 - JavaScript Variables  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "10:00",
         "task": {
-          "title": "Variables & Scope Exercise",
-          "problemStatement": "Create examples demonstrating `var`, `let`, and `const`. Show hoisting, scope differences, and give small snippets explaining when to use each. Include short assertions.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Declare and Use Variables",
+          "problemStatement": "Create a program that declares variables for storing a person's name, age, and email address. Assign appropriate values to each variable and display them in a formatted output.",
+          "difficulty": "Easy",
+          "expectedOutput": "Name: [name]\nAge: [age]\nEmail: [email]"
+        },
+        "challenges": [
+          {
+            "title": "Multiple Variable Declarations",
+            "description": "Declare 5 different variables using var, let, and const and log them all",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Variable Reassignment",
+            "description": "Create a variable, assign it a value, then reassign it to a different value and display both",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Variable Naming Convention",
+            "description": "Practice using camelCase naming convention for multiple variables",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "zMyz6fx3b0Q",
         "title": "#11 - JavaScript Constants  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "6:21",
         "task": {
-          "title": "Variables & Scope Exercise",
-          "problemStatement": "Create examples demonstrating `var`, `let`, and `const`. Show hoisting, scope differences, and give small snippets explaining when to use each. Include short assertions.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Working with Constants",
+          "problemStatement": "Define constants for mathematical values (PI, E) and application settings. Try to understand why constants are important for values that should not change.",
+          "difficulty": "Easy",
+          "expectedOutput": "PI = 3.14159...\nE = 2.71828...\nAPP_NAME = My Application"
+        },
+        "challenges": [
+          {
+            "title": "Constant vs Variable",
+            "description": "Compare const and let by attempting to reassign a const and observing the error",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Object Constants",
+            "description": "Create a const object and modify its properties (showing immutability vs property mutability)",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Array Constants",
+            "description": "Create a const array and add/remove elements to understand const behavior with mutable objects",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "AV81g2I6N9k",
         "title": "#12 - JavaScript Datatypes - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:48",
         "task": {
-          "title": "Practice: #12 - JavaScript Datatypes - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#12 - JavaScript Datatypes - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Identify and Use Datatypes",
+          "problemStatement": "Create variables of different JavaScript datatypes: string, number, boolean, null, undefined, object, and symbol. Log each variable with its type using typeof operator.",
+          "difficulty": "Easy",
+          "expectedOutput": "string: \"Hello\" - type: string\nnumber: 42 - type: number\nboolean: true - type: boolean\nnull: null - type: object\nundefined: undefined - type: undefined"
+        },
+        "challenges": [
+          {
+            "title": "Type Checking",
+            "description": "Create a function that accepts different datatypes and returns their type",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Datatype Conversion",
+            "description": "Convert between different datatypes (string to number, number to boolean, etc.)",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "typeof vs instanceof",
+            "description": "Demonstrate the difference between typeof and instanceof operators",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "v1tUT4fcjaU",
         "title": "#13 - JavaScript Dynamic Typing  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "5:16",
         "task": {
-          "title": "Practice: #13 - JavaScript Dynamic Typing  - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#13 - JavaScript Dynamic Typing  - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Understand Dynamic Typing",
+          "problemStatement": "Demonstrate dynamic typing by creating a variable and assigning it different datatypes in sequence. Log the variable and its type after each assignment to show how JavaScript allows type changes.",
+          "difficulty": "Easy",
+          "expectedOutput": "Initial: 10, Type: number\nAfter reassignment: \"Hello\", Type: string\nAfter reassignment: true, Type: boolean"
+        },
+        "challenges": [
+          {
+            "title": "Type Coercion",
+            "description": "Show examples of implicit type coercion in JavaScript operations",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Comparison Operators",
+            "description": "Demonstrate loose equality (==) vs strict equality (===) with different types",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Dynamic Behavior",
+            "description": "Create a function that processes the same variable when it has different types",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "y_dx6GO3gjY",
         "title": "#14 - JavaScript Objects  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "9:01",
         "task": {
-          "title": "Objects & OOP Exercise",
-          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "title": "Create and Manipulate Objects",
+          "problemStatement": "Create a student object with properties for name, rollNumber, grade, and courses array. Add methods to calculate GPA and display student information.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Student: John, Roll: 101, Grade: A\nCourses: JavaScript, React, Node.js\nGPA: 3.8"
+        },
+        "challenges": [
+          {
+            "title": "Object Methods",
+            "description": "Add multiple methods to the object and invoke them with proper context",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Nested Objects",
+            "description": "Create objects with nested properties and access deeply nested values",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Object Iteration",
+            "description": "Iterate through object properties using for-in, Object.keys(), and Object.entries()",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "pH1-NkLSOcs",
         "title": "#15 - JavaScript Arrays  - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "6:27",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "title": "Working with Arrays",
+          "problemStatement": "Create an array of numbers and perform operations like adding elements, removing elements, finding maximum/minimum values, and calculating the sum of all elements.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Original: [1, 5, 3, 9, 2]\nAfter adding 7: [1, 5, 3, 9, 2, 7]\nMax: 9, Min: 1, Sum: 27"
+        },
+        "challenges": [
+          {
+            "title": "Array Methods",
+            "description": "Use map, filter, reduce, and forEach to manipulate arrays",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Array Transformation",
+            "description": "Transform an array of objects (students) and extract specific properties",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Multi-dimensional Arrays",
+            "description": "Create and manipulate a 2D array (matrix) and access nested elements",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "7woUGy9G9DU",
         "title": "#16 - JavaScript Functions - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "8:09",
         "task": {
-          "title": "Closures & Higher-order Functions",
-          "problemStatement": "Build a `memoize` wrapper and a `once` function to demonstrate closures and higher-order functions. Include short examples.",
+          "title": "Define and Use Functions",
+          "problemStatement": "Create functions to calculate area of circle, rectangle, and triangle. Each function should accept parameters and return the calculated area. Also create a main function that calls all these functions.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Circle area (r=5): 78.5\nRectangle area (l=4, w=6): 24\nTriangle area (b=5, h=8): 20"
+        },
+        "challenges": [
+          {
+            "title": "Function Expressions",
+            "description": "Rewrite function declarations as function expressions and arrow functions",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Higher Order Functions",
+            "description": "Create functions that return functions or accept functions as parameters",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Recursion",
+            "description": "Write recursive functions to calculate factorial or Fibonacci number",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "D4zVibKLtw8",
         "title": "Question: Why are we learning basics? - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "1:36",
-        "task": {
-          "title": "Practice: Question: Why are we learning basics? - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"Question: Why are we learning basics? - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+        "task": {}
       },
       {
         "videoId": "FOTM2OGMyRw",
         "title": "#17 - JavaScript Operators - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "2:13",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Perform Arithmetic Operations",
+          "problemStatement": "Create a calculator program that demonstrates all arithmetic operators: addition, subtraction, multiplication, division, modulus, and exponentiation. Show results for various number combinations.",
+          "difficulty": "Easy",
+          "expectedOutput": "10 + 5 = 15\n10 - 5 = 5\n10 * 5 = 50\n10 / 5 = 2\n10 % 3 = 1\n2 ** 8 = 256"
+        },
+        "challenges": [
+          {
+            "title": "Order of Operations",
+            "description": "Demonstrate operator precedence with complex expressions",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Increment and Decrement",
+            "description": "Show differences between pre-increment (++x) and post-increment (x++)",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Mathematical Expressions",
+            "description": "Solve complex mathematical formulas using arithmetic operators",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "gRZ8xaC5Krg",
         "title": "#19 - JavaScript Assignment Operators - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "2:09",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Use Assignment Operators",
+          "problemStatement": "Demonstrate all assignment operators (=, +=, -=, *=, /=, %=, **=) with practical examples. Show how compound assignment operators modify variables efficiently.",
+          "difficulty": "Easy",
+          "expectedOutput": "Initial value: 10\nAfter += 5: 15\nAfter -= 3: 12\nAfter *= 2: 24\nAfter /= 4: 6\nAfter %= 4: 2"
+        },
+        "challenges": [
+          {
+            "title": "Variable Updates",
+            "description": "Create a system where variables are updated multiple times with different assignment operators",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Destructuring Assignment",
+            "description": "Use destructuring assignment with arrays and objects",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Spread Operator",
+            "description": "Understand and use the spread operator with assignment",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "6XEabt6lqLc",
         "title": "#18 - JavaScript Arithmetic Operators - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "5:10",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Master Arithmetic Operations",
+          "problemStatement": "Build a utility that takes two numbers and performs all arithmetic operations. Handle edge cases like division by zero and ensure accurate calculations with proper formatting.",
+          "difficulty": "Easy",
+          "expectedOutput": "Results for a=20, b=3:\nAddition: 23\nSubtraction: 17\nMultiplication: 60\nDivision: 6.67\nModulus: 2"
+        },
+        "challenges": [
+          {
+            "title": "Compound Assignment",
+            "description": "Use +=, -=, *=, /= operators in calculations",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Number Precision",
+            "description": "Handle floating-point precision issues in arithmetic operations",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "String to Number Conversion",
+            "description": "Convert string inputs to numbers and perform arithmetic operations",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "FvRRXtBObDc",
         "title": "#20 - JavaScript Comparison Operators - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "9:34",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Compare Values with Comparison Operators",
+          "problemStatement": "Create a comparison utility that demonstrates all comparison operators (>, <, >=, <=) with different datatypes. Show results as true/false for various comparisons.",
+          "difficulty": "Easy",
+          "expectedOutput": "10 > 5: true\n10 < 5: false\n10 >= 10: true\n10 <= 9: false\n'apple' > 'Apple': true"
+        },
+        "challenges": [
+          {
+            "title": "Type Comparison",
+            "description": "Compare values of different types (string vs number) and understand type coercion",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Null and Undefined",
+            "description": "Compare null and undefined with various values",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "String Comparison",
+            "description": "Understand lexicographic ordering in string comparisons",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "R8Cwf_t2s6g",
         "title": "#21 - JavaScript Equality Operators - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:37",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
+          "title": "Understand Equality Operators",
+          "problemStatement": "Compare loose equality (==) and strict equality (===) operators with various values. Show how == performs type coercion while === checks both value and type.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "5 == '5': true (loose equality with type coercion)\n5 === '5': false (strict equality, different types)\nNull == undefined: true\nNull === undefined: false"
+        },
+        "challenges": [
+          {
+            "title": "Inequality Operators",
+            "description": "Demonstrate != vs !== operators with practical examples",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Object Equality",
+            "description": "Compare object references and understand reference equality",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Array Comparison",
+            "description": "Show why two arrays with same elements are not equal using == or ===",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "3u4khijsrKQ",
         "title": "#22 - JavaScript Ternary Operator - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "4:10",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Use Ternary Operator for Conditional Logic",
+          "problemStatement": "Replace if-else statements with ternary operators in practical scenarios. Create functions that determine grade based on marks, eligibility based on age, and discount based on purchase amount.",
+          "difficulty": "Medium",
+          "expectedOutput": "Score 85: Grade A\nAge 25: Eligible\nAmount 5000: Discount 10%"
+        },
+        "challenges": [
+          {
+            "title": "Nested Ternary",
+            "description": "Use nested ternary operators for multiple conditions (while keeping code readable)",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Ternary with Functions",
+            "description": "Return different functions using ternary operator",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Assignment with Ternary",
+            "description": "Assign values to variables using ternary operator based on conditions",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "9vopGVasGH0",
         "title": "#23 - JavaScript Logical Operator - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "9:36",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Work with Logical Operators",
+          "problemStatement": "Create a program that uses logical operators (AND, OR, NOT) to validate user input. Check if age is between 18-60, if email contains '@', and if password length is >= 8 characters.",
+          "difficulty": "Medium",
+          "expectedOutput": "Age (25) in range: true\nEmail valid: true\nPassword strong: true\nAll conditions met: true"
+        },
+        "challenges": [
+          {
+            "title": "Operator Precedence",
+            "description": "Demonstrate how AND has higher precedence than OR",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Short-circuit Evaluation",
+            "description": "Show how logical operators short-circuit (stop evaluating when result is determined)",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Complex Logic",
+            "description": "Build complex validation logic combining multiple logical operators",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "x8STlzGB4XU",
         "title": "#24 - JavaScript Logical Operator with Non Boolean Values - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "7:31",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Logical Operators with Truthy and Falsy Values",
+          "problemStatement": "Demonstrate how logical operators work with truthy and falsy values. Show how AND returns the first falsy value or the last value, and how OR returns the first truthy value.",
+          "difficulty": "Medium",
+          "expectedOutput": "5 && 10: 10\nfalse && 20: false\n0 || 25: 25\n'Hello' || 'Default': Hello\nNull && 'Never': null"
+        },
+        "challenges": [
+          {
+            "title": "Default Values",
+            "description": "Use || operator to provide default values for undefined or null variables",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Nullish Coalescing",
+            "description": "Use ?? operator to distinguish between null/undefined and falsy values",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Logical Assignment",
+            "description": "Use &&=, ||=, and ??= operators for conditional assignment",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "88Eb5Z1-FX8",
         "title": "#25 - JavaScript BitWise  Operators - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "11:01",
         "task": {
-          "title": "Operator Corner Cases",
-          "problemStatement": "Create small examples that demonstrate tricky cases for comparison and logical operators, including truthy/falsy and loose vs strict equality.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Perform Bitwise Operations",
+          "problemStatement": "Demonstrate bitwise operators (AND, OR, XOR, NOT, left shift, right shift) with binary representations. Show how these operators work at the bit level for optimization.",
+          "difficulty": "Hard",
+          "expectedOutput": "5 & 3: 1 (Binary: 101 & 011 = 001)\n5 | 3: 7 (Binary: 101 | 011 = 111)\n5 ^ 3: 6 (Binary: 101 ^ 011 = 110)\n~5: -6\n5 << 1: 10\n5 >> 1: 2"
+        },
+        "challenges": [
+          {
+            "title": "Binary Representation",
+            "description": "Convert numbers to binary and explain bitwise operation results",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Bit Manipulation",
+            "description": "Check if specific bits are set, toggle bits, or clear bits using bitwise operators",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Performance Optimization",
+            "description": "Use bitwise operations for flags or efficient calculations",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "GoHnJDwfATE",
         "title": "#26 - JavaScript Operator Precedence - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:31",
         "task": {
-          "title": "Practice: #26 - JavaScript Operator Precedence - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#26 - JavaScript Operator Precedence - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Understand Operator Precedence and Associativity",
+          "problemStatement": "Create expressions that demonstrate operator precedence. Show how multiplication is evaluated before addition, how exponentiation is right-associative, and how parentheses override precedence.",
+          "difficulty": "Medium",
+          "expectedOutput": "2 + 3 * 4: 14 (not 20)\n10 - 5 - 2: 3 (left-associative)\n2 ** 3 ** 2: 512 (right-associative)\n(2 + 3) * 4: 20"
+        },
+        "challenges": [
+          {
+            "title": "Complex Expressions",
+            "description": "Build complex expressions and predict results using precedence rules",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Logical Operator Precedence",
+            "description": "Understand precedence of AND, OR, and NOT operators",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Associativity Rules",
+            "description": "Demonstrate left-associative and right-associative operators",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "WebG_D9-U80",
         "title": "#27 - JavaScript If-Else (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "14:51",
         "task": {
-          "title": "Practice: #27 - JavaScript If-Else (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#27 - JavaScript If-Else (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Control Flow with If-Else Statements",
+          "problemStatement": "Create a program that evaluates student performance using if-else statements. Assign grades (A: >=90, B: >=80, C: >=70, D: >=60, F: <60) based on marks and provide feedback for each grade.",
+          "difficulty": "Easy",
+          "expectedOutput": "Marks: 85\nGrade: B\nFeedback: Good performance, aim for A grade next time"
+        },
+        "challenges": [
+          {
+            "title": "Nested If-Else",
+            "description": "Use nested if-else for complex multi-level conditions",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Switch Statement",
+            "description": "Convert if-else logic to switch-case statement",
+            "difficulty": "Easy"
+          },
+          {
+            "title": "Early Return",
+            "description": "Use early returns in functions to simplify complex if-else chains",
+            "difficulty": "Easy"
+          }
+        ]
       },
       {
         "videoId": "xG5IUyZvbDk",
         "title": "#28 - JavaScript Switch-case (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "10:46",
         "task": {
-          "title": "Switch-case: Multiple Conditions",
-          "problemStatement": "Create a grade calculator that uses switch-case to evaluate letter grades (A=90-100, B=80-89, C=70-79, D=60-69, F<60). Demonstrate proper fall-through behavior and default cases with multiple test cases.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Grade Calculator using Switch Statement",
+          "problemStatement": "Write a function that takes a score (0-100) and returns a grade letter (A, B, C, D, F) using switch-case statement. A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: 0-59",
+          "difficulty": "Medium",
+          "expectedOutput": "getGrade(95) → 'A', getGrade(85) → 'B', getGrade(72) → 'C', getGrade(65) → 'D', getGrade(50) → 'F'"
         },
         "challenges": [
           {
-            "id": "switch-case-01",
-            "title": "Day Name Validator",
-            "description": "Create a function that takes a number (1-7) and returns day name using switch-case. Add error handling for invalid input.",
+            "id": "switch_01",
+            "title": "Day of Week Converter",
+            "description": "Convert number (1-7) to day name (Monday-Sunday) using switch-case",
             "difficulty": "Easy"
           },
           {
-            "id": "switch-case-02",
+            "id": "switch_02",
+            "title": "Traffic Light Action",
+            "description": "Return the appropriate action for traffic light colors (Red: Stop, Yellow: Wait, Green: Go) using switch",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "switch_03",
             "title": "Calculator with Switch",
-            "description": "Build a calculator that accepts two numbers and an operator (+, -, *, /) using switch-case. Include division by zero handling.",
-            "difficulty": "Easy"
-          },
-          {
-            "id": "switch-case-03",
-            "title": "Menu Navigation System",
-            "description": "Implement a menu system where switch-case routes different user selections to appropriate functions. Include at least 5 menu options.",
+            "description": "Create a calculator function that takes two numbers and an operator (+, -, *, /) using switch-case",
             "difficulty": "Medium"
           }
         ]
@@ -336,29 +637,29 @@
         "title": "#29 - JavaScript For Loops (With Example) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "8:41",
         "task": {
-          "title": "For Loops: Traditional for loops",
-          "problemStatement": "Write programs using traditional for loops to: 1) Print multiplication table for number 5, 2) Sum numbers from 1 to 100, 3) Find reverse of a string, 4) Display Fibonacci series (first 10 numbers). Show initialization, condition, and increment clearly.",
+          "title": "Print Multiplication Table",
+          "problemStatement": "Write a function using for loop to print multiplication table for a given number up to 10. For example, print 5 × 1 = 5, 5 × 2 = 10, ... 5 × 10 = 50",
           "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "expectedOutput": "multiplicationTable(5) → '5 × 1 = 5\\n5 × 2 = 10\\n...5 × 10 = 50'"
         },
         "challenges": [
           {
-            "id": "for-loop-01",
-            "title": "Number Pattern Generator",
-            "description": "Create patterns like triangle, pyramid, or diamond using nested for loops. For example: Display pyramid with asterisks (*) of given height.",
+            "id": "forloop_01",
+            "title": "Sum of Numbers",
+            "description": "Calculate the sum of numbers from 1 to n using a for loop",
             "difficulty": "Easy"
           },
           {
-            "id": "for-loop-02",
-            "title": "Array Iteration Comparison",
-            "description": "Compare traditional for loop vs for...in vs for...of on an array. Show use cases and performance implications of each.",
+            "id": "forloop_02",
+            "title": "Factorial Calculator",
+            "description": "Calculate factorial of a number using for loop (5! = 5×4×3×2×1 = 120)",
             "difficulty": "Medium"
           },
           {
-            "id": "for-loop-03",
-            "title": "Break and Continue Demo",
-            "description": "Demonstrate loop control: Print numbers 1-20 but skip multiples of 3 (continue) and stop at 15 (break). Show the difference clearly.",
-            "difficulty": "Easy"
+            "id": "forloop_03",
+            "title": "Nested Loop Pattern",
+            "description": "Print a pyramid pattern using nested for loops (e.g., * to ***** for 5 rows)",
+            "difficulty": "Medium"
           }
         ]
       },
@@ -367,28 +668,28 @@
         "title": "#30 - JavaScript While Loop - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:35",
         "task": {
-          "title": "While Loop: While loops",
-          "problemStatement": "Create programs using while loops: 1) Input validation loop (repeat until valid input), 2) Countdown timer, 3) Find first number divisible by both 3 and 5, 4) Simulate a number guessing game. Ensure proper loop termination to avoid infinite loops.",
+          "title": "Count Down Timer",
+          "problemStatement": "Write a function using while loop that counts down from a given number n to 1 and returns all numbers as a string separated by commas",
           "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "expectedOutput": "countdown(5) → '5, 4, 3, 2, 1'"
         },
         "challenges": [
           {
-            "id": "while-loop-01",
-            "title": "Input Validator",
-            "description": "Create a while loop that repeatedly asks for user input until they enter a number between 1-100. Show error message for invalid inputs.",
+            "id": "while_01",
+            "title": "Input Validation Loop",
+            "description": "Keep asking for input until user enters a valid number between 1 and 100 using while loop",
             "difficulty": "Easy"
           },
           {
-            "id": "while-loop-02",
-            "title": "Digit Counter",
-            "description": "Write a while loop to count digits in a number without converting to string. For example, 12345 has 5 digits.",
+            "id": "while_02",
+            "title": "Sum Until Threshold",
+            "description": "Add numbers starting from 1 until the sum exceeds a threshold value using while loop",
             "difficulty": "Medium"
           },
           {
-            "id": "while-loop-03",
-            "title": "Password Strength Checker",
-            "description": "Use a while loop to repeatedly check password strength until user enters a strong password (8+ chars, uppercase, number, special char).",
+            "id": "while_03",
+            "title": "String Reversal",
+            "description": "Reverse a string by removing characters from the end one by one using while loop",
             "difficulty": "Medium"
           }
         ]
@@ -398,28 +699,28 @@
         "title": "#31 - JavaScript Do-While Loop - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "5:19",
         "task": {
-          "title": "Do-While Loop: Do-while pattern",
-          "problemStatement": "Implement do-while loops for: 1) Menu system that always shows at least once, 2) Dice rolling game (roll until 6 appears), 3) User survey (ask for responses), 4) Repeat operation confirmation. Explain why do-while guarantees at least one execution.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Menu Selection Handler",
+          "problemStatement": "Create a menu system that displays options and executes at least once using do-while loop. The loop should continue until user selects 'Exit'",
+          "difficulty": "Medium",
+          "expectedOutput": "Menu shown at least once, repeats based on selection until exit option chosen"
         },
         "challenges": [
           {
-            "id": "do-while-01",
-            "title": "Interactive Menu System",
-            "description": "Create a do-while menu that shows options and executes until user chooses 'exit'. Must show menu at least once.",
+            "id": "dowhile_01",
+            "title": "Password Validation",
+            "description": "Keep prompting for password until correct password is entered using do-while loop",
             "difficulty": "Easy"
           },
           {
-            "id": "do-while-02",
-            "title": "Dice Rolling Game",
-            "description": "Simulate rolling a die with do-while until value is 6. Count and display number of rolls needed.",
-            "difficulty": "Easy"
+            "id": "dowhile_02",
+            "title": "Dice Roll Game",
+            "description": "Roll a dice (random 1-6) and keep rolling until you get 6 using do-while loop",
+            "difficulty": "Medium"
           },
           {
-            "id": "do-while-03",
-            "title": "Comparison: While vs Do-While",
-            "description": "Implement same logic with while and do-while showing the difference when condition is initially false. Demonstrate why do-while is useful.",
+            "id": "dowhile_03",
+            "title": "Number Guessing Game",
+            "description": "Implement a guessing game that plays at least once and continues until correct number is guessed",
             "difficulty": "Medium"
           }
         ]
@@ -429,28 +730,28 @@
         "title": "#32 - JavaScript For..in Loop - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "5:41",
         "task": {
-          "title": "For..in Loop: Object property iteration",
-          "problemStatement": "Use for...in loops to: 1) List all properties of an object, 2) Create object property reader, 3) Demonstrate that it iterates inherited properties, 4) Compare with Object.keys(). Include explanations of when to use for...in (objects) vs for (arrays).",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Object Property Printer",
+          "problemStatement": "Write a function that uses for..in loop to iterate through all properties of an object and return a string with property names and values formatted as 'key: value'",
+          "difficulty": "Easy",
+          "expectedOutput": "printObject({name: 'John', age: 25}) → 'name: John, age: 25'"
         },
         "challenges": [
           {
-            "id": "for-in-01",
-            "title": "Object Properties Lister",
-            "description": "Create a function that uses for...in to list all properties and their values from any object in a formatted way.",
+            "id": "forin_01",
+            "title": "Sum Object Values",
+            "description": "Sum all numeric values in an object using for..in loop",
             "difficulty": "Easy"
           },
           {
-            "id": "for-in-02",
-            "title": "Object Property Validator",
-            "description": "Use for...in to check if an object has required properties. Log missing properties with suggestions.",
+            "id": "forin_02",
+            "title": "Filter Object Properties",
+            "description": "Create a new object containing only properties with values greater than a threshold using for..in",
             "difficulty": "Medium"
           },
           {
-            "id": "for-in-03",
-            "title": "Inherited Properties Explorer",
-            "description": "Demonstrate for...in iterating inherited properties. Show difference with hasOwnProperty() check.",
+            "id": "forin_03",
+            "title": "Nested Object Iterator",
+            "description": "Iterate through nested objects using for..in and collect all leaf values",
             "difficulty": "Medium"
           }
         ]
@@ -460,29 +761,29 @@
         "title": "#33 - JavaScript For..of Loop - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "2:01",
         "task": {
-          "title": "For..of Loop: Iterable value iteration",
-          "problemStatement": "Implement for...of loops with: 1) Strings (iterate characters), 2) Arrays (iterate values), 3) Sets and Maps, 4) Custom iterables. Show the difference between for...of (values) and for...in (keys). Include examples where for...of fails on plain objects.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Array Element Processor",
+          "problemStatement": "Write a function using for..of loop to iterate through an array of numbers and return the sum of all elements",
+          "difficulty": "Easy",
+          "expectedOutput": "sumArray([1, 2, 3, 4, 5]) → 15"
         },
         "challenges": [
           {
-            "id": "for-of-01",
-            "title": "String Character Processor",
-            "description": "Use for...of to iterate string characters and create functions like reverseString, countVowels, or capitalize.",
+            "id": "forof_01",
+            "title": "String Character Counter",
+            "description": "Count specific character occurrences in a string using for..of loop",
             "difficulty": "Easy"
           },
           {
-            "id": "for-of-02",
-            "title": "Array Sum and Filter",
-            "description": "Use for...of to sum array values, filter even/odd numbers, or find maximum value without using array methods.",
-            "difficulty": "Easy"
-          },
-          {
-            "id": "for-of-03",
-            "title": "Map and Set Iteration",
-            "description": "Use for...of with Map and Set data structures. Show how it accesses values differently than objects.",
+            "id": "forof_02",
+            "title": "Array Transformation",
+            "description": "Transform each element in an array (e.g., square each number) and return new array using for..of",
             "difficulty": "Medium"
+          },
+          {
+            "id": "forof_03",
+            "title": "Find Maximum Value",
+            "description": "Find the maximum value in an array of numbers using for..of loop",
+            "difficulty": "Easy"
           }
         ]
       },
@@ -491,28 +792,28 @@
         "title": "#34 - How to fix Infinite Loop in JavaScript (Solution) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:46",
         "task": {
-          "title": "Infinite Loop: Detecting and fixing",
-          "problemStatement": "Identify and fix infinite loops: 1) Demonstrate common causes (missing increment, wrong condition, missing break), 2) Show each problematic code and its fix, 3) Create a timeout mechanism to prevent browser freeze, 4) Explain debugging techniques (console logs, breakpoints). Include before/after comparisons.",
+          "title": "Debug Infinite Loop",
+          "problemStatement": "Identify and fix infinite loops by ensuring loop counter is updated and exit condition is properly defined. Implement a corrected version of common infinite loop patterns",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "expectedOutput": "Fixed loop terminates correctly with proper output after iterations"
         },
         "challenges": [
           {
-            "id": "infinite-01",
-            "title": "Bug Detective: Find the Loop",
-            "description": "Provide buggy code with infinite loops and ask student to identify the issue and fix it. Include 3-4 different scenarios.",
+            "id": "infinite_01",
+            "title": "Missing Increment Fix",
+            "description": "Fix a for loop where counter is not incremented, causing infinite loop",
             "difficulty": "Easy"
           },
           {
-            "id": "infinite-02",
-            "title": "Safe Loop Wrapper",
-            "description": "Create a wrapper function that executes a loop with maximum iteration limit to prevent infinite loops in development.",
-            "difficulty": "Medium"
+            "id": "infinite_02",
+            "title": "Wrong Condition Fix",
+            "description": "Fix a while loop with incorrect exit condition that creates infinite loop",
+            "difficulty": "Easy"
           },
           {
-            "id": "infinite-03",
-            "title": "Loop Debugging Simulation",
-            "description": "Write code that simulates what would be an infinite loop and add logging to show execution flow and identify the problem.",
+            "id": "infinite_03",
+            "title": "Break Statement Implementation",
+            "description": "Add proper break statements to exit infinite loops in various scenarios",
             "difficulty": "Medium"
           }
         ]
@@ -522,28 +823,28 @@
         "title": "#35 - JavaScript Object & OOP(Object Oriented Programming) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "13:17",
         "task": {
-          "title": "Object & OOP: OOP fundamentals",
-          "problemStatement": "Create OOP fundamentals: 1) Define a Person object with properties (name, age, email) and methods (introduce, greet), 2) Demonstrate encapsulation with private-like properties, 3) Show polymorphism with different object types (Student, Teacher) extending Person, 4) Explain inheritance and composition. Include practical examples.",
+          "title": "Create User Object",
+          "problemStatement": "Create a user object with properties (name, email, age) and methods (getInfo() returns formatted string, updateAge() updates the age). Demonstrate basic OOP principles",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "expectedOutput": "user.getInfo() → 'Name: John, Email: john@example.com, Age: 25'"
         },
         "challenges": [
           {
-            "id": "oop-01",
-            "title": "Bank Account Class",
-            "description": "Create a BankAccount object with properties (accountNumber, balance, owner) and methods (deposit, withdraw, getBalance). Implement validation.",
+            "id": "oop_01",
+            "title": "Rectangle Class",
+            "description": "Create a Rectangle object with width, height properties and methods for area and perimeter calculation",
             "difficulty": "Easy"
           },
           {
-            "id": "oop-02",
-            "title": "Shape Hierarchy",
-            "description": "Create Shape, Circle, and Rectangle objects demonstrating inheritance. Implement area() method differently for each shape.",
+            "id": "oop_02",
+            "title": "Bank Account Object",
+            "description": "Create a BankAccount object with balance, deposit() and withdraw() methods with validation",
             "difficulty": "Medium"
           },
           {
-            "id": "oop-03",
-            "title": "Car Management System",
-            "description": "Build Car objects with properties and methods (start, stop, accelerate). Create fleet management with multiple cars.",
+            "id": "oop_03",
+            "title": "Student Grade Calculator",
+            "description": "Create a Student object that calculates average grade and returns grade letter using methods",
             "difficulty": "Medium"
           }
         ]
@@ -553,28 +854,28 @@
         "title": "#36 - JavaScript Factory Functions - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "7:53",
         "task": {
-          "title": "Factory Functions: Factory pattern",
-          "problemStatement": "Implement factory functions: 1) Create a userFactory function that returns user objects, 2) Implement private variables using closures, 3) Add methods to created objects, 4) Compare with constructor functions. Demonstrate advantages (no 'new' keyword, privacy). Include examples with different configurations.",
+          "title": "Create Person Factory",
+          "problemStatement": "Write a factory function that creates person objects with properties (name, age) and methods (greet() returns greeting). Call it multiple times to create different person instances",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "expectedOutput": "person1.greet() → 'Hello, I am John', person2.greet() → 'Hello, I am Sarah'"
         },
         "challenges": [
           {
-            "id": "factory-01",
-            "title": "Vehicle Factory",
-            "description": "Create vehicleFactory that produces cars, bikes, trucks with appropriate methods and properties based on type parameter.",
+            "id": "factory_01",
+            "title": "Car Factory Function",
+            "description": "Create a factory function that produces car objects with brand, model, year and methods",
             "difficulty": "Easy"
           },
           {
-            "id": "factory-02",
-            "title": "Logger Factory with Privacy",
-            "description": "Build loggerFactory with private counter and timestamp. Return object with methods to log messages with automatic ID and time.",
+            "id": "factory_02",
+            "title": "Todo Factory with Methods",
+            "description": "Create a factory function that produces todo items with title, completed status and toggle method",
             "difficulty": "Medium"
           },
           {
-            "id": "factory-03",
-            "title": "Configuration Factory",
-            "description": "Create configFactory for different environments (development, staging, production) returning appropriate settings and methods.",
+            "id": "factory_03",
+            "title": "Product Factory with Pricing",
+            "description": "Create a factory function for products with methods to calculate discount and final price",
             "difficulty": "Medium"
           }
         ]
@@ -584,28 +885,28 @@
         "title": "#37 - JavaScript Constructor Functions - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "7:01",
         "task": {
-          "title": "Constructor Functions: Constructor pattern",
-          "problemStatement": "Implement constructor functions: 1) Create User constructor with properties and methods, 2) Use 'new' keyword correctly, 3) Demonstrate prototype usage for shared methods, 4) Compare with factory functions and classes. Show memory efficiency with prototypes. Include instanceof checks and constructor property.",
+          "title": "Create Person Constructor",
+          "problemStatement": "Write a constructor function Person that takes name and age as parameters. Add a method introduce() using prototype. Create instances with 'new' keyword",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "expectedOutput": "new Person('John', 25).introduce() → 'I am John and 25 years old'"
         },
         "challenges": [
           {
-            "id": "constructor-01",
-            "title": "Person Constructor",
-            "description": "Create Person constructor with name, age, email properties and methods like introduce() and birthYear(). Use prototypes efficiently.",
+            "id": "constructor_01",
+            "title": "Animal Constructor",
+            "description": "Create an Animal constructor with species and sound properties, add a method to make sound",
             "difficulty": "Easy"
           },
           {
-            "id": "constructor-02",
-            "title": "Inheritance with Constructors",
-            "description": "Create Animal and Dog constructors demonstrating inheritance. Override methods and show prototype chain.",
+            "id": "constructor_02",
+            "title": "Circle Constructor with Area",
+            "description": "Create a Circle constructor with radius property and methods to calculate area and circumference",
             "difficulty": "Medium"
           },
           {
-            "id": "constructor-03",
-            "title": "Constructor Pattern Best Practices",
-            "description": "Demonstrate proper constructor usage: instance variables, prototype methods, static methods, and instance checks with instanceof.",
+            "id": "constructor_03",
+            "title": "Book Constructor with Prototype",
+            "description": "Create a Book constructor and add multiple methods via prototype for getting info and updating details",
             "difficulty": "Medium"
           }
         ]
@@ -615,28 +916,28 @@
         "title": "#38 - JavaScript's Dynamic Nature of Objects - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:25",
         "task": {
-          "title": "Dynamic Objects: Adding/removing properties",
-          "problemStatement": "Work with dynamic object properties: 1) Add properties to existing objects at runtime, 2) Delete properties using delete keyword, 3) Modify property descriptors, 4) Demonstrate that JavaScript objects are mutable. Show practical examples where dynamism is useful and potential pitfalls.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Add Properties Dynamically",
+          "problemStatement": "Create an object and dynamically add/remove properties and methods at runtime. Demonstrate bracket notation and adding methods after object creation",
+          "difficulty": "Medium",
+          "expectedOutput": "obj.newProperty = 'value' works, obj['key'] = 'data' works, methods added dynamically execute correctly"
         },
         "challenges": [
           {
-            "id": "dynamic-01",
-            "title": "Property Manager",
-            "description": "Create functions to dynamically add, remove, update, and query object properties. Handle edge cases like undefined values.",
+            "id": "dynamic_01",
+            "title": "Configuration Builder",
+            "description": "Build a configuration object by dynamically adding properties based on conditions",
             "difficulty": "Easy"
           },
           {
-            "id": "dynamic-02",
-            "title": "Object Configuration Builder",
-            "description": "Build objects by dynamically adding properties based on configuration array. Support property types, defaults, and validation.",
+            "id": "dynamic_02",
+            "title": "Dynamic Method Binding",
+            "description": "Create functions dynamically and attach them as object methods at runtime",
             "difficulty": "Medium"
           },
           {
-            "id": "dynamic-03",
-            "title": "Property Watcher",
-            "description": "Create system that logs when properties are added/removed from objects using Proxy or Object.defineProperty.",
+            "id": "dynamic_03",
+            "title": "Object Property Cloner",
+            "description": "Copy properties from one object to another dynamically, including methods",
             "difficulty": "Medium"
           }
         ]
@@ -646,28 +947,28 @@
         "title": "#39 - JavaScript Constructor Property - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "6:46",
         "task": {
-          "title": "Constructor Property: Constructor reference",
-          "problemStatement": "Explore constructor property: 1) Understand how every instance has .constructor referencing its constructor, 2) Use constructor property to create new instances, 3) Demonstrate changing constructor property and its effects, 4) Show practical applications (cloning, type checking). Include examples with built-in types.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "title": "Verify Constructor Property",
+          "problemStatement": "Create objects using constructor functions and verify the constructor property using obj.constructor. Demonstrate how constructor property references the original constructor function",
+          "difficulty": "Easy",
+          "expectedOutput": "person.constructor === Person → true, person.constructor.name → 'Person'"
         },
         "challenges": [
           {
-            "id": "constructor-prop-01",
-            "title": "Constructor Reference Checker",
-            "description": "Create function that checks object's constructor and returns its name. Handle built-in types like Array, String, Object.",
+            "id": "constructor_prop_01",
+            "title": "Type Checker Function",
+            "description": "Write a function that identifies the constructor type of any given object",
             "difficulty": "Easy"
           },
           {
-            "id": "constructor-prop-02",
-            "title": "Clone Factory using Constructor",
-            "description": "Use constructor property to create deep clones of objects without knowing their type beforehand.",
+            "id": "constructor_prop_02",
+            "title": "Object Cloning",
+            "description": "Clone an object using its constructor property to create a new instance of the same type",
             "difficulty": "Medium"
           },
           {
-            "id": "constructor-prop-03",
-            "title": "Instance Creator",
-            "description": "Create new instances of objects by accessing their constructor property. Build instances from array of existing objects.",
+            "id": "constructor_prop_03",
+            "title": "Constructor Property Restoration",
+            "description": "Create objects where constructor property is lost and restore it correctly",
             "difficulty": "Medium"
           }
         ]
@@ -678,9 +979,8 @@
         "duration": "7:49",
         "task": {
           "title": "Functions Objects: Functions as objects",
-          "problemStatement": "Demonstrate functions as first-class objects: 1) Add properties to functions, 2) Use functions as properties in objects, 3) Pass functions as arguments, 4) Return functions from functions (higher-order), 5) Store functions in variables and arrays. Show practical patterns like decorators and callbacks.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Demonstrate functions as first-class objects: \n1) Add properties to functions,\n2) Use functions as properties in objects, \n3) Pass functions as arguments, \n4) Return functions from functions (higher-order), \n5) Store functions in variables and arrays. Show practical patterns like decorators and callbacks.",
+          "difficulty": "Medium"
         },
         "challenges": [
           {
@@ -709,9 +1009,8 @@
         "duration": "9:23",
         "task": {
           "title": "Value vs Reference: Pass by value/reference",
-          "problemStatement": "Demonstrate primitives vs references: 1) Show primitives (number, string, boolean, null, undefined, symbol) passed by value, 2) Show objects/arrays passed by reference, 3) Create examples modifying function parameters, 4) Explain stack vs heap memory. Include common pitfalls and how to handle them properly.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Demonstrate primitives vs references: \n1) Show primitives (number, string, boolean, null, undefined, symbol) passed by value, \n2) Show objects/arrays passed by reference, \n3) Create examples modifying function parameters, \n4) Explain stack vs heap memory. Include common pitfalls and how to handle them properly.",
+          "difficulty": "Medium"
         },
         "challenges": [
           {
@@ -740,9 +1039,8 @@
         "duration": "6:55",
         "task": {
           "title": "Enumerate Properties: Object.keys/values",
-          "problemStatement": "Work with object enumeration: 1) Use Object.keys() to get property names, 2) Use Object.values() to get property values, 3) Use Object.entries() for key-value pairs, 4) Compare with for...in loop, 5) Handle inherited properties with hasOwnProperty(). Show practical use cases.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Work with object enumeration: \n1) Use Object.keys() to get property names, \n2) Use Object.values() to get property values, \n3) Use Object.entries() for key-value pairs, \n4) Compare with for...in loop, \n5) Handle inherited properties with hasOwnProperty(). Show practical use cases.",
+          "difficulty": "Medium"
         },
         "challenges": [
           {
@@ -771,9 +1069,8 @@
         "duration": "6:21",
         "task": {
           "title": "Cloning Objects: Shallow and deep clone",
-          "problemStatement": "Implement cloning techniques: 1) Shallow clone using Object.assign() or spread operator, 2) Deep clone for nested objects, 3) Demonstrate why simple assignment doesn't work, 4) Compare performance of different methods. Show when each approach is appropriate. Include circular reference handling.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Implement cloning techniques: \n1) Shallow clone using Object.assign() or spread operator, \n2) Deep clone for nested objects, \n3) Demonstrate why simple assignment doesn't work, \n4) Compare performance of different methods. Show when each approach is appropriate. Include circular reference handling.",
+          "difficulty": "Medium"
         },
         "challenges": [
           {
@@ -802,9 +1099,8 @@
         "duration": "2:01",
         "task": {
           "title": "Garbage Collection: Memory management",
-          "problemStatement": "Explain garbage collection: 1) How JavaScript manages memory automatically, 2) Demonstrate memory leaks (circular references, forgotten listeners), 3) Show how to prevent leaks (nullify references, remove listeners), 4) Discuss mark-and-sweep algorithm basics. Include practical patterns for cleanup.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Explain garbage collection: \n1) How JavaScript manages memory automatically, \n2) Demonstrate memory leaks (circular references, forgotten listeners), \n3) Show how to prevent leaks (nullify references, remove listeners), \n4) Discuss mark-and-sweep algorithm basics. Include practical patterns for cleanup.",
+          "difficulty": "Medium"
         },
         "challenges": [
           {
@@ -833,9 +1129,8 @@
         "duration": "13:50",
         "task": {
           "title": "Math Object: Math methods",
-          "problemStatement": "Explore Math object methods: 1) Use Math.random() for generating random numbers, 2) Use Math.floor/ceil/round for rounding, 3) Use Math.max/min for comparisons, 4) Use trigonometric methods (sin, cos), 5) Implement practical functions like random range generator, dice roller, percentage calculator.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Explore Math object methods: \n1) Use Math.random() for generating random numbers, \n2) Use Math.floor/ceil/round for rounding, \n3) Use Math.max/min for comparisons, \n4) Use trigonometric methods (sin, cos), \n5) Implement practical functions like random range generator, dice roller, percentage calculator.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -864,9 +1159,8 @@
         "duration": "19:24",
         "task": {
           "title": "String Object: String methods",
-          "problemStatement": "Master String methods: 1) Use charAt, charCodeAt for character access, 2) Use slice, substring, substr for extraction, 3) Use indexOf, lastIndexOf for searching, 4) Use split, replace, trim for manipulation, 5) Use toUpperCase, toLowerCase for case, 6) Use concat, padStart/padEnd. Include practical text processing examples.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Master String methods: \n1) Use charAt, charCodeAt for character access, \n2) Use slice, substring, substr for extraction, \n3) Use indexOf, lastIndexOf for searching, \n4) Use split, replace, trim for manipulation, \n5) Use toUpperCase, toLowerCase for case, \n6) Use concat, padStart/padEnd. Include practical text processing examples.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -895,9 +1189,8 @@
         "duration": "7:33",
         "task": {
           "title": "Template Literals: String interpolation",
-          "problemStatement": "Work with template literals: 1) Use backticks and ${} for interpolation, 2) Create multi-line strings, 3) Include expressions in templates, 4) Use tagged templates for custom processing, 5) Compare with string concatenation. Show readability improvements and advanced patterns.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Work with template literals: \n1) Use backticks and ${} for interpolation, \n2) Create multi-line strings, \n3) Include expressions in templates, \n4) Use tagged templates for custom processing, \n5) Compare with string concatenation. Show readability improvements and advanced patterns.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -926,9 +1219,8 @@
         "duration": "9:14",
         "task": {
           "title": "Date Object: Date handling",
-          "problemStatement": "Work with Date object: 1) Create and parse dates, 2) Get year, month, day, hours, minutes, 3) Calculate time differences, 4) Format dates for display, 5) Work with timezones basics. Create practical functions like age calculator, countdown timer, relative date display (e.g., '2 hours ago').",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Work with Date object: \n1) Create and parse dates, \n2) Get year, month, day, hours, minutes, \n3) Calculate time differences, \n4) Format dates for display, \n5) Work with timezones basics. Create practical functions like age calculator, countdown timer, relative date display (e.g., '2 hours ago').",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -957,9 +1249,8 @@
         "duration": "2:04",
         "task": {
           "title": "Arrays In-depth: Array properties",
-          "problemStatement": "Master array fundamentals: 1) Understand length property and sparse arrays, 2) Create arrays with different methods (literal, constructor), 3) Access elements with indices (positive, negative), 4) Understand array-like objects, 5) Use Array.isArray() for type checking. Show internal structure and properties.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Master array fundamentals: \n1) Understand length property and sparse arrays, \n2) Create arrays with different methods (literal, constructor), \n3) Access elements with indices (positive, negative), \n4) Understand array-like objects, \n5) Use Array.isArray() for type checking. Show internal structure and properties.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -988,9 +1279,8 @@
         "duration": "9:08",
         "task": {
           "title": "Adding Elements: Push and array methods",
-          "problemStatement": "Master adding elements: 1) Use push() to add to end, 2) Use unshift() to add to beginning, 3) Use splice() for insertion, 4) Use concat() for merging, 5) Use spread operator (...) for adding. Show mutating vs non-mutating methods. Include examples with single and multiple elements.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Master adding elements: \n1) Use push() to add to end, \n2) Use unshift() to add to beginning, \n3) Use splice() for insertion, \n4) Use concat() for merging, \n5) Use spread operator (...) for adding. Show mutating vs non-mutating methods. Include examples with single and multiple elements.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -1019,9 +1309,8 @@
         "duration": "7:58",
         "task": {
           "title": "Finding Primitives: Array search primitives",
-          "problemStatement": "Search primitive arrays: 1) Use indexOf() for first occurrence, 2) Use lastIndexOf() for last occurrence, 3) Use includes() for existence check, 4) Use find() with callback, 5) Use findIndex() for index. Demonstrate differences between methods. Include examples with numbers, strings, booleans.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Search primitive arrays: \n1) Use indexOf() for first occurrence, \n2) Use lastIndexOf() for last occurrence, \n3) Use includes() for existence check, \n4) Use find() with callback, \n5) Use findIndex() for index. Demonstrate differences between methods. Include examples with numbers, strings, booleans.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -1050,9 +1339,8 @@
         "duration": "8:09",
         "task": {
           "title": "Finding References: Object array search",
-          "problemStatement": "Search object arrays: 1) Use find() with predicate function, 2) Use findIndex() for index, 3) Use filter() for multiple matches, 4) Compare objects by properties, 5) Handle nested properties. Create practical search functions for complex objects with various criteria.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Search object arrays: \n1) Use find() with predicate function, \n2) Use findIndex() for index, \n3) Use filter() for multiple matches, \n4) Compare objects by properties, \n5) Handle nested properties. Create practical search functions for complex objects with various criteria.",
+          "difficulty": "Medium"
         },
         "challenges": [
           {
@@ -1081,9 +1369,8 @@
         "duration": "3:30",
         "task": {
           "title": "Arrow Functions: ES6 syntax",
-          "problemStatement": "Master arrow functions: 1) Basic syntax (x => x * 2), 2) Multi-parameter functions, 3) Multi-line functions with braces, 4) Implicit return, 5) Understand 'this' binding difference. Compare with regular functions. Show use in callbacks, array methods, and practical patterns.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Master arrow functions: \n1) Basic syntax (x => x * 2), \n2) Multi-parameter functions, \n3) Multi-line functions with braces, \n4) Implicit return, \n5) Understand 'this' binding difference. Compare with regular functions. Show use in callbacks, array methods, and practical patterns.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -1112,9 +1399,8 @@
         "duration": "4:45",
         "task": {
           "title": "Removing Elements: Array removal",
-          "problemStatement": "Master element removal: 1) Use pop() to remove from end, 2) Use shift() to remove from start, 3) Use splice() for removal by index, 4) Use filter() for conditional removal, 5) Use slice() for non-mutating. Show mutating vs non-mutating approaches. Include examples of removing specific values and conditions.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Master element removal: \n1) Use pop() to remove from end, \n2) Use shift() to remove from start, \n3) Use splice() for removal by index, \n4) Use filter() for conditional removal, \n5) Use slice() for non-mutating. Show mutating vs non-mutating approaches. Include examples of removing specific values and conditions.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -1143,9 +1429,8 @@
         "duration": "9:23",
         "task": {
           "title": "Emptying Arrays: Clearing arrays",
-          "problemStatement": "Clear array contents: 1) Set length to 0, 2) Use splice(0), 3) Reassign empty array, 4) Understand reference implications, 5) Handle multiple references. Show when each method is appropriate and potential pitfalls with shared references. Include practical cleanup patterns.",
-          "difficulty": "Easy",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
+          "problemStatement": "Clear array contents: \n1) Set length to 0, \n2) Use splice(0), \n3) Reassign empty array, \n4) Understand reference implications, \n5) Handle multiple references. Show when each method is appropriate and potential pitfalls with shared references. Include practical cleanup patterns.",
+          "difficulty": "Easy"
         },
         "challenges": [
           {
@@ -1173,308 +1458,867 @@
         "title": "#56 - Combining & Extracting elements in JavaScript Arrays - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "8:25",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Combine and Extract Arrays",
+          "problemStatement": "Write functions to combine multiple arrays together and extract specific portions from arrays using various methods.",
+          "difficulty": "Easy",
+          "expectedOutput": "Combined arrays and extracted array portions"
+        },
+        "challenges": [
+          {
+            "id": "56-1",
+            "title": "Combine Multiple Arrays",
+            "description": "Create a function that combines 3 or more arrays into a single array. Use both concat() and spread operator methods.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "56-2",
+            "title": "Extract Portion of Array",
+            "description": "Write a function that extracts a portion of an array between two indices without modifying the original array.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "56-3",
+            "title": "Merge and Remove Duplicates",
+            "description": "Combine multiple arrays and remove duplicate elements. Return a new array with unique values only.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "4jRClLn7XeM",
         "title": "#57 - JavaScript Spread Operator - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "3:10",
         "task": {
-          "title": "Practice: #57 - JavaScript Spread Operator - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#57 - JavaScript Spread Operator - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Master Spread Operator",
+          "problemStatement": "Learn and apply the spread operator (...) to arrays and objects for copying, combining, and destructuring.",
+          "difficulty": "Medium",
+          "expectedOutput": "Properly spread arrays and objects with correct syntax"
+        },
+        "challenges": [
+          {
+            "id": "57-1",
+            "title": "Spread Array Elements",
+            "description": "Use spread operator to convert an array into individual elements. Pass array elements as separate arguments to a function.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "57-2",
+            "title": "Shallow Copy Arrays",
+            "description": "Create a shallow copy of an array using the spread operator. Verify that modifying the copy doesn't affect the original.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "57-3",
+            "title": "Combine with Filtering",
+            "description": "Use spread operator to combine arrays and apply filtering conditions in a single operation.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "-0w-EhFnZ9k",
         "title": "#58 - JavaScript Arrays: Iterating Elements (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "9:44",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Iterate Through Arrays",
+          "problemStatement": "Explore different methods to iterate through arrays including forEach, for loop, while loop, and for...of.",
+          "difficulty": "Easy",
+          "expectedOutput": "Successfully iterate and process all array elements"
+        },
+        "challenges": [
+          {
+            "id": "58-1",
+            "title": "ForEach with Index",
+            "description": "Use forEach() to iterate through an array and log both the element and its index.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "58-2",
+            "title": "Conditional Iteration",
+            "description": "Iterate through an array and perform different actions based on element values. Skip elements that don't meet criteria.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "58-3",
+            "title": "Nested Array Iteration",
+            "description": "Iterate through a multi-dimensional array and flatten it into a single array using nested loops.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "LIQjueuL8kA",
         "title": "#59 - Joining & Splitting JavaScript Arrays (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "10:55",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Convert Between Arrays and Strings",
+          "problemStatement": "Learn how to join arrays into strings and split strings into arrays using appropriate methods.",
+          "difficulty": "Easy",
+          "expectedOutput": "Correctly converted arrays and strings"
+        },
+        "challenges": [
+          {
+            "id": "59-1",
+            "title": "Join Array with Separator",
+            "description": "Convert an array of words into a sentence using join() method with specific separators.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "59-2",
+            "title": "Split and Process String",
+            "description": "Split a string by delimiter and process each element to create a formatted output.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "59-3",
+            "title": "CSV Data Processing",
+            "description": "Parse CSV data by splitting on commas, process rows, and join them back in different format.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "cpAXCuUqLD0",
         "title": "#60 - Sorting a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "11:30",
         "task": {
-          "title": "Practice: #60 - Sorting a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#60 - Sorting a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Sort Arrays in Different Ways",
+          "problemStatement": "Learn to sort arrays of numbers, strings, and objects using the sort() method with custom comparators.",
+          "difficulty": "Medium",
+          "expectedOutput": "Arrays sorted in ascending, descending, or custom order"
+        },
+        "challenges": [
+          {
+            "id": "60-1",
+            "title": "Sort Numbers Ascending",
+            "description": "Sort an array of numbers in ascending order using a comparison function.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "60-2",
+            "title": "Sort Objects by Property",
+            "description": "Sort an array of objects by a specific property (like name or age) in ascending or descending order.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "60-3",
+            "title": "Complex Multi-Level Sorting",
+            "description": "Sort an array of objects by multiple criteria. First by one property, then by another if values are equal.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "hhZ9t6Vw-tw",
         "title": "#61 - Primitives: Testing a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "13:38",
         "task": {
-          "title": "Practice: #61 - Primitives: Testing a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#61 - Primitives: Testing a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Test Array Elements",
+          "problemStatement": "Learn to use every() and some() methods to test whether array elements meet specific conditions.",
+          "difficulty": "Medium",
+          "expectedOutput": "Boolean results from array testing methods"
+        },
+        "challenges": [
+          {
+            "id": "61-1",
+            "title": "Check All Even Numbers",
+            "description": "Use every() to check if all numbers in an array are even. Return true or false.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "61-2",
+            "title": "Check Any Large Value",
+            "description": "Use some() to check if at least one element in the array is greater than 100.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "61-3",
+            "title": "Complex Validation Logic",
+            "description": "Create a validation function using every() and some() that tests multiple complex conditions on array elements.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "WHtXXwAzj6Q",
         "title": "#62 - Testing Objects in a JavaScript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "6:21",
         "task": {
-          "title": "Objects & OOP Exercise",
-          "problemStatement": "Create a constructor or factory making a simple `Counter` with methods and show prototypal or class-based usage. Include a brief explanation of `this` behaviour.",
+          "title": "Test Objects in Arrays",
+          "problemStatement": "Apply testing methods (every, some) to arrays of objects with complex property validation.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Boolean results from testing object properties"
+        },
+        "challenges": [
+          {
+            "id": "62-1",
+            "title": "Verify All Users Active",
+            "description": "Check if all user objects in an array have status set to 'active' using every() method.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "62-2",
+            "title": "Find Any Premium Member",
+            "description": "Use some() to check if at least one member object has a premium property set to true.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "62-3",
+            "title": "Multi-Property Validation",
+            "description": "Test objects with multiple properties and ensure all meet specific criteria across different properties.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "orFP_P9cHkU",
         "title": "#63 - Filtering a Javascript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "11:52",
         "task": {
-          "title": "Practice: #63 - Filtering a Javascript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#63 - Filtering a Javascript Array (With Examples) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Filter Array Elements",
+          "problemStatement": "Use the filter() method to create new arrays containing only elements that meet specific conditions.",
+          "difficulty": "Medium",
+          "expectedOutput": "New filtered arrays with selected elements"
+        },
+        "challenges": [
+          {
+            "id": "63-1",
+            "title": "Filter Numbers Above Threshold",
+            "description": "Filter an array of numbers and return only those greater than 50.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "63-2",
+            "title": "Filter Objects by Property",
+            "description": "Filter an array of objects and return only items where a specific property matches a condition.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "63-3",
+            "title": "Chain Multiple Filters",
+            "description": "Apply multiple filter conditions in sequence to progressively narrow down array elements.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "kkVEtr6Bedo",
         "title": "#64 - Finding a Javascript Array - find() - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "7:52",
         "task": {
-          "title": "Practice: #64 - Finding a Javascript Array - find() - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#64 - Finding a Javascript Array - find() - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Find Specific Array Elements",
+          "problemStatement": "Learn to use find() and findIndex() methods to locate elements in arrays based on conditions.",
+          "difficulty": "Medium",
+          "expectedOutput": "Found elements or their indices"
+        },
+        "challenges": [
+          {
+            "id": "64-1",
+            "title": "Find First Even Number",
+            "description": "Use find() to locate the first even number in an array of integers.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "64-2",
+            "title": "Find Index of Object",
+            "description": "Use findIndex() to locate the index of an object with a specific property value.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "64-3",
+            "title": "Find with Complex Logic",
+            "description": "Find elements using complex conditions involving multiple properties or calculations.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "ybFUJVYQVok",
         "title": "#65 - Javascript Arrays: Map() - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "8:48",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
+          "title": "Transform Arrays with Map",
+          "problemStatement": "Use the map() method to transform each element of an array into a new value.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "New array with transformed elements"
+        },
+        "challenges": [
+          {
+            "id": "65-1",
+            "title": "Double All Numbers",
+            "description": "Create a new array where each number is doubled using map() method.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "65-2",
+            "title": "Extract Object Properties",
+            "description": "Use map() to extract a specific property from each object in an array.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "65-3",
+            "title": "Complex Object Transformation",
+            "description": "Transform an array of objects into a completely different structure using map() with nested operations.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "IvocjDBFICk",
         "title": "#66 - Javascript Arrays: Chaining Methods - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "11:55",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Chain Multiple Array Methods",
+          "problemStatement": "Combine multiple array methods (map, filter, reduce) in a single chain for efficient data processing.",
+          "difficulty": "Hard",
+          "expectedOutput": "Final result from chained array operations"
+        },
+        "challenges": [
+          {
+            "id": "66-1",
+            "title": "Filter and Map Combined",
+            "description": "Filter an array to get only numbers above 10, then double each number using method chaining.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "66-2",
+            "title": "Complex Data Pipeline",
+            "description": "Chain filter, map, and sort methods to process an array of objects with multiple transformations.",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "66-3",
+            "title": "Optimize with Chaining",
+            "description": "Take inefficient nested loop code and refactor it using method chaining for better performance.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "7n_42ZKdkKg",
         "title": "#67 - Javascript Arrays: reduce() Method - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "21:34",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Aggregate Data with Reduce",
+          "problemStatement": "Master the reduce() method to aggregate array elements into a single value or object.",
+          "difficulty": "Hard",
+          "expectedOutput": "Accumulated result from reduce operation"
+        },
+        "challenges": [
+          {
+            "id": "67-1",
+            "title": "Sum All Array Elements",
+            "description": "Use reduce() to calculate the sum of all numbers in an array.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "67-2",
+            "title": "Build Object from Array",
+            "description": "Use reduce() to convert an array of key-value pairs into a single object.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "67-3",
+            "title": "Complex Aggregation",
+            "description": "Use reduce() with complex logic to group, count, and calculate statistics from array elements.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "hTyD4n2EiY8",
         "title": "#68 - JavaScript: Difference between sort(), filter(), map(), reduce() methods - (தமிழில்) (Tamil)",
         "duration": "11:58",
         "task": {
-          "title": "Practice: #68 - JavaScript: Difference between sort(), filter(), map(), reduce() methods - (தமிழில்) (Tamil)",
-          "problemStatement": "Recreate the example shown in the video titled \"#68 - JavaScript: Difference between sort(), filter(), map(), reduce() methods - (தமிழில்) (Tamil)\" and explain the key points.",
+          "title": "Compare Array Methods",
+          "problemStatement": "Understand when to use sort(), filter(), map(), and reduce() methods for different data processing tasks.",
           "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Correct use of each method for specific scenarios"
+        },
+        "challenges": [
+          {
+            "id": "68-1",
+            "title": "Choose Right Method",
+            "description": "For various data processing scenarios, identify which array method (sort/filter/map/reduce) is most appropriate.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "68-2",
+            "title": "Refactor Inefficient Code",
+            "description": "Take poorly written data processing code and optimize it by choosing the right combination of methods.",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "68-3",
+            "title": "Performance Comparison",
+            "description": "Write solutions using different methods and compare their performance and readability.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "wVE9NqLXHzg",
         "title": "#69 - JavaScript Arrays: Interview Questions (Solution) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "52:47",
         "task": {
-          "title": "Array Utilities",
-          "problemStatement": "Implement `unique`, `pluck`, and `groupBy` utility functions for arrays and include simple usage examples.",
-          "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Solve Array Interview Problems",
+          "problemStatement": "Practice common array manipulation problems asked in technical interviews.",
+          "difficulty": "Hard",
+          "expectedOutput": "Correct solutions to interview problems"
+        },
+        "challenges": [
+          {
+            "id": "69-1",
+            "title": "Find Missing Number",
+            "description": "Given an array of n-1 integers from 1 to n, find the missing number efficiently.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "69-2",
+            "title": "Two Sum Problem",
+            "description": "Find two numbers in an array that add up to a target sum using optimal approach.",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "69-3",
+            "title": "Array Rotation Problem",
+            "description": "Rotate an array left or right by k positions without using extra space.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "xqkGxTdVWfw",
         "title": "#70 - Javascript Functions In-depth - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "1:03",
         "task": {
-          "title": "Closures & Higher-order Functions",
-          "problemStatement": "Build a `memoize` wrapper and a `once` function to demonstrate closures and higher-order functions. Include short examples.",
+          "title": "Master Functions",
+          "problemStatement": "Learn function declarations, expressions, arrow functions, parameters, return values, and scope.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Properly written and functioning functions"
+        },
+        "challenges": [
+          {
+            "id": "70-1",
+            "title": "Function Declaration vs Expression",
+            "description": "Create functions using both declaration and expression syntax. Understand hoisting differences.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "70-2",
+            "title": "Arrow Functions and This",
+            "description": "Write arrow functions and understand how 'this' binding differs from regular functions.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "70-3",
+            "title": "Higher Order Functions",
+            "description": "Create functions that return other functions. Practice currying and function composition.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "j4jO45mO5Cc",
         "title": "#71 - Javascript Function Declaration vs Function Expression - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "15:11",
         "task": {
-          "title": "Practice: #71 - Javascript Function Declaration vs Function Expression - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#71 - Javascript Function Declaration vs Function Expression - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Understand Function Declaration vs Expression",
+          "problemStatement": "Learn the differences between function declarations and function expressions, including hoisting behavior and use cases.",
+          "difficulty": "Medium",
+          "expectedOutput": "Correctly identify and use both function declaration and expression patterns"
+        },
+        "challenges": [
+          {
+            "id": "71-1",
+            "title": "Convert Declaration to Expression",
+            "description": "Convert a given function declaration into a function expression. Ensure both versions produce the same output.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "71-2",
+            "title": "Compare Hoisting Behavior",
+            "description": "Demonstrate the hoisting difference by calling functions before their definition. Show why declarations work but expressions don't.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "71-3",
+            "title": "Named Function Expression",
+            "description": "Create a named function expression and use recursion to show how named expressions can reference themselves.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "AHwyQCExGko",
         "title": "#72 - Javascript Hoisting - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "7:07",
         "task": {
-          "title": "Practice: #72 - Javascript Hoisting - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#72 - Javascript Hoisting - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Master Hoisting in JavaScript",
+          "problemStatement": "Understand how JavaScript hoisting works for variables and functions, and predict the behavior of code with hoisting.",
+          "difficulty": "Medium",
+          "expectedOutput": "Correctly predict hoisting behavior and avoid common pitfalls"
+        },
+        "challenges": [
+          {
+            "id": "72-1",
+            "title": "Variable Hoisting with var",
+            "description": "Demonstrate var hoisting by accessing a variable before its declaration. Show that it returns undefined, not an error.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "72-2",
+            "title": "Function Hoisting",
+            "description": "Call a function before its declaration and show that it works correctly due to hoisting.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "72-3",
+            "title": "Temporal Dead Zone with let/const",
+            "description": "Explain why accessing let/const before declaration throws ReferenceError (Temporal Dead Zone). Compare with var hoisting.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "JuiiCYIojd4",
         "title": "#73 - Javascript Self Invoking Functions - (IIFE) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "8:46",
         "task": {
-          "title": "Closures & Higher-order Functions",
-          "problemStatement": "Build a `memoize` wrapper and a `once` function to demonstrate closures and higher-order functions. Include short examples.",
+          "title": "Create and Use IIFE",
+          "problemStatement": "Learn to create and use Immediately Invoked Function Expressions (IIFE) to create private scopes and avoid global pollution.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "IIFE patterns that create private scopes and execute immediately"
+        },
+        "challenges": [
+          {
+            "id": "73-1",
+            "title": "Create Basic IIFE",
+            "description": "Write an IIFE that executes immediately and logs a message without creating global variables.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "73-2",
+            "title": "IIFE with Parameters",
+            "description": "Create an IIFE that accepts parameters and returns a value. Show how to pass arguments to an immediately invoked function.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "73-3",
+            "title": "Module Pattern with IIFE",
+            "description": "Use IIFE to create a module with private variables and public methods. Demonstrate encapsulation.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "9ASNTv6Xn4A",
         "title": "#74 - Javascript Function Arguments - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "17:55",
         "task": {
-          "title": "Practice: #74 - Javascript Function Arguments - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#74 - Javascript Function Arguments - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Work with Function Arguments",
+          "problemStatement": "Understand how to access and manipulate function arguments using the arguments object and modern approaches.",
+          "difficulty": "Easy",
+          "expectedOutput": "Properly handle multiple and variable function arguments"
+        },
+        "challenges": [
+          {
+            "id": "74-1",
+            "title": "Access Arguments Object",
+            "description": "Create a function that accepts variable number of arguments and uses the arguments object to sum them.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "74-2",
+            "title": "Arguments vs Parameters",
+            "description": "Demonstrate the difference between function parameters (defined in declaration) and arguments (passed at call time).",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "74-3",
+            "title": "Convert Arguments to Array",
+            "description": "Show multiple ways to convert the arguments object into an array (Array.from(), spread operator, Array.prototype.slice).",
+            "difficulty": "Medium"
+          }
+        ]
       },
       {
         "videoId": "n2lSuWUzuQo",
         "title": "#75 - Javascript Rest Operator - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "7:43",
         "task": {
-          "title": "Practice: #75 - Javascript Rest Operator - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#75 - Javascript Rest Operator - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Master Rest Operator",
+          "problemStatement": "Learn to use the rest operator (...) to collect multiple arguments into an array parameter.",
+          "difficulty": "Medium",
+          "expectedOutput": "Functions using rest parameters to handle variable arguments elegantly"
+        },
+        "challenges": [
+          {
+            "id": "75-1",
+            "title": "Rest Parameters in Function",
+            "description": "Create a function that uses rest parameters (...) to accept multiple arguments and process them as an array.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "75-2",
+            "title": "Rest with Regular Parameters",
+            "description": "Combine regular parameters with rest parameters. Show that rest must be the last parameter.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "75-3",
+            "title": "Rest in Destructuring",
+            "description": "Use rest operator in destructuring assignment to capture remaining elements from arrays or object properties.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "4vDgGVJ7hjA",
         "title": "#76 - Javascript Default Parameters - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "12:56",
         "task": {
-          "title": "Practice: #76 - Javascript Default Parameters - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#76 - Javascript Default Parameters - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Use Default Parameters",
+          "problemStatement": "Learn to set default parameter values in functions to handle missing or undefined arguments.",
+          "difficulty": "Easy",
+          "expectedOutput": "Functions with sensible default values for optional parameters"
+        },
+        "challenges": [
+          {
+            "id": "76-1",
+            "title": "Basic Default Parameters",
+            "description": "Create a function with default parameter values. Show how they're used when arguments are not provided.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "76-2",
+            "title": "Default with Expressions",
+            "description": "Use complex expressions or function calls as default parameter values.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "76-3",
+            "title": "Default Parameters with Objects",
+            "description": "Set default values for object destructured parameters. Create functions that accept configuration objects with defaults.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "T22BC-jCpKs",
         "title": "#77 - Javascript Getters & Setters - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "16:11",
         "task": {
-          "title": "Practice: #77 - Javascript Getters & Setters - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#77 - Javascript Getters & Setters - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Implement Getters and Setters",
+          "problemStatement": "Learn to use getter and setter methods to control access to object properties with validation and encapsulation.",
+          "difficulty": "Medium",
+          "expectedOutput": "Objects with controlled property access through getters and setters"
+        },
+        "challenges": [
+          {
+            "id": "77-1",
+            "title": "Create Basic Getter",
+            "description": "Create an object with a getter that computes a value on-the-fly without storing it as a property.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "77-2",
+            "title": "Setter with Validation",
+            "description": "Implement a setter that validates input before assigning it to a property. Throw an error for invalid values.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "77-3",
+            "title": "Encapsulation with Private Variables",
+            "description": "Use getters and setters to create private variables with controlled access. Prevent direct modification.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "We2g6tYJeqY",
         "title": "#78 - Javascript Error Handling (Try, Throw, Catch) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "12:07",
         "task": {
-          "title": "Practice: #78 - Javascript Error Handling (Try, Throw, Catch) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#78 - Javascript Error Handling (Try, Throw, Catch) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Handle Errors with Try-Catch",
+          "problemStatement": "Learn to use try-catch-finally blocks to handle errors gracefully and throw custom errors.",
+          "difficulty": "Medium",
+          "expectedOutput": "Programs that gracefully handle errors and provide meaningful error messages"
+        },
+        "challenges": [
+          {
+            "id": "78-1",
+            "title": "Basic Try-Catch",
+            "description": "Write code with try-catch blocks to handle potential errors without crashing the program.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "78-2",
+            "title": "Throw Custom Errors",
+            "description": "Create and throw custom error messages. Catch specific error types and handle them appropriately.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "78-3",
+            "title": "Finally Block Usage",
+            "description": "Implement try-catch-finally to ensure cleanup code runs regardless of whether an error occurred.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "hfNfx9lV3Uc",
         "title": "#79 - Javascript Scopes (Global vs Local Scope) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "14:57",
         "task": {
-          "title": "Practice: #79 - Javascript Scopes (Global vs Local Scope) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#79 - Javascript Scopes (Global vs Local Scope) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "title": "Understand JavaScript Scopes",
+          "problemStatement": "Learn about global scope, local scope, function scope, and block scope in JavaScript.",
           "difficulty": "Medium",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Code demonstrating proper scope usage and avoiding global scope pollution"
+        },
+        "challenges": [
+          {
+            "id": "79-1",
+            "title": "Global vs Local Variables",
+            "description": "Demonstrate the difference between global and local variables. Show scope shadowing when local and global variables have the same name.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "79-2",
+            "title": "Function Scope",
+            "description": "Create nested functions to show how inner functions access variables from outer scopes (lexical scoping).",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "79-3",
+            "title": "Block Scope with let and const",
+            "description": "Show that let and const have block scope (inside if/for blocks), while var has function scope.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "mm5yJgJKXaU",
         "title": "#80 - Difference between Javascript var & let keyword - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "10:57",
         "task": {
-          "title": "Practice: #80 - Difference between Javascript var & let keyword - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#80 - Difference between Javascript var & let keyword - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "Compare var, let, and const",
+          "problemStatement": "Understand the differences between var, let, and const in terms of scope, hoisting, and reassignment.",
+          "difficulty": "Medium",
+          "expectedOutput": "Code using appropriate variable declarations for different scenarios"
+        },
+        "challenges": [
+          {
+            "id": "80-1",
+            "title": "var Function Scope vs let Block Scope",
+            "description": "Demonstrate that var is function-scoped while let is block-scoped. Show loops where this difference matters.",
+            "difficulty": "Easy"
+          },
+          {
+            "id": "80-2",
+            "title": "Hoisting Differences",
+            "description": "Compare hoisting behavior of var, let, and const. Show undefined initialization vs Temporal Dead Zone.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "80-3",
+            "title": "Const vs let",
+            "description": "Explain const immutability for reassignment but not for object/array mutations. Show best practices.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "ZHNe8gqqCAg",
         "title": "#81 - Understanding Javascript 'this' keyword - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "13:15",
         "task": {
-          "title": "Practice: #81 - Understanding Javascript 'this' keyword - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#81 - Understanding Javascript 'this' keyword - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "title": "Master the this Keyword",
+          "problemStatement": "Understand how this keyword works in different contexts (function, method, constructor, arrow function).",
           "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Proper use of this keyword in various JavaScript contexts"
+        },
+        "challenges": [
+          {
+            "id": "81-1",
+            "title": "this in Method vs Function",
+            "description": "Show how this refers to the object when called as a method, but to the global object (or undefined in strict mode) in a regular function.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "81-2",
+            "title": "this in Constructor",
+            "description": "Create a constructor function where this refers to the newly created object instance.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "81-3",
+            "title": "Arrow Functions and this Binding",
+            "description": "Show that arrow functions don't have their own this, but inherit it from the surrounding scope. Compare with regular functions.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "tWDtAXhcAac",
         "title": "#82 - Passing this keyword (Best Practices) - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "9:07",
         "task": {
-          "title": "Practice: #82 - Passing this keyword (Best Practices) - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#82 - Passing this keyword (Best Practices) - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
+          "title": "Control this Binding",
+          "problemStatement": "Learn to use call(), apply(), and bind() to explicitly set the this context when calling functions.",
           "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "expectedOutput": "Correct use of call, apply, and bind for explicit this control"
+        },
+        "challenges": [
+          {
+            "id": "82-1",
+            "title": "Using call() and apply()",
+            "description": "Use call() and apply() to explicitly set this context. Show the difference between passing single vs multiple arguments.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "82-2",
+            "title": "bind() for Permanent this",
+            "description": "Use bind() to create a new function with a permanently bound this context. Show use in event listeners and callbacks.",
+            "difficulty": "Medium"
+          },
+          {
+            "id": "82-3",
+            "title": "Practical this Patterns",
+            "description": "Implement common patterns like method borrowing, chaining, and fixing this loss in callbacks.",
+            "difficulty": "Hard"
+          }
+        ]
       },
       {
         "videoId": "TwITPTQBzko",
         "title": "#83 - Javascript Course Conclusion - (தமிழில்) (Tamil) | JavaScript Course",
         "duration": "4:04",
         "task": {
-          "title": "Practice: #83 - Javascript Course Conclusion - (தமிழில்) (Tamil) | JavaScript Course",
-          "problemStatement": "Recreate the example shown in the video titled \"#83 - Javascript Course Conclusion - (தமிழில்) (Tamil) | JavaScript Course\" and explain the key points.",
-          "difficulty": "Hard",
-          "expectedOutput": "/placeholders/output-placeholder.svg"
-        }
+          "title": "JavaScript Mastery Summary",
+          "problemStatement": "Review and consolidate all JavaScript concepts learned throughout the course.",
+          "difficulty": "Easy"
+        },
+        "challenges": [
+          {
+            "id": "83-1",
+            "title": "Review: Build a Utility Function Library",
+            "description": "Create a collection of utility functions using various JavaScript concepts learned (closures, arrow functions, default parameters, etc.)",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "83-2",
+            "title": "Mini Project: Simple OOP Application",
+            "description": "Build a mini application using objects, constructors, getters/setters, error handling, and proper this binding.",
+            "difficulty": "Hard"
+          },
+          {
+            "id": "83-3",
+            "title": "Code Review Challenge",
+            "description": "Review sample code with common mistakes and refactor it using best practices from the entire course.",
+            "difficulty": "Hard"
+          }
+        ]
       }
     ],
     "challenges": [
